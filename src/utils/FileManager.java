@@ -30,6 +30,12 @@ public class FileManager {
 		bufferWriter = new BufferedWriter(fileWriter);
 	}
 
+	public void appendToFile(String line) throws IOException {
+		fileWriter = new FileWriter(filename, true);
+		bufferWriter = new BufferedWriter(fileWriter);
+		bufferWriter.write(line + "\n");
+	}
+
 	public void writeToFile(String line) throws IOException {
 		bufferWriter.write(line + "\n");
 	}

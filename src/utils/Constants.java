@@ -1,6 +1,7 @@
 package utils;
 
 public class Constants {
+	public static String TEMP_TAGGING_RESULTS = "data/temp_tagging_results.txt";
 	public static String TRAIN_HPOST_WORDS = "data/HPOST 90.85/trainHPOST.words";
 	public static String TRAIN_HPOST_TAGS = "data/HPOST 90.85/trainHPOST.tags";
 	public static String TRAIN_HPOST_FEATURES = "data/HPOST 90.85/trainHPOST.features";
