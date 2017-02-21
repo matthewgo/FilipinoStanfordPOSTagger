@@ -68,8 +68,8 @@ public class ScoreChecking {
 							unknown_wrong++;
 						}
 					}
-					System.out.println("Score Update: " + " T - " + totalTokens + " C - " + correct + " W - " + wrong
-							+ " UW - " + unknown_wrong);
+					System.out.println("Score Update (Tokens): " + " Total - " + totalTokens + " Correct - " + correct
+							+ " Wrong - " + wrong + " Unknown_Wrong - " + unknown_wrong);
 					System.out.println("Total # of Sentences: " + taggerOutput.size());
 					System.out.println("Accuracy: " + correct * 1.00 / totalTokens * 100 + "%");
 				}
