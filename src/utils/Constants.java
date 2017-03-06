@@ -1,7 +1,10 @@
 package utils;
 
 public class Constants {
+	public static String ENGLISH_NOUNS = "data/english_words/nounlist.txt";
+
 	public static String TEMP_TAGGING_RESULTS = "data/temp_tagging_results.txt";
+	public static String TAGGING_ERROR_LIST = "data/tagging_errors.txt";
 	public static String TRAIN_HPOST_WORDS = "data/HPOST 90.85/trainHPOST.words";
 	public static String TRAIN_HPOST_TAGS = "data/HPOST 90.85/trainHPOST.tags";
 	public static String TRAIN_HPOST_FEATURES = "data/HPOST 90.85/trainHPOST.features";
@@ -16,4 +19,9 @@ public class Constants {
 	public static String TEST_STANFORD_TAGGED_SHORT = "data/stanford/test-filipino-tagged-short";
 	public static String TEST_STANFORD_UNTAGGED = "data/stanford/test-filipino-untagged";
 	public static String TEST_STANFORD_UNTAGGED_SHORT = "data/stanford/test-filipino-untagged-short";
+
+	public static String TRAIN_STANFORD_REVISED_ENG_NOUNS = "data/stanford/train-filipino-revised-eng-nouns";
+	public static String TEST_STANFORD_TAGGED_REVISED_ENG_NOUNS = "data/stanford/test-filipino-tagged-revised-eng-nouns";
+
+	public static String CHECKED_TEST_DATA_TAGGING_ERRORS = "data/results/left3words_tagging_training_errors";
 }

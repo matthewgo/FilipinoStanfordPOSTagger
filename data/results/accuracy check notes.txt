@@ -1,0 +1,42 @@
+I think tagging manually has been challenging because sometimes there are many sentences in one box so I would tag continuously and see how I understood the words in the context of the sentences. My tags might have errors because it's on the basis of how I understand the sentences and usage of words. 
+
+for lines 151-157, I tagged them using CCT because the word for this "kabilang" which means 'including', very similar to the word "kasama" which falls under the tag CCT on the Modified Rabo Tagset (includes the words: at saka, at gayon din, at...rin). This is closer in context than the 
+
+for line 157, it is quite confusing because in the Rabo Tagset, there is the word 'para' for the CCT tag, and the word 'upang' appears under the CCB tag. Para can also be substituted with the word upang. I think I usually used CCB for the word 'upang'.
+
+for line 158, I think the context of the word 'kasali' also pertains to 'including' basing on the context of the sentence: ...prutas, kasali ang niyog...
+
+for line 160, the word noo'y (noon_ay) should not be tagged as FW.
+
+for lines 162-163, they can be tagged as RBD than RBW, since they are indicative of adverbs of manner than time. I used CCB but the tag RBD will be more appropriate for the context.
+
+for lines 171-194, the Prediction by the software is corect that it should be tagged as RBI than using the tag CCP as ligatures. 
+
+for line 213, the 'mapa' can be connected with tao to make it more correct.
+
+for lines 235-239, I'm not sure how to tag this one, some symbols appeared differently on the text.
+
+for line 246, maybe the word 'kela' can be changed to 'kina' which is more appropriate
+
+for line 255, the spelling of 'milenio' can be changed to 'milenyo' 
+
+for lines 248-435, the words are foreign but the POS tags detected by the software is correct. If this is the case, we still tag them as foreign, right? Except maybe if they are proper nouns.
+
+for line 486, both tags of G: & P: are incorrect. The word is 'pinalaking', so the tag is 'VBOF_CCP'
+for line 490, both tags of G: & P: are incorrect. The word is 'pinasimple', which means made simple, so the tag is 'VBOF'
+
+for line 523, both tags of G: & P: are incorrect. The word is 'higit' which should be tagged as 'JJCC'
+for line 526, both tags of G: & P: are incorrect. The word is 'MAhigit' which should be tagged as 'JJCC'
+
+for line 570, both tags of G: & P: are incorrect. the word 'gopura' should be tagged as 'FW'.
+
+for line 616, both tags of G: & P: are incorrect. the word 'mabilisan' should be tagged as 'RBD'.
+
+for line 627, both tags of G: & P: are incorrect. the words 'sa_pagitan_ng' should be tagged as 'CCU'.
+
+for line 703, the words sa_taimtim should be separated and tagged as CCT JJD
+
+
+
+
+

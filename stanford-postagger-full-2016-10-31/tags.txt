@@ -12,4 +12,15 @@ java -cp stanford-postagger.jar -mx1g -Xmx3500m edu.stanford.nlp.tagger.maxent.M
 
 java -cp stanford-postagger.jar -mx4g -Xmx4g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words-distsim.tagger -testFile models/test/test-filipino-tagged
 
-java -cp stanford-postagger.jar -mx4g -Xmx4g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words-distsim-qn.tagger -testFile models/test/test-filipino-tagged-short
+java -cp stanford-postagger.jar -mx4g -Xmx4g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words-distsim-qn.tagger -testFile models/test/test-filipino-tagged
+
+java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-bidir5words-qn.tagger -testFile models/test/test-filipino-tagged
+
+java -cp stanford-postagger.jar -mx4g edu.stanford.nlp.tagger.maxent.MaxentTagger -props filipino-left5words.tagger.props
+
+
+Test Tagging Training Data:
+java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words.tagger -testFile models/train/train-filipino
+
+Test Tagging Training Data:
+java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words.tagger -testFile models/train/train-filipino-revised-eng-nouns

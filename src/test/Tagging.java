@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
+import java.util.Scanner;
 
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 import utils.Constants;
@@ -12,6 +13,24 @@ import utils.FileManager;
 public class Tagging {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
+		// tagWithFilipinoBidirectionalTaggerModel();
+		tagWithFilipinoLeft3WordsTaggerModel();
+	}
+
+	private static void tagWithFilipinoLeft3WordsTaggerModel() throws FileNotFoundException, IOException {
+		MaxentTagger tagger = new MaxentTagger("data/filipino-left3words-distsim.tagger");
+		List<String> sentences = FileManager.readFile(new File(Constants.TEST_STANFORD_UNTAGGED));
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			System.out.println("Input sentence to tag:");
+			String sentence = sc.nextLine();
+			if (sentence.equals("quit"))
+				break;
+			System.out.println(tagger.tagTokenizedString(sentence));
+		}
+	}
+
+	private static void tagWithFilipinoBidirectionalTaggerModel() throws FileNotFoundException, IOException {
 		MaxentTagger tagger = new MaxentTagger("data/filipino.tagger");
 		List<String> sentences = FileManager.readFile(new File(Constants.TEST_STANFORD_UNTAGGED));
 
