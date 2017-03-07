@@ -8,8 +8,8 @@ import java.util.Collections;
 import java.util.List;
 
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
-import test.models.ConfusionMatrix;
-import test.models.TaggedSentence;
+import models.ConfusionMatrix;
+import models.TaggedSentence;
 import utils.Constants;
 import utils.EnglishDictionary;
 import utils.FileManager;
@@ -21,12 +21,19 @@ public class ListTaggingErrors {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		englishDictionary = new EnglishDictionary();
-		MaxentTagger tagger = new MaxentTagger("data/filipino-left3words.tagger");
-		List<String> untagged = FileManager.readFile(new File(Constants.TEST_STANFORD_UNTAGGED));
-		List<TaggedSentence> gold = TaggedSentenceService
-				.getTaggedSentences(FileManager.readFile(new File(Constants.TEST_STANFORD_TAGGED)));
+		writeTaggingErrorsToFile(Constants.TEST_STANFORD_UNTAGGED, Constants.TEST_STANFORD_TAGGED,
+				Constants.TAGGING_ERROR_LIST);
 
-		FileManager errorListFile = new FileManager(Constants.TAGGING_ERROR_LIST);
+	}
+
+	private static void writeTaggingErrorsToFile(String untaggedFile, String taggedFile, String outputFile)
+			throws FileNotFoundException, IOException {
+		MaxentTagger tagger = new MaxentTagger(Constants.LEFT3WORDS);
+		List<String> untagged = FileManager.readFile(new File(untaggedFile));
+		List<TaggedSentence> gold = TaggedSentenceService
+				.getTaggedSentences(FileManager.readFile(new File(taggedFile)));
+
+		FileManager errorListFile = new FileManager(outputFile);
 		errorListFile.createFile();
 		List<String> errorList = new ArrayList<>();
 		ConfusionMatrix cm = new ConfusionMatrix();
@@ -66,7 +73,6 @@ public class ListTaggingErrors {
 		errorListFile.close();
 
 		cm.getClassMistaggedDistribution("NNC");
-
 	}
 
 	private static String getLeft2Right2(TaggedSentence tagged, int i) {

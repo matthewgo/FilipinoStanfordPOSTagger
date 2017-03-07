@@ -2,7 +2,7 @@
                    model = filipino-left3words-qn-pref3.tagger
                     arch = left3words,naacl2003unknowns,wordshapes(-1,1), prefix(3)
             wordFunction = edu.stanford.nlp.process.AmericanizeFunction
-               trainFile = models/train/train-filipino
+               trainFile = ../data/stanford/train-filipino
          closedClassTags = "PRS PRP PRSP PRO PRQ PRL DTC DTCP DTP DTPP LM CCA PMP PMC"
  closedClassTagThreshold = 40
  curWordMinFeatureThresh = 2

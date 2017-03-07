@@ -1,0 +1,14 @@
+left3words
+Average Precision: 0.6173190441839586
+Average Recall: 0.6090576739766016
+Accuracy: 0.937174027465429(39172/41798)
+
+left3words - joey-checked
+Average Precision: 0.6601501434172139
+Average Recall: 0.6542037097746959
+Accuracy: 0.9421503421216326(39380/41798)
+
+left3words - joey-checked-revised-eng-nouns
+Average Precision: 0.6608699855163663
+Average Recall: 0.6544530531622352
+Accuracy: 0.945858653524092(39535/41798)

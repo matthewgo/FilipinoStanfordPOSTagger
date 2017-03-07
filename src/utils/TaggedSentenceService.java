@@ -3,7 +3,7 @@ package utils;
 import java.util.ArrayList;
 import java.util.List;
 
-import test.models.TaggedSentence;
+import models.TaggedSentence;
 
 public class TaggedSentenceService {
 	public static List<TaggedSentence> getTaggedSentences(List<String> stanfordTaggedSentences) {
@@ -40,6 +40,16 @@ public class TaggedSentenceService {
 		for (int i = 0; i < ts.getTags().size(); i++) {
 			sb.append(ts.getWords().get(i) + "|" + ts.getTags().get(i));
 			if (i < ts.getTags().size() - 1)
+				sb.append(" ");
+		}
+		return sb.toString();
+	}
+
+	public static String getString(List<String> words) {
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < words.size(); i++) {
+			sb.append(words.get(i));
+			if (i < words.size() - 1)
 				sb.append(" ");
 		}
 		return sb.toString();

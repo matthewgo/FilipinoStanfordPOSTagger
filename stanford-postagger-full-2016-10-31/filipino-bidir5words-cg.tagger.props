@@ -1,8 +1,8 @@
-## tagger training invoked at Thu Mar 02 09:00:08 CST 2017 with arguments:
-                   model = filipino-left5words-qn.tagger
-                    arch = left5words,naacl2003unknowns,wordshapes(-1,1)
-            wordFunction = edu.stanford.nlp.process.AmericanizeFunction
-               trainFile = ../data/stanford/train/train-filipino
+## tagger training invoked at Mon Feb 06 23:44:58 CST 2017 with arguments:
+                   model = filipino-bidir5words-cg.tagger
+                    arch = bidirectional5words,naacl2003unknowns,wordshapes(-1,1)
+            wordFunction = 
+               trainFile = ../data/stanford/train-filipino
          closedClassTags = "PRS PRP PRSP PRO PRQ PRL DTC DTCP DTP DTPP LM CCA PMP PMC"
  closedClassTagThreshold = 40
  curWordMinFeatureThresh = 2
@@ -15,11 +15,11 @@
     learnClosedClassTags = false
         minFeatureThresh = 2
            openClassTags = 
-rareWordMinFeatureThresh = 10
+rareWordMinFeatureThresh = 5
           rareWordThresh = 5
-                  search = qn
+                  search = cg
                     sgml = false
-            sigmaSquared = 0.0
+            sigmaSquared = 0.5
                    regL1 = 0.75
                tagInside = 
                 tokenize = true

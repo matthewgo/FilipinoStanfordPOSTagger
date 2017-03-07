@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import test.models.TaggedSentence;
+import models.TaggedSentence;
 import utils.Constants;
 import utils.FileManager;
 

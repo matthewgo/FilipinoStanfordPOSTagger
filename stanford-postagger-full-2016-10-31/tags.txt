@@ -24,3 +24,9 @@ java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagge
 
 Test Tagging Training Data:
 java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words.tagger -testFile models/train/train-filipino-revised-eng-nouns
+
+Test Tagging Joey Checked Data:
+java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words.tagger -testFile models/test/test-filipino-tagged-joey-checked
+
+Test Tagging Joey Checked / Revised Eng Nouns Data:
+java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words.tagger -testFile ../data/stanford/test-filipino-tagged-joey-checked-revised-eng-nouns

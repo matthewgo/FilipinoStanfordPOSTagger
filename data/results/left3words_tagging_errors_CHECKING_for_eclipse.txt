@@ -1,7 +1,7 @@
 *CHECK* G:CCB P:CCP ng 1219 11 		Context - ang|DTC 1/10|CDB *ng|CCP* kanyang|PRSP_CCP kikitain|VBTF 
 *CHECK* G:CCB P:CCP ng 129 25 		Context - mula_sa|RBL oras|NNC *ng|CCP* kapanganakan|NNC ngunit|CCT 
 *CHECK* G:CCB P:CCP ng 1562 6 		Context - ,|PMC hari|NNC *ng|CCP* jazz|NNC ,|PMC 
-*CHECK*G:CCB P:CCP ng 915 6 		Context - na|CCP sistema|NNC *ng|CCP* komunikasyon|NNC para_sa|RBB 
+*CHECK* G:CCB P:CCP ng 915 6 		Context - na|CCP sistema|NNC *ng|CCP* komunikasyon|NNC para_sa|RBB 
 *CHECK* G:CCB P:CCT Bagaman 294 0 		Context - *Bagaman|CCT* hindi|RBF ito|PRO 
 G:CCB P:CCT Kabilang 1548 0 		Context - *Kabilang|CCT* sa|CCT mga|DTCP 
 G:CCB P:CCT Kabilang 324 0 		Context - *Kabilang|CCT* sa|CCT Parokya|NNP 
@@ -92,7 +92,7 @@ G:CDB P:NNP 60° 67 11 		Context - sa|CCT linyang|NNC_CCP *60°|NNP* T|NNP latit
 G:CDB P:NNP ¾ 1196 16 		Context - pinatibay|VBTS sa_pamamagitan_ng|CCT *¾|NNP* ng_mga|DTCP estado|NNC 
 G:CDB P:NNP ¾ 1536 3 		Context - lamang|RBI sa|CCT *¾|NNP* o|CCT 76.1|CDB 
 G:CDB P:PMP 06 803 34 		Context - (|PMS rwy|FW *06|PMP* /|PMS 24|CDB 
-(CHECK* G:CDB_CCP P:JJN_CCP Unang 599 0 		Context - *Unang|JJN_CCP* naging|VBTS malaking|JJD_CCP 
+*CHECK* G:CDB_CCP P:JJN_CCP Unang 599 0 		Context - *Unang|JJN_CCP* naging|VBTS malaking|JJD_CCP 
 *CHECK* G:CDB_CCP P:JJN_CCP tatlong 1623 2 		Context - Dalawa|JJN sa|CCT *tatlong|JJN_CCP* mga|DTCP magsasaka|NNC 
 *CHECK* G:CDB_NNC_CCP P:JJD_CCP 22-pulgadang 241 1 		Context - Ang|DTC *22-pulgadang|JJD_CCP* nyebe|NNC sa|CCT 
 *CHECK* G:DTC P:CCB ng 663 21 		Context - at|CCA tinalo|VBTS *ng|CCB* panghukbong|JJD_CCP dagat|NNC 

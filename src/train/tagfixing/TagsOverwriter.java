@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 
-import test.models.TaggedSentence;
+import models.TaggedSentence;
 import utils.EnglishDictionary;
 import utils.FileManager;
 import utils.TaggedSentenceService;
