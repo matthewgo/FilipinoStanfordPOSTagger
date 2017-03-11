@@ -147,7 +147,7 @@ GoldTag	PredTag	Word	Sent#	Word#
 *CHECK* G:CCB P:CCP ng 1219 11 		Context - ang|DTC 1/10|CDB *ng|CCP* kanyang|PRSP_CCP kikitain|VBTF 
 *CHECK* G:CCB P:CCP ng 129 25 		Context - mula_sa|RBL oras|NNC *ng|CCP* kapanganakan|NNC ngunit|CCT 
 *CHECK* G:CCB P:CCP ng 1562 6 		Context - ,|PMC hari|NNC *ng|CCP* jazz|NNC ,|PMC 
-*CHECK*G:CCB P:CCP ng 915 6 		Context - na|CCP sistema|NNC *ng|CCP* komunikasyon|NNC para_sa|RBB 
+*CHECK* G:CCB P:CCP ng 915 6 		Context - na|CCP sistema|NNC *ng|CCP* komunikasyon|NNC para_sa|RBB 
 *CHECK* G:CCB P:CCT Bagaman 294 0 		Context - *Bagaman|CCT* hindi|RBF ito|PRO 
 G:CCB P:CCT Kabilang 1548 0 		Context - *Kabilang|CCT* sa|CCT mga|DTCP 
 G:CCB P:CCT Kabilang 324 0 		Context - *Kabilang|CCT* sa|CCT Parokya|NNP 

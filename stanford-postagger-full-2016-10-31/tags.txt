@@ -22,6 +22,9 @@ java -cp stanford-postagger.jar -mx4g edu.stanford.nlp.tagger.maxent.MaxentTagge
 Test Tagging Training Data:
 java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words.tagger -testFile models/train/train-filipino
 
+Test Tagging Test Data
+java -cp stanford-postagger.jar -mx2g edu.stanford.nlp.tagger.maxent.MaxentTagger -model ../tagger_models/filipino-left3words-cg.tagger -testFile ../data/stanford/test-filipino-tagged
+
 Test Tagging Training Data:
 java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words.tagger -testFile models/train/train-filipino-revised-eng-nouns
 

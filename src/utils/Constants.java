@@ -2,6 +2,10 @@ package utils;
 
 public class Constants {
 
+	//LEGEND:
+	//TREN - Training Revised English Nouns
+	//UTD - Updated Training Data
+	
 	// Tagger Models
 	public static String LEFT3WORDS = "tagger_models/filipino-left3words-cg.tagger";
 	public static String LEFT3WORDS_REVISED_ENG_NOUNS = "tagger_models/filipino-left3words-cg-revised-eng-nouns.tagger";

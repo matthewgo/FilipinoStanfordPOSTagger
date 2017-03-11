@@ -18,10 +18,8 @@ public class ListTaggingErrors {
 
 		POSTagger left3WordsTagger = new POSTagger(Constants.LEFT3WORDS);
 
-		// writeToFiles(left3WordsTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
-		// Constants.TEST_STANFORD_TAGGED,
-		// Constants.TAGGING_ERROR_LEFT3WORDS,
-		// Constants.TAGGING_RESULTS_LEFT3WORDS);
+		writeToFiles(left3WordsTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED), Constants.TEST_STANFORD_TAGGED,
+				Constants.TAGGING_ERROR_LEFT3WORDS, Constants.TAGGING_RESULTS_LEFT3WORDS);
 		// writeToFiles(left3WordsTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
 		// Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED,
 		// Constants.TAGGING_ERROR_LEFT3WORDS_JOEY_CHECKED,
@@ -40,13 +38,14 @@ public class ListTaggingErrors {
 		// Constants.TEST_STANFORD_TAGGED,
 		// Constants.TAGGING_ERROR_LEFT3WORDS_TREN,
 		// Constants.TAGGING_RESULTS_LEFT3WORDS_TREN);
-		writeToFiles(left3WordsTRENTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
-				Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED, Constants.TAGGING_ERROR_LEFT3WORDS_TREN_JOEY_CHECKED,
-				Constants.TAGGING_RESULTS_LEFT3WORDS_TREN_JOEY_CHECKED);
-		writeToFiles(left3WordsTRENTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
-				Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS,
-				Constants.TAGGING_ERROR_LEFT3WORDS_TREN_JOEY_CHECKED_REVISED_ENG_NOUNS,
-				Constants.TAGGING_RESULTS_LEFT3WORDS_TREN_JOEY_CHECKED_REVISED_ENG_NOUNS);
+		// writeToFiles(left3WordsTRENTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
+		// Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED,
+		// Constants.TAGGING_ERROR_LEFT3WORDS_TREN_JOEY_CHECKED,
+		// Constants.TAGGING_RESULTS_LEFT3WORDS_TREN_JOEY_CHECKED);
+		// writeToFiles(left3WordsTRENTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
+		// Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS,
+		// Constants.TAGGING_ERROR_LEFT3WORDS_TREN_JOEY_CHECKED_REVISED_ENG_NOUNS,
+		// Constants.TAGGING_RESULTS_LEFT3WORDS_TREN_JOEY_CHECKED_REVISED_ENG_NOUNS);
 
 	}
 
@@ -77,6 +76,7 @@ public class ListTaggingErrors {
 							+ predictedTaggedSentences.get(x).getTags().get(i) + " "
 							+ predictedTaggedSentences.get(x).getWords().get(i) + " " + x + " " + i + " \t\tContext - "
 							+ getLeft2Right2(predictedTaggedSentences.get(x), i));
+
 				}
 			}
 		}
