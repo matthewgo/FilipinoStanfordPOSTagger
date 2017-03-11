@@ -1,11 +1,20 @@
 package utils;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import models.TaggedSentence;
 
 public class TaggedSentenceService {
+
+	public static List<TaggedSentence> getTaggedSentencesFromFile(String stanfordTaggedFilename)
+			throws FileNotFoundException, IOException {
+		return getTaggedSentences(FileManager.readFile(new File(stanfordTaggedFilename)));
+	}
+
 	public static List<TaggedSentence> getTaggedSentences(List<String> stanfordTaggedSentences) {
 		List<TaggedSentence> taggedSentences = new ArrayList<>();
 		for (int k = 0; k < stanfordTaggedSentences.size(); k++) {
@@ -33,6 +42,18 @@ public class TaggedSentenceService {
 			tags.add(split2[1]);
 		}
 		return new TaggedSentence(index, words, tags, stanfordTagged);
+	}
+
+	public static TaggedSentence getTaggedSentence(String stanfordTagged) {
+		String[] split = stanfordTagged.split(" ");
+		List<String> words = new ArrayList<>();
+		List<String> tags = new ArrayList<>();
+		for (int i = 0; i < split.length; i++) {
+			String[] split2 = split[i].split("\\|");
+			words.add(split2[0]);
+			tags.add(split2[1]);
+		}
+		return new TaggedSentence(words, tags, stanfordTagged);
 	}
 
 	public static String getString(TaggedSentence ts) {

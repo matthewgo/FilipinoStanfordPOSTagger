@@ -12,7 +12,7 @@ public class TagFixerMain {
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		tagsOverwriter = new TagsOverwriter();
 		jcdReviser = new JoeyCheckedDataReviser();
-
+		// clean symbols
 		tagsOverwriter.reviseEnglishNNCasFW(Constants.TEST_STANFORD_TAGGED,
 				Constants.TEST_STANFORD_TAGGED_REVISED_ENG_NOUNS);
 

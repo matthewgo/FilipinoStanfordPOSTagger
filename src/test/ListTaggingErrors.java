@@ -1,78 +1,106 @@
 package test;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 import models.ConfusionMatrix;
 import models.TaggedSentence;
 import utils.Constants;
-import utils.EnglishDictionary;
 import utils.FileManager;
 import utils.TaggedSentenceService;
 
 public class ListTaggingErrors {
 
-	static EnglishDictionary englishDictionary;
-
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		englishDictionary = new EnglishDictionary();
-		writeTaggingErrorsToFile(Constants.TEST_STANFORD_UNTAGGED, Constants.TEST_STANFORD_TAGGED,
-				Constants.TAGGING_ERROR_LIST);
+
+		POSTagger left3WordsTagger = new POSTagger(Constants.LEFT3WORDS);
+
+		// writeToFiles(left3WordsTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
+		// Constants.TEST_STANFORD_TAGGED,
+		// Constants.TAGGING_ERROR_LEFT3WORDS,
+		// Constants.TAGGING_RESULTS_LEFT3WORDS);
+		// writeToFiles(left3WordsTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
+		// Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED,
+		// Constants.TAGGING_ERROR_LEFT3WORDS_JOEY_CHECKED,
+		// Constants.TAGGING_RESULTS_LEFT3WORDS_JOEY_CHECKED);
+		// writeToFiles(left3WordsTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
+		// Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS,
+		// Constants.TAGGING_ERROR_LEFT3WORDS_JOEY_CHECKED_REVISED_ENG_NOUNS,
+		// Constants.TAGGING_RESULTS_LEFT3WORDS_JOEY_CHECKED_REVISED_ENG_NOUNS);
+		// writeToFiles(left3WordsTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED_SECOND_HALF),
+		// Constants.TEST_STANFORD_TAGGED_SECOND_HALF,
+		// Constants.TAGGING_ERROR_SECOND_HALF_LEFT3WORDS,
+		// Constants.TAGGING_RESULTS_SECOND_HALF_LEFT3WORDS);
+
+		POSTagger left3WordsTRENTagger = new POSTagger(Constants.LEFT3WORDS_REVISED_ENG_NOUNS);
+		// writeToFiles(left3WordsTRENTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
+		// Constants.TEST_STANFORD_TAGGED,
+		// Constants.TAGGING_ERROR_LEFT3WORDS_TREN,
+		// Constants.TAGGING_RESULTS_LEFT3WORDS_TREN);
+		writeToFiles(left3WordsTRENTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
+				Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED, Constants.TAGGING_ERROR_LEFT3WORDS_TREN_JOEY_CHECKED,
+				Constants.TAGGING_RESULTS_LEFT3WORDS_TREN_JOEY_CHECKED);
+		writeToFiles(left3WordsTRENTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
+				Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS,
+				Constants.TAGGING_ERROR_LEFT3WORDS_TREN_JOEY_CHECKED_REVISED_ENG_NOUNS,
+				Constants.TAGGING_RESULTS_LEFT3WORDS_TREN_JOEY_CHECKED_REVISED_ENG_NOUNS);
 
 	}
 
-	private static void writeTaggingErrorsToFile(String untaggedFile, String taggedFile, String outputFile)
-			throws FileNotFoundException, IOException {
-		MaxentTagger tagger = new MaxentTagger(Constants.LEFT3WORDS);
-		List<String> untagged = FileManager.readFile(new File(untaggedFile));
-		List<TaggedSentence> gold = TaggedSentenceService
-				.getTaggedSentences(FileManager.readFile(new File(taggedFile)));
+	private static void writeToFiles(List<TaggedSentence> predictedTaggedSentences, String goldFilename,
+			String errorOutputFilename, String predictedTagsFilename) throws IOException {
+		List<TaggedSentence> gold = TaggedSentenceService.getTaggedSentencesFromFile(goldFilename);
 
-		FileManager errorListFile = new FileManager(outputFile);
-		errorListFile.createFile();
+		FileManager errorOutputFile = new FileManager(errorOutputFilename);
+		errorOutputFile.createFile();
 		List<String> errorList = new ArrayList<>();
 		ConfusionMatrix cm = new ConfusionMatrix();
 
-		for (int x = 0; x < untagged.size(); x++) {
-			String t = tagger.tagTokenizedString(untagged.get(x));
-			TaggedSentence tagged = TaggedSentenceService.getTaggedSentence(x, t);
-			for (int i = 0; i < tagged.getWords().size(); i++) {
-				if (tagged.getTags().get(i).equals("NNC")) {
-					if (englishDictionary.isAnEnglishNoun(tagged.getWords().get(i)))
-						tagged.getTags().set(i, "FW");
-				}
+		FileManager predictedTagsFile = null;
+		if (predictedTagsFilename != null) {
+			predictedTagsFile = new FileManager(predictedTagsFilename);
+			predictedTagsFile.createFile();
+		}
 
-				cm.increaseValue(gold.get(x).getTags().get(i), tagged.getTags().get(i));
+		for (int x = 0; x < predictedTaggedSentences.size(); x++) {
+			if (predictedTagsFile != null)
+				predictedTagsFile.writeToFile(TaggedSentenceService.getString(predictedTaggedSentences.get(x)));
+			for (int i = 0; i < predictedTaggedSentences.get(x).getWords().size(); i++) {
 
-				if (!tagged.getTags().get(i).equals(gold.get(x).getTags().get(i))) {
-					errorList.add("G:" + gold.get(x).getTags().get(i) + " " + "P:" + tagged.getTags().get(i) + " "
-							+ tagged.getWords().get(i) + " " + x + " " + i + " \t\tContext - "
-							+ getLeft2Right2(tagged, i));
+				cm.increaseValue(gold.get(x).getTags().get(i), predictedTaggedSentences.get(x).getTags().get(i));
+
+				if (!predictedTaggedSentences.get(x).getTags().get(i).equals(gold.get(x).getTags().get(i))) {
+					errorList.add("G:" + gold.get(x).getTags().get(i) + " " + "P:"
+							+ predictedTaggedSentences.get(x).getTags().get(i) + " "
+							+ predictedTaggedSentences.get(x).getWords().get(i) + " " + x + " " + i + " \t\tContext - "
+							+ getLeft2Right2(predictedTaggedSentences.get(x), i));
 				}
 			}
 		}
 
-		errorListFile.writeToFile(cm.printDescendingClassDistributionandAccuracy());
-		errorListFile.writeToFile("Average Precision: " + Double.toString(cm.getAvgPrecision()));
-		errorListFile.writeToFile("Average Recall: " + Double.toString(cm.getAvgRecall()));
-		errorListFile
+		errorOutputFile.writeToFile(cm.printDescendingClassDistributionandAccuracy());
+		errorOutputFile.writeToFile("Average Precision: " + Double.toString(cm.getAvgPrecision()));
+		errorOutputFile.writeToFile("Average Recall: " + Double.toString(cm.getAvgRecall()));
+		errorOutputFile
 				.writeToFile("Accuracy: " + cm.getAccuracy() + "(" + cm.getCorrect() + "/" + cm.getTotalSum() + ")");
 
-		errorListFile.writeToFile("GoldTag\tPredTag\tWord\tSent#\tWord#");
+		System.out.println(errorOutputFilename);
+		System.out.println("Average Precision: " + Double.toString(cm.getAvgPrecision()));
+		System.out.println("Average Recall: " + Double.toString(cm.getAvgRecall()));
+		System.out.println("Accuracy: " + cm.getAccuracy() + "(" + cm.getCorrect() + "/" + cm.getTotalSum() + ")");
+
+		errorOutputFile.writeToFile("GoldTag\tPredTag\tWord\tSent#\tWord#");
 		Collections.sort(errorList);
-		for (String e : errorList) {
-			errorListFile.writeToFile(e);
-		}
+		for (String e : errorList)
+			errorOutputFile.writeToFile(e);
 
-		errorListFile.writeToFile(cm.toString());
-		errorListFile.close();
-
-		cm.getClassMistaggedDistribution("NNC");
+		errorOutputFile.writeToFile(cm.toString());
+		errorOutputFile.close();
+		if (predictedTagsFile != null)
+			predictedTagsFile.close();
 	}
 
 	private static String getLeft2Right2(TaggedSentence tagged, int i) {
@@ -87,7 +115,6 @@ public class ListTaggingErrors {
 		if (i + 2 < tagged.getTags().size())
 			sb.append(tagged.getWords().get(i + 2) + "|" + tagged.getTags().get(i + 2) + " ");
 
-		// TODO Auto-generated method stub
 		return sb.toString();
 	}
 

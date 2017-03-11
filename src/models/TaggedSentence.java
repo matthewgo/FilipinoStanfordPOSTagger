@@ -16,6 +16,13 @@ public class TaggedSentence {
 		this.sentence = sentence;
 	}
 
+	public TaggedSentence(List<String> words, List<String> tags, String sentence) {
+		super();
+		this.words = words;
+		this.tags = tags;
+		this.sentence = sentence;
+	}
+
 	public String getSentence() {
 		return sentence;
 	}

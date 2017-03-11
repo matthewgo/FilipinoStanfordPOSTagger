@@ -29,4 +29,9 @@ Test Tagging Joey Checked Data:
 java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words.tagger -testFile models/test/test-filipino-tagged-joey-checked
 
 Test Tagging Joey Checked / Revised Eng Nouns Data:
-java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words.tagger -testFile ../data/stanford/test-filipino-tagged-joey-checked-revised-eng-nouns
+java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model ../tagger_models/filipino-left3words-cg.tagger -testFile ../data/stanford/test-filipino-tagged-joey-checked-revised-eng-nouns -tokenize false
+
+Text Tagging Untagged:
+java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model ../tagger_models/filipino-left3words-cg.tagger -textFile ../data/stanford/test-filipino-untagged -tokenize false >"C:/Users/Matthew/Google Drive/Workspaces/Java/FilipinoStanfordPOSTagger/data/cmd_tags.txt"
+
+>"C:/Users/Matthew/Google Drive/Workspaces/Java/FilipinoStanfordPOSTagger/data/cmd_tags.txt"

@@ -50,7 +50,7 @@ G:CCP P:DTP ni 1235 4 		Context - na|CCP pagtatanong|NNC *ni|DTP* Milgram|NNP ,|
 *CHECK* G:CCR P:RBK kapag 1219 16 		Context - sa|CCT kawanggawa|NNC *kapag|RBK* nagretiro|VBTS siya|PRS 
 *CHECK* G:CCR P:RBK kung 1316 6 		Context - na|CCP mapiit|JJD *kung|RBK* hindi|RBF ako|PRS 
 *CHECK* G:CCR P:RBK kung 480 12 		Context - mga|DTCP Ingles|NNP *kung|RBK* magsalita|VBW na|CCP 
-*CHECK G:CCR P:RBK kung 714 2 		Context - Pinapili|VBTR siya|PRS *kung|RBK* ipapakulong|VBTF_VBOF siya|PRS 
+*CHECK* G:CCR P:RBK kung 714 2 		Context - Pinapili|VBTR siya|PRS *kung|RBK* ipapakulong|VBTF_VBOF siya|PRS 
 *CHECK* G:CCR P:RBP dahil_sa 725 20 		Context - ibon|NNC noon|RBW *dahil_sa|RBP* pagsasamantala|NNC sa|CCT 
 *CHECK* G:CCR_CCB P:RBD_CCP kayang 1130 16 		Context - ,|PMC at|CCA *kayang|RBD_CCP* ibigay|RBD ng|CCB 
 *CHECK* G:CCR_CCP P:RBD_CCP kayang 485 2 		Context - At|CCA dahil|CCR *kayang|RBD_CCP* pangibabawan|NNC ng|CCB 
@@ -86,11 +86,11 @@ G:CDB P:JJN Ikalawa 852 0 		Context - *Ikalawa|JJN* sa|CCT Museo|NNP
 *CHECK* G:CDB P:JJN lima 337 11 		Context - kinabilangan|VBTR ng|CCB *lima|JJN* niyang|PRS_CCP mga|DTCP 
 *CHECK* G:CDB P:JJN sampu 1365 17 		Context - halip|CCT na|CCP *sampu|JJN* .|PMP 
 *CHECK* G:CDB P:NNC singko 1365 12 		Context - pagbibigay|NNC ng|CCB *singko|NNC* sentimo|NNC sa|CCT 
-G:CDB P:NNP 35° 67 46 		Context - na|CCP para_sa|RBB *35°|NNP* T|NNP .|PMP 
-G:CDB P:NNP 50° 67 38 		Context - ,|PMC mahigit|JJC *50°|NNP* T|NNP ,|PMC 
-G:CDB P:NNP 60° 67 11 		Context - sa|CCT linyang|NNC_CCP *60°|NNP* T|NNP latitude|FW 
-G:CDB P:NNP ¾ 1196 16 		Context - pinatibay|VBTS sa_pamamagitan_ng|CCT *¾|NNP* ng_mga|DTCP estado|NNC 
-G:CDB P:NNP ¾ 1536 3 		Context - lamang|RBI sa|CCT *¾|NNP* o|CCT 76.1|CDB 
+G:CDB P:NNP 35Â° 67 46 		Context - na|CCP para_sa|RBB *35Â°|NNP* T|NNP .|PMP 
+G:CDB P:NNP 50Â° 67 38 		Context - ,|PMC mahigit|JJC *50Â°|NNP* T|NNP ,|PMC 
+G:CDB P:NNP 60Â° 67 11 		Context - sa|CCT linyang|NNC_CCP *60Â°|NNP* T|NNP latitude|FW 
+G:CDB P:NNP Â¾ 1196 16 		Context - pinatibay|VBTS sa_pamamagitan_ng|CCT *Â¾|NNP* ng_mga|DTCP estado|NNC 
+G:CDB P:NNP Â¾ 1536 3 		Context - lamang|RBI sa|CCT *Â¾|NNP* o|CCT 76.1|CDB 
 G:CDB P:PMP 06 803 34 		Context - (|PMS rwy|FW *06|PMP* /|PMS 24|CDB 
 *CHECK* G:CDB_CCP P:JJN_CCP Unang 599 0 		Context - *Unang|JJN_CCP* naging|VBTS malaking|JJD_CCP 
 *CHECK* G:CDB_CCP P:JJN_CCP tatlong 1623 2 		Context - Dalawa|JJN sa|CCT *tatlong|JJN_CCP* mga|DTCP magsasaka|NNC 
@@ -212,7 +212,7 @@ G:FW P:NNC interrelationships 1178 29 		Context - sa|CCT mga|DTCP *interrelation
 G:FW P:NNC interval 560 18 		Context - ordinal|JJD ,|PMC *interval|NNC* at|CCA ratio|NNC 
 G:FW P:NNC isyu 624 27 		Context - ng|CCB lathalang|NNC_CCP *isyu|NNC* ;|PMSC hawak|NNC 
 G:FW P:NNC katydid 404 5 		Context - ,|PMC tulad_ng|JJC *katydid|NNC* ,|PMC dinadala|VBTR 
-G:FW P:NNC kotiseutuoikeus 771 8 		Context - domicile|FW (|PMS *kotiseutuoikeus|NNC* /|PMS hembygdsrätt|NNP 
+G:FW P:NNC kotiseutuoikeus 771 8 		Context - domicile|FW (|PMS *kotiseutuoikeus|NNC* /|PMS hembygdsrÃ¤tt|NNP 
 G:FW P:NNC labor 1336 24 		Context - %|PMS ng|CCB *labor|NNC* force|FW .|PMP 
 G:FW P:NNC laboratory 1435 9 		Context - mas|JJCC magandang|JJD_CCP *laboratory|NNC* access|NNC .|PMP 
 G:FW P:NNC laboratory 1438 10 		Context - sa_loob_ng|CCU pathology|NNC *laboratory|NNC* kung|RBK saan|RBQ 
@@ -289,12 +289,12 @@ G:FW P:NNC zone 1280 13 		Context - ,|PMC tourism|NNC *zone|NNC* at|CCA lugar|NN
 G:FW P:NNCA ku 11 5 		Context - ward|NNC (|PMS *ku|NNCA* )|PMS ang|DTC 
 *CHECK* G:FW P:NNP Academy_of_Sciences 479 26 		Context - sekretarya|NNC ng|CCB *Academy_of_Sciences|NNP* noong|RBW_CCP panahon|NNC 
 *CHECK* G:FW P:NNP Conus 252 4 		Context - cone|FW (|PMS *Conus|NNP* bengalensis|FW )|PMS 
-*CHECK* G:FW P:NNP Poèmes_d'_amour 1010 6 		Context - Cypriot|NNP ang|DTC *Poèmes_d'_amour|NNP* (|PMS 16th|CDB 
-*CHECK* G:FW P:NNP Städte 916 39 		Context - (|PMS kreisfreie|FW *Städte|NNP* )|PMS .|PMP 
+*CHECK* G:FW P:NNP PoÃ¨mes_d'_amour 1010 6 		Context - Cypriot|NNP ang|DTC *PoÃ¨mes_d'_amour|NNP* (|PMS 16th|CDB 
+*CHECK* G:FW P:NNP StÃ¤dte 916 39 		Context - (|PMS kreisfreie|FW *StÃ¤dte|NNP* )|PMS .|PMP 
 *CHECK* G:FW P:NNP Where 1506 33 		Context - na|CCP '|PMS *Where|NNP* do|FW you|FW 
-G:FW P:NNP hembygdsrätt 771 10 		Context - kotiseutuoikeus|NNC /|PMS *hembygdsrätt|NNP* )|PMS isang|PRI_CCP 
+G:FW P:NNP hembygdsrÃ¤tt 771 10 		Context - kotiseutuoikeus|NNC /|PMS *hembygdsrÃ¤tt|NNP* )|PMS isang|PRI_CCP 
 *CHECK* G:FW P:NNP non-Sunni_Muslims 969 22 		Context - kaunting|PRI_CCP mga|DTCP *non-Sunni_Muslims|NNP* ay|LM pangunahing|JJD_CCP 
-G:FW P:NNP s?µa 1516 32 		Context - ay|LM soma|FW *s?µa|NNP* ,|PMC na|CCP 
+G:FW P:NNP s?Âµa 1516 32 		Context - ay|LM soma|FW *s?Âµa|NNP* ,|PMC na|CCP 
 G:FW P:NNPA sauros 271 17 		Context - at|CCA saka|CCA *sauros|NNPA* (|PMS '|PMS 
 G:FW P:RBI_CCP ring 627 12 		Context - ang|DTC diamond|NNC *ring|RBI_CCP* na|CCP walang|VBN_CCP 
 G:FW P:RBL sarxsa?? 1516 43 		Context - at|CCA hindi|RBF *sarxsa??|RBL* ,|PMC na|CCP 
@@ -317,7 +317,7 @@ G:JJC P:VBW magkasinglakas 521 6 		Context - ng|CCB dalwang|NNC_CCP *magkasingla
 G:JJCC P:JJC higit 413 2 		Context - Binubuo|VBTR ng|CCB *higit|JJC* sa|CCT 120|CDB 
 G:JJCC P:JJC mahigit 398 25 		Context - 600|CDB %|PMS *mahigit|JJC* na|CCP Patagonian|NNP 
 G:JJCC P:JJC mahigit 399 40 		Context - dagat|NNC na|CCP *mahigit|JJC* kumulang|VBAF 50|CDB 
-G:JJCC P:JJC mahigit 67 37 		Context - depinisyon|NNC ,|PMC *mahigit|JJC* 50°|NNP T|NNP 
+G:JJCC P:JJC mahigit 67 37 		Context - depinisyon|NNC ,|PMC *mahigit|JJC* 50Â°|NNP T|NNP 
 G:JJCC P:JJD Medyo 1131 0 		Context - *Medyo|JJD* muling|RBW_CCP nabawi|VBTS 
 G:JJCC P:JJD mahigit 1091 18 		Context - populasyon|NNC na|CCP *mahigit|JJD* sa|CCT 7|CDB 
 G:JJCC P:JJD mahigit 1382 6 		Context - komite|NNC ng|CCB *mahigit|JJD* na|CCP 30|CDB 
@@ -523,7 +523,7 @@ G:JJD P:NNC tulin 818 23 		Context - mga|DTCP sobrang|JJD_CCP *tulin|NNC* na|CCP
 G:JJD P:NNC yupi 107 13 		Context - may|VBH mga|DTCP *yupi|NNC* sa_pamamagitan_ng|CCT mga|DTCP 
 G:JJD P:NNP pa-Port 44 40 		Context - sanga|NNC sa_hilagang|RBL_CCP *pa-Port|NNP* Said|NNP .|PMP 
 *CHECK* G:JJD P:NNP tiga-Albania 306 62 		Context - kultura|NNC ng_mga|DTCP *tiga-Albania|NNP* .|PMP '|PMS 
-*CHECK* G:JJD P:NNPA  halos 1597 7 		Context - lumitaw|VBAF ang|DTC * halos|NNPA* lahat|PRI ng|CCB 
+*CHECK* G:JJD P:NNPA Â halos 1597 7 		Context - lumitaw|VBAF ang|DTC *Â halos|NNPA* lahat|PRI ng|CCB 
 *CHECK* G:JJD P:PRI Karamihan 629 0 		Context - *Karamihan|PRI* kakulangan|NNC sa|CCT 
 *CHECK* G:JJD P:PRI isa't_isa 630 10 		Context - na|RBI sa|CCT *isa't_isa|PRI* sa|CCT Great|NNP 
 *CHECK* G:JJD P:PRI marami-rami 1022 18 		Context - ,|PMC at|CCA *marami-rami|PRI* pang|RBI_CCP software|FW 
@@ -572,3 +572,1072 @@ G:JJD P:RBW kasabay 1487 19 		Context - ito|PRO ,|PMC *kasabay|RBW* ng|CCB Austr
 *CHECK* G:JJD P:VBAF humigit-kumulang 321 12 		Context - ikinopya|VBTS na|CCP *humigit-kumulang|VBAF* sa|CCT triplication|FW 
 G:JJD P:VBAF humpay 949 4 		Context - ang|DTC walang|RBF *humpay|VBAF* na|CCP korapsyon|NNC 
 *CHECK* G:JJD P:VBAF sumunod 527 10 		Context - Dion|NNP ang_mga|DTCP *sumunod|VBAF* na|CCP inilabas|VBTS 
+G:JJD P:VBOF iba't_iba 658 3 		Context - din|RBI na|CCP *iba't_iba|VBOF* ang_mga|DTCP layunin|NNC 
+G:JJD P:VBTF susunod 974 24 		Context - distansya|NNC sa|CCT *susunod|VBTF* na|CCP tala|NNC 
+*CHECK* G:JJD P:VBTR nagtatanggol 1157 1 		Context - Ang|DTC *nagtatanggol|VBTR* na|CCP kopoonan|NNC 
+*CHECK* G:JJD P:VBTR nakakakita 934 9 		Context - di|RBF pa|RBI *nakakakita|VBTR* nito|PRO .|PMP 
+*CHECK* G:JJD P:VBTR nakamamatay 391 44 		Context - sa|CCT maraming|PRI_CCP *nakamamatay|VBTR* na|CCP kanser|NNC 
+G:JJD P:VBTR nararapat 270 22 		Context - kasama|CCB ang_mga|DTCP *nararapat|VBTR* na|CCP numerikal|JJD 
+*CHECK* G:JJD P:VBTS kinilala 752 14 		Context - ,|PMC na|CCP *kinilala|VBTS* bilang|CCT Kasunduan|NNP 
+*CHECK* G:JJD P:VBTS nakaliligaw 1227 21 		Context - materyalismo|NNC at|CCA *nakaliligaw|VBTS* na|CCP kaalaman|NNC 
+*CHECK* G:JJD P:VBTS nakatalaga 825 2 		Context - Ayon_sa|RBR kaugaliang|NNC_CCP *nakatalaga|VBTS* lamang|RBI sa|CCT 
+*CHECK* G:JJD P:VBTS nakihalobilo 1158 4 		Context - kultura|NNC ay|LM *nakihalobilo|VBTS* sa|CCT isang|PRI_CCP 
+*CHECK* G:JJD P:VBTS nakilala 1412 1 		Context - Mas|JJCC *nakilala|VBTS* si|DTP Court|NNP 
+G:JJD P:VBTS sinauna 306 21 		Context - sariwa|JJD at|CCA *sinauna|VBTS* '|PMS ,|PMC 
+G:JJD P:VBTS_VBOF binata 388 1 		Context - Noong|RBW_CCP *binata|VBTS_VBOF* pa|RBI si|DTP 
+G:JJD P:VBW Mabato 46 0 		Context - *Mabato|VBW* ,|PMC manipis|JJD 
+*CHECK* G:JJD P:VBW alam 725 2 		Context - Habang|RBW hindi|RBF *alam|VBW* ang|DTC bilang|NNC 
+*CHECK* G:JJD P:VBW mabulag 492 17 		Context - rin|RBI tayong|PRP_CCP *mabulag|VBW* .|PMP 
+G:JJD P:VBW mabundok 107 4 		Context - tanawin|NNC ay|LM *mabundok|VBW* sa_loob|RBL ,|PMC 
+G:JJD P:VBW madaya 862 34 		Context - na|CCP naging|VBTS *madaya|VBW* ang|DTC eleksyon|NNC 
+G:JJD P:VBW magkatulad 1358 52 		Context - ,|PMC na|CCP *magkatulad|VBW* ballistically|FW sa|CCT 
+G:JJD P:VBW magulo 945 21 		Context - malaki|JJD at|CCA *magulo|VBW* .|PMP 
+*CHECK* G:JJD P:VBW malipat 475 29 		Context - pagkatapos|VBW ito|PRO *malipat|VBW* ang|DTC isang|PRI_CCP 
+G:JJD P:VBW maliwanag 391 34 		Context - pa|RBI ito|PRO *maliwanag|VBW* sa|CCT ngayon|RBW 
+G:JJD_CCA P:JJD kahanga-hanga't 88 15 		Context - ng|CCB isang|PRI_CCP *kahanga-hanga't|JJD* "|PMS kagalang-galang|JJD 
+*CHECK* G:JJD_CCB P:JJD_CCP iba't_ibang 1518 10 		Context - makaaapekto|VBW sa|CCT *iba't_ibang|JJD_CCP* lebel|NNC ng|CCB 
+*CHECK* G:JJD_CCP P:CCB kabilang 918 7 		Context - Dam|NNP sa|CCT *kabilang|CCB* panig|NNC ng|CCB 
+*CHECK* G:JJD_CCP P:JJCS_CCP sobrang 508 7 		Context - gumagamit|VBTR_VBAF ng|CCB *sobrang|JJCS_CCP* gumagamit|VBTR_VBAF ng|CCB 
+*CHECK* G:JJD_CCP P:JJC_CCP parehong 791 2 		Context - Inaalagaan|VBTR ng|CCB *parehong|JJC_CCP* magulang|NNC ang_mga|DTCP 
+G:JJD_CCP P:JJD Malaking 619 4 		Context - nangangahulugang|VBTR_CCP '|PMS *Malaking|JJD* Burol|NNP '|PMS 
+*CHECK* G:JJD_CCP P:JJD hilagang_silangan 545 29 		Context - lumalawak|VBTR_VBAF patungong|RBL_CCP *hilagang_silangan|JJD* .|PMP 
+G:JJD_CCP P:JJD pangunahing 1244 5 		Context - na|CCP naging|VBTS *pangunahing|JJD* kadahilan|PRO ang|DTC 
+G:JJD_CCP P:JJD paunang 8 12 		Context - tagapamasid|NNC bilang|CCT *paunang|JJD* hakbang|NNC ni|DTP 
+*CHECK* G:JJD_CCP P:JJN_CCP dose-dosenang 1370 15 		Context - kasosyo|NNC sa|CCT *dose-dosenang|JJN_CCP* mga|DTCP estado|JJD 
+G:JJD_CCP P:JJN_CCP pangkawang-gawang 244 6 		Context - ang|DTC maraming|PRI_CCP *pangkawang-gawang|JJN_CCP* mga|DTCP organisasyon|NNC 
+G:JJD_CCP P:JJN_CCP punong 785 3 		Context - dito|PRL ang|DTC *punong|JJN_CCP* himpilan|NNC ng|CCB 
+*CHECK* G:JJD_CCP P:NNC higit-kumulang 607 1 		Context - May|VBH *higit-kumulang|NNC* ng|CCB 62|CDB 
+G:JJD_CCP P:NNC pag-iibang 390 1 		Context - May|VBH *pag-iibang|NNC* kulay|NNC sa|CCT 
+G:JJD_CCP P:NNC tatluhang-buwan 1531 4 		Context - kumpaniya|NNC sa|CCT *tatluhang-buwan|NNC* mula_sa|RBL taunan|JJD 
+G:JJD_CCP P:NNC_CCP akademikong 1380 2 		Context - Iba|PRI ang|DTC *akademikong|NNC_CCP* paggamit|NNC ng|CCB 
+G:JJD_CCP P:NNC_CCP alilang 258 21 		Context - pinangungunahan|VBTR ng_mga|DTCP *alilang|NNC_CCP* mamamayan|NNC ,|PMC 
+*CHECK* G:JJD_CCP P:NNC_CCP asidikong 689 31 		Context - paggawa|NNC ng|CCB *asidikong|NNC_CCP* hangin|NNC sa_kalikasan|RBL 
+G:JJD_CCP P:NNC_CCP babaeng 86 32 		Context - ferm|FW (|PMS *babaeng|NNC_CCP* hermaphrodite|FW )|PMS 
+G:JJD_CCP P:NNC_CCP bahagiang 1367 1 		Context - Para_sa|RBB *bahagiang|NNC_CCP* listahan|NNC ng_mga|DTCP 
+G:JJD_CCP P:NNC_CCP bandang 1525 7 		Context - ito|PRO noong|RBW_CCP *bandang|NNC_CCP* 1350|CDB at|CCA 
+G:JJD_CCP P:NNC_CCP binokulong 295 6 		Context - ipaliwanag|VBOF ang|DTC *binokulong|NNC_CCP* paningin|NNC ,|PMC 
+G:JJD_CCP P:NNC_CCP biyolenteng 467 11 		Context - bilang|NNC ng|CCB *biyolenteng|NNC_CCP* krimen|NNC sa|CCT 
+*CHECK* G:JJD_CCP P:NNC_CCP bulung-bulungang 783 10 		Context - Christopher|NNP ang_mga|DTCP *bulung-bulungang|NNC_CCP* ito|PRO .|PMP 
+G:JJD_CCP P:NNC_CCP butong 888 5 		Context - pamilyar|JJD na|CCP *butong|NNC_CCP* halaman|NNC ,|PMC 
+G:JJD_CCP P:NNC_CCP dayuhang 380 20 		Context - mula_sa|RBL mga|DTCP *dayuhang|NNC_CCP* kultura|NNC ay|LM 
+G:JJD_CCP P:NNC_CCP distansyang 163 32 		Context - unibersidad|NNC para_sa|RBB *distansyang|NNC_CCP* edukasyon|NNC (|PMS 
+G:JJD_CCP P:NNC_CCP ehekutibong 946 8 		Context - board_of_trustees|FW para_sa|RBB *ehekutibong|NNC_CCP* sangay|NNC ,|PMC 
+G:JJD_CCP P:NNC_CCP esponghang 800 20 		Context - sa_ibabaw|RBL ng|CCB *esponghang|NNC_CCP* tisyu|NNC na|CCP 
+*CHECK* G:JJD_CCP P:NNC_CCP estadong 214 21 		Context - pag-aari|NNC ng|CCB *estadong|NNC_CCP* bangkong|NNC_CCP Tsino|NNP 
+G:JJD_CCP P:NNC_CCP estereoskopikong 1586 19 		Context - pares|NNC ng|CCB *estereoskopikong|NNC_CCP* lens|NNC para_sa|RBB 
+G:JJD_CCP P:NNC_CCP estereoskopikong 1620 7 		Context - Jones|NNP ng_mga|DTCP *estereoskopikong|NNC_CCP* potograpiya|NNC at|CCA 
+G:JJD_CCP P:NNC_CCP generikong 271 2 		Context - Nakuha|VBTS ang|DTC *generikong|NNC_CCP* pangalan|NNC nito|PRO 
+G:JJD_CCP P:NNC_CCP genetikong 1165 23 		Context - kasama|CCB ng|CCB *genetikong|NNC_CCP* pagsusuri|NNC ,|PMC 
+G:JJD_CCP P:NNC_CCP geograpikong 1288 14 		Context - at|CCA mga|DTCP *geograpikong|NNC_CCP* mga|DTCP katangian|NNC 
+G:JJD_CCP P:NNC_CCP guwapong 88 22 		Context - hitsura|NNC ng|CCB *guwapong|NNC_CCP* pagkalalaki|NNC .|PMP 
+G:JJD_CCP P:NNC_CCP henetikong 769 28 		Context - bilang|CCT kanilang|PRSP_CCP *henetikong|NNC_CCP* materyal|NNC .|PMP 
+G:JJD_CCP P:NNC_CCP hilangang 665 13 		Context - sa|CCT mga|DTCP *hilangang|NNC_CCP* paltok|NNC .|PMP 
+G:JJD_CCP P:NNC_CCP kakompetensiyang 679 3 		Context - nagbenta|VBTS ang|DTC *kakompetensiyang|NNC_CCP* disk-shaped|FW gramophone|FW 
+*CHECK* G:JJD_CCP P:NNC_CCP kalapit-bayang 315 2 		Context - Nakadugtong|VBTS sa|CCT *kalapit-bayang|NNC_CCP* Collegno|NNP ang|DTC 
+G:JJD_CCP P:NNC_CCP kapanahunang 1362 1 		Context - Isang|PRI_CCP *kapanahunang|NNC_CCP* istorya|NNC na|CCP 
+G:JJD_CCP P:NNC_CCP kapansin-pansing 174 5 		Context - order|NNC mga|DTCP *kapansin-pansing|NNC_CCP* mga|DTCP magkakaibang|JJD_CCP 
+G:JJD_CCP P:NNC_CCP klasikong 812 6 		Context - halimbawa|NNC ng|CCB *klasikong|NNC_CCP* estilo|NNC ng|CCB 
+G:JJD_CCP P:NNC_CCP lalaking 136 25 		Context - sa|CCT mga|DTCP *lalaking|NNC_CCP* kamag-anak|NNC niya|PRS 
+G:JJD_CCP P:NNC_CCP lalaking 86 26 		Context - mern|FW (|PMS *lalaking|NNC_CCP* pseudohermaphrodite|FW )|PMS 
+G:JJD_CCP P:NNC_CCP modermong 665 5 		Context - ito|PRO sa|CCT *modermong|NNC_CCP* Albanya|NNP ,|PMC 
+G:JJD_CCP P:NNC_CCP oksihinasyong 548 24 		Context - nagbubunga|VBTR ng|CCB *oksihinasyong|NNC_CCP* pagod|NNC .|PMP 
+G:JJD_CCP P:NNC_CCP pagkawang-gawang 1519 27 		Context - Mississipi|NNP sa|CCT *pagkawang-gawang|NNC_CCP* pinansyal|JJD .|PMP 
+G:JJD_CCP P:NNC_CCP palitang 520 3 		Context - rin|RBI ang|DTC *palitang|NNC_CCP* operasyon|NNC ng|CCB 
+G:JJD_CCP P:NNC_CCP pamahayang 163 17 		Context - dalawang|JJN_CCP pinakamalaking|JJCS_JJD_CCP *pamahayang|NNC_CCP* unibersidad|NNC sa_bansa|RBL 
+*CHECK* G:JJD_CCP P:NNC_CCP panauhing 994 5 		Context - tagapangasiwa|NNC ang_mga|DTCP *panauhing|NNC_CCP* may|VBH kakayahang|NNC_CCP 
+G:JJD_CCP P:NNC_CCP pirasong 1374 11 		Context - sa|CCT isang|PRI_CCP *pirasong|NNC_CCP* papel|NNC ,|PMC 
+G:JJD_CCP P:NNC_CCP pisang 195 14 		Context - mga|DTCP bagong|JJD_CCP *pisang|NNC_CCP* pagong|NNC .|PMP 
+G:JJD_CCP P:NNC_CCP repormang 134 10 		Context - nanatili|VBTS ang|DTC *repormang|NNC_CCP* bersyon|NNC ng|CCB 
+G:JJD_CCP P:NNC_CCP republikanong 1152 9 		Context - ehemplo|NNC ng|CCB *republikanong|NNC_CCP* ugali|NNC ,|PMC 
+*CHECK* G:JJD_CCP P:NNC_CCP sosyalismong 93 32 		Context - teorya|NNC ukol_sa|RBR *sosyalismong|NNC_CCP* Melanesian|NNP ,|PMC 
+G:JJD_CCP P:NNC_CCP syientipikong 1117 64 		Context - magkaroon|VBW ng|CCB *syientipikong|NNC_CCP* pagpapaliwanag|NNC rito|PRL 
+G:JJD_CCP P:NNC_CCP urbanong 1063 11 		Context - dedikado|JJD sa|CCT *urbanong|NNC_CCP* disenyo|NNC ,|PMC 
+G:JJD_CCP P:NNC_CCP urbanong 1154 8 		Context - ang|DTC unang|JJN_CCP *urbanong|NNC_CCP* liwasan|NNC ng|CCB 
+*CHECK* G:JJD_CCP P:NNP_CCP Kanluraning 487 11 		Context - Kaliwanagan|NNP sa|CCT *Kanluraning|NNP_CCP* pilosopiya|NNC .|PMP 
+G:JJD_CCP P:NNP_CCP Katutubong 1464 0 		Context - *Katutubong|NNP_CCP* kaharian|NNC ang|DTC 
+G:JJD_CCP P:NNP_CCP Lumang 98 0 		Context - *Lumang|NNP_CCP* pangalan|NNC ng|CCB 
+*CHECK* G:JJD_CCP P:PRI_CCP Kaunting 1243 0 		Context - *Kaunting|PRI_CCP* tao|NNC lang|RBI 
+*CHECK* G:JJD_CCP P:PRI_CCP Madaming 1330 0 		Context - *Madaming|PRI_CCP* ginawa|VBOF ang|DTC 
+*CHECK* G:JJD_CCP P:PRI_CCP Maraming 1068 0 		Context - *Maraming|PRI_CCP* species|FW ng|CCB 
+*CHECK* G:JJD_CCP P:PRI_CCP Maraming 254 0 		Context - *Maraming|PRI_CCP* mga|DTCP modelo|NNC 
+*CHECK* G:JJD_CCP P:PRI_CCP Maraming 661 0 		Context - *Maraming|PRI_CCP* fossil|FW leaves|FW 
+*CHECK* G:JJD_CCP P:PRI_CCP Maraming 934 0 		Context - *Maraming|PRI_CCP* pang|RBI_CCP beteranong|JJD_CCP 
+*CHECK* G:JJD_CCP P:PRI_CCP Maraming 981 0 		Context - *Maraming|PRI_CCP* malalaki|JJD at|CCA 
+*CHECK* G:JJD_CCP P:PRI_CCP buong 289 2 		Context - Kung|CCR ang|DTC *buong|PRI_CCP* proseso|NNC hanggang|RBW 
+*CHECK* G:JJD_CCP P:PRI_CCP buong 643 4 		Context - paumanhin|NNC at|CCA *buong|PRI_CCP* pagbawi|NNC sa|CCT 
+*CHECK* G:JJD_CCP P:PRI_CCP buong 659 7 		Context - bahagyang|RBD_CCP o|CCT *buong|PRI_CCP* eclipse|FW ay|LM 
+*CHECK* G:JJD_CCP P:PRI_CCP buong 844 11 		Context - demilitarized|FW ang|DTC *buong|PRI_CCP* isla|NNC ng|CCB 
+*CHECK* G:JJD_CCP P:PRI_CCP iba't_ibang 1079 11 		Context - osteoderms|FW ng|CCB *iba't_ibang|PRI_CCP* laki|NNC ,|PMC 
+*CHECK* G:JJD_CCP P:PRI_CCP ibang 468 1 		Context - Tulad_ng|JJC *ibang|PRI_CCP* Ankylosaurus|NNP ,|PMC 
+*CHECK* G:JJD_CCP P:PRI_CCP ibang 549 27 		Context - nabibigyan|VBTR ng|CCB *ibang|PRI_CCP* pangalan|NNC dahil|CCR 
+*CHECK* G:JJD_CCP P:PRI_CCP ibang 832 9 		Context - at|CCA ang|DTC *ibang|PRI_CCP* mga|DTCP dinosaur|NNC 
+*CHECK* G:JJD_CCP P:PRI_CCP ibang 861 13 		Context - hindi|RBF katulad_ng|JJC *ibang|PRI_CCP* mga|DTCP modernong|JJD_CCP 
+*CHECK* G:JJD_CCP P:PRI_CCP kaunting 1490 5 		Context - ng|CCB medyo|JJCC *kaunting|PRI_CCP* bilang|NNC ng|CCB 
+*CHECK* G:JJD_CCP P:PRI_CCP kaunting 272 4 		Context - nagkaroon|VBTS ng|CCB *kaunting|PRI_CCP* tagumpay|JJD ang|DTC 
+*CHECK* G:JJD_CCP P:PRI_CCP kaunting 321 24 		Context - sila|PRP ng|CCB *kaunting|PRI_CCP* craniofacial|FW na|CCP 
+*CHECK* G:JJD_CCP P:PRI_CCP kaunting 969 20 		Context - ,|PMC ang|DTC *kaunting|PRI_CCP* mga|DTCP non-Sunni_Muslims|NNP 
+*CHECK* G:JJD_CCP P:PRI_CCP maraming 43 13 		Context - hanay|NNC ,|PMC *maraming|PRI_CCP* tao|NNC ang|DTC 
+*CHECK* G:JJD_CCP P:PRI_CCP maraming 55 2 		Context - Naglalaman|VBTR ng|CCB *maraming|PRI_CCP* sipi|NNC at|CCA 
+*CHECK* G:JJD_CCP P:PRI_CCP maraming 661 13 		Context - nito|PRO na|CCP *maraming|PRI_CCP* naka-paligid|JJD na|CCP 
+*CHECK* G:JJD_CCP P:PRI_CCP maraming 684 18 		Context - ito|PRO ng|CCB *maraming|PRI_CCP* mga|DTCP kasunduan|NNC 
+*CHECK* G:JJD_CCP P:PRI_CCP maraming 837 22 		Context - makikita|VBTF ang|DTC *maraming|PRI_CCP* bilang|NNC ng|CCB 
+*CHECK* G:JJD_CCP P:PRI_CCP maraming 845 1 		Context - Sa|CCT *maraming|PRI_CCP* pagkakataon|NNC ,|PMC 
+*CHECK* G:JJD_CCP P:PRI_CCP maraming 999 8 		Context - taon|NNC ,|PMC *maraming|PRI_CCP* nagmungkahi|VBTS kung|RBK 
+*CHECK* G:JJD_CCP P:PRI_CCP panlahatang 270 58 		Context - ,|PMC tulad_ng|JJC *panlahatang|PRI_CCP* linear|FW na|CCP 
+G:JJD_CCP P:RBD_CCP Karaniwang 1052 0 		Context - *Karaniwang|RBD_CCP* kredito|NNC sa|CCT 
+G:JJD_CCP P:RBD_CCP Karaniwang 648 0 		Context - *Karaniwang|RBD_CCP* mayroon|VBH itong|PRO_CCP 
+G:JJD_CCP P:RBD_CCP Karaniwang 890 0 		Context - *Karaniwang|RBD_CCP* kaayusan|NNC sa|CCT 
+G:JJD_CCP P:RBD_CCP Malawakang 988 0 		Context - *Malawakang|RBD_CCP* pagkakaiba|NNC sa|CCT 
+*CHECK* G:JJD_CCP P:RBD_CCP bahagyang 659 5 		Context - araw|NNC habang|RBW *bahagyang|RBD_CCP* o|CCT buong|PRI_CCP 
+*CHECK* G:JJD_CCP P:RBD_CCP bihirang 1144 22 		Context - din|RBI ay|LM *bihirang|RBD_CCP* ,|PMC kung|CCR 
+*CHECK* G:JJD_CCP P:RBD_CCP lantarang 36 12 		Context - niya|PRS ang|DTC *lantarang|RBD_CCP* gay|NNC na|CCP 
+G:JJD_CCP P:RBD_CCP libreng 211 13 		Context - ng|CCB puro|JJD *libreng|RBD_CCP* software|FW ang|DTC 
+G:JJD_CCP P:RBD_CCP maayang 736 30 		Context - equator|FW at|CCA *maayang|RBD_CCP* karagatan|NNC ng|CCB 
+G:JJD_CCP P:RBD_CCP mabisang 270 17 		Context - nagsanhi|VBTS ang_mga|DTCP *mabisang|RBD_CCP* kompyuter|NNC ,|PMC 
+*CHECK* G:JJD_CCP P:RBD_CCP madaling 1454 23 		Context - maging|VBW masyadong|JJCS_CCP *madaling|RBD_CCP* umayon|VBAF sa|CCT 
+G:JJD_CCP P:RBD_CCP magkabilaang 1500 6 		Context - sa_likod|RBL ng|CCB *magkabilaang|RBD_CCP* mata|NNC .|PMP 
+G:JJD_CCP P:RBD_CCP mahalagang 891 16 		Context - 655|CDB ,|PMC *mahalagang|RBD_CCP* koneksyon|NNC pa|RBI 
+*CHECK* G:JJD_CCP P:RBD_CCP muling 1539 17 		Context - Microsoft|NNP na|CCP *muling|RBD_CCP* suportahan|VBOF ang|DTC 
+G:JJD_CCP P:RBD_CCP pabayang 506 18 		Context - na|CCP mayroong|VBH_CCP *pabayang|RBD_CCP* patakaran|NNC ang|DTC 
+G:JJD_CCP P:RBN_CCP minimong 333 35 		Context - dapat|VBS may|VBH *minimong|RBN_CCP* layo|NNC na|CCP 
+G:JJD_CCP P:RBW_CCP huling 959 1 		Context - Nang|RBW *huling|RBW_CCP* bahagi|NNC ng|CCB 
+*CHECK* G:JJD_CCP P:RBW_CCP kasalukuyang 1603 1 		Context - Ang|DTC *kasalukuyang|RBW_CCP* bansa|NNC ay|LM 
+*CHECK* G:JJD_CCP P:RBW_CCP kasalukuyang 674 1 		Context - Ayon_sa|RBR *kasalukuyang|RBW_CCP* patakaran|NNC ,|PMC 
+*CHECK* G:JJD_CCP P:RBW_CCP muling 1630 37 		Context - fetal|JJD ang|DTC *muling|RBW_CCP* pagiging|VBTR aktibo|JJD 
+*CHECK* G:JJD_CCP P:RBW_CCP nakaraang 967 22 		Context - katangian|NNC noong|RBW_CCP *nakaraang|RBW_CCP* panahon|NNC .|PMP 
+*CHECK* G:JJD_CCP P:VBAF humigit-kumulang 304 12 		Context - 1974|CDB ,|PMC *humigit-kumulang|VBAF* 150,000|CDB na|CCP 
+G:JJD_CCP P:VBOF iibang 592 1 		Context - May|VBH *iibang|VBOF* luto|NNC sa|CCT 
+*CHECK* G:JJD_CCP P:VBTR naghaharing 21 14 		Context - ,|PMC ang|DTC *naghaharing|VBTR* pamumuno|NNC ay|LM 
+*CHECK* G:JJD_CCP P:VBTR_CCP kinalaunang 297 25 		Context - prumeserba|NNC sa|CCT *kinalaunang|VBTR_CCP* interpretasyon|NNC ng|CCB 
+(CHECK* G:JJD_CCP P:VBTR_CCP naiibang 249 14 		Context - ng|CCB isang|PRI_CCP *naiibang|VBTR_CCP* grupo|NNC ng|CCB 
+*CHECK* G:JJD_CCP P:VBTR_CCP namumunong 730 23 		Context - kung|CCR ang|DTC *namumunong|VBTR_CCP* grupo|NNC ay|LM 
+G:JJD_CCP P:VBTS_CCP nakaraang 1141 33 		Context - sa|CCT mga|DTCP *nakaraang|VBTS_CCP* mas|JJCC simpleng|JJD_CCP 
+G:JJD_CCP P:VBTS_CCP naunang 270 4 		Context - nakabatay|VBTS ang_mga|DTCP *naunang|VBTS_CCP* estadistikal|JJD na|CCP 
+G:JJD_CCP P:VBTS_CCP naunang 643 7 		Context - pagbawi|NNC sa|CCT *naunang|VBTS_CCP* pahayag|NNC tungkol_kay|RBR 
+*CHECK* G:JJD_CCP P:VBW_CCP mapaminsalang 602 14 		Context - inisip|VBTS_VBOF niyang|PRS_CCP *mapaminsalang|VBW_CCP* aksiyon|NNC ,|PMC 
+*CHECK* G:JJN P:CDB dalawahan 843 7 		Context - at|CCA kasunduang|NNC_CCP *dalawahan|CDB* pagkamamamayan|NNC sa|CCT 
+*CHECK* G:JJN P:CDB dalawampu 1057 9 		Context - buhay|NNC sa_pagitan_ng|CCU *dalawampu|CDB* at|CCA tatlumpu't|JJN 
+*CHECK* G:JJN P:CDB dalawang-kakatlo 903 10 		Context - ng|CCB hilagang|JJD_CCP *dalawang-kakatlo|CDB* ng|CCB Grenadines|NNP 
+*CHECK* G:JJN P:CDB labinglima 183 14 		Context - ,|PMC humigit-kumulang|VBAF *labinglima|CDB* (|PMS 15|CDB 
+*CHECK* G:JJN P:CDB pampito 1257 9 		Context - Cebu|NNP bilang|CCT *pampito|CDB* sa|CCT pinakamagandang|JJCS_JJD_CCP 
+*CHECK* G:JJN P:JJD sangkapat 286 22 		Context - Amerika|NNP ng|CCB *sangkapat|JJD* na|CCP siglo|NNC 
+*CHECK* G:JJN P:JJN_CCP dalawang 1015 7 		Context - pagkakaisa|NNC ng|CCB *dalawang|JJN_CCP* gametes|NNC .|PMP 
+*CHECK* G:JJN P:JJN_CCP dose-dosenang 491 3 		Context - dito|PRL ang|DTC *dose-dosenang|JJN_CCP* mga|DTCP mahalaga|JJD 
+*CHECK* G:JJN P:NNC kawalang-tatag 1005 96 		Context - kasama|CCB ng|CCB *kawalang-tatag|NNC* na|CCP atlanto-axial|NNC 
+G:JJN P:NNC sangkapat 1531 31 		Context - para_sa|RBB ikalawang|JJN_CCP *sangkapat|NNC* ng|CCB taon|NNC 
+G:JJN P:PRI isa 1344 7 		Context - sumali|VBAF ang|DTC *isa|PRI* o|CCT dalawang|JJN_CCP 
+G:JJN_CCA P:JJN tatlumpu't 1057 11 		Context - dalawampu|CDB at|CCA *tatlumpu't|JJN* limang|JJN_CCP taon|NNC 
+*CHECK* G:JJN_CCP P:CDB_CCP unang 1174 30 		Context - ng|CCB kanyang|PRSP_CCP *unang|CDB_CCP* nobelang|NNC_CCP My|NNP 
+*CHECK* G:JJN_CCP P:CDB_CCP unang 546 7 		Context - ng|CCB kanyang|PRSP_CCP *unang|CDB_CCP* mahabang|JJD_CCP tula|NNC 
+*CHECK* G:JJN_CCP P:JJD_CCP sandaang 942 50 		Context - Segundo|NNP -|PMS *sandaang|JJD_CCP* ibayo|NNC kumpara_sa|JJC 
+*CHECK* G:JJN_CCP P:JJN ika-labing 487 3 		Context - kilusan|NNC noong|RBW_CCP *ika-labing|JJN* walong|JJN_CCP siglo|NNC 
+*CHECK* G:JJN_CCP P:JJN labing 768 5 		Context - i-anunsyo|VBOF ang|DTC *labing|JJN* tatlong|JJN_CCP albums|NNC 
+*CHECK* G:JJN_CCP P:NNC_CCP daang 49 21 		Context - ang|DTC isang|PRI_CCP *daang|NNC_CCP* limampung|JJN_CCP anibersaryo|NNC 
+G:JJN_CCP P:NNC_CCP dalwang 521 5 		Context - stand-off|FW ng|CCB *dalwang|NNC_CCP* magkasinglakas|VBW na|CCP 
+*CHECK* G:JJN_CCP P:NNC_CCP libong 446 30 		Context - para_sa|RBB isang|PRI_CCP *libong|NNC_CCP* mga|DTCP mag-aaral|NNC 
+G:JJN_CCP P:NNP_CCP Unang 834 8 		Context - Africa|NNP noong|RBW_CCP *Unang|NNP_CCP* Digmaang|NNP_CCP Pandaigdig|NNP 
+*CHECK* G:JJN_CCP P:PRI_CCP Isang 1030 0 		Context - *Isang|PRI_CCP* solo|FW o|CCT 
+G:JJN_CCP P:PRI_CCP Isang 1584 0 		Context - *Isang|PRI_CCP* oras|NNC pagkatapos|VBW 
+*CHECK* G:JJN_CCP P:PRI_CCP Isang 221 0 		Context - *Isang|PRI_CCP* Amerikanong|NNP_CCP awtor|NNC 
+*CHECK* G:JJN_CCP P:PRI_CCP Isang 461 0 		Context - *Isang|PRI_CCP* illegal|JJD na|CCP 
+*CHECK* G:JJN_CCP P:PRI_CCP Isang 66 0 		Context - *Isang|PRI_CCP* player|NNC na|CCP 
+*CHECK* G:JJN_CCP P:PRI_CCP Isang 782 0 		Context - *Isang|PRI_CCP* halimbawa|NNC yung|PRO 
+G:JJN_CCP P:PRI_CCP isang 1129 13 		Context - mayroong|VBH_CCP mahigit|JJC *isang|PRI_CCP* milyon|NNC ang|DTC 
+*CHECK* G:JJN_CCP P:PRI_CCP isang 1158 6 		Context - nakihalobilo|VBTS sa|CCT *isang|PRI_CCP* maliit|JJD na|CCP 
+G:JJN_CCP P:PRI_CCP isang 1179 21 		Context - ,|PMC halos|RBN *isang|PRI_CCP* libo't|JJN_CCA tatlong|JJN_CCP 
+G:JJN_CCP P:PRI_CCP isang 1352 19 		Context - pa|RBI sa|CCT *isang|PRI_CCP* dosenang|NNC_CCP mga|DTCP 
+*CHECK* G:JJN_CCP P:PRI_CCP isang 45 11 		Context - pagpapahinuhod|NNC sa|CCT *isang|PRI_CCP* artikulo|NNC para_sa|RBB 
+G:JJN_CCP P:PRI_CCP isang 49 20 		Context - ipinagunita|VBTS ang|DTC *isang|PRI_CCP* daang|NNC_CCP limampung|JJN_CCP 
+*CHECK* G:JJN_CCP P:PRI_CCP isang 66 18 		Context - ,|PMC kung|CCR *isang|PRI_CCP* magandang|JJD_CCP humampas|VBTS_VBAF 
+*CHECK* G:JJN_CCP P:PRI_CCP isang 680 11 		Context - na|CCP may|VBH *isang|PRI_CCP* pag-aaral|NNC sa|CCT 
+*CHECK* G:JJN_CCP P:PRI_CCP isang 680 19 		Context - nagtantya|VBTS ng|CCB *isang|PRI_CCP* taunang|JJD_CCP antas|NNC 
+G:JJN_CCP P:PRI_CCP isang 733 31 		Context - magbabawas|VBTR ng|CCB *isang|PRI_CCP* oras|NNC sa|CCT 
+G:JJN_CCP P:PRI_CCP isang 960 8 		Context - elegante|NNC (|PMS *isang|PRI_CCP* milyong|NNC_CCP dolyar|NNC 
+*CHECK* G:JJN_CCP P:PRI_CCP maraming 342 8 		Context - binubuo|VBTR ng|CCB *maraming|PRI_CCP* patong|NNC ng|CCB 
+*CHECK* G:JJN_CCP P:VBAF humigit-kumulang 212 27 		Context - naglikom|VBTS ng|CCB *humigit-kumulang|VBAF* na|CCP $|PMS 
+*CHECK* G:NNC P:CCB kasama 1167 19 		Context - matagal|RBD niyang|PRS_CCP *kasama|CCB* sa|CCT buhay|NNC 
+*CHECK* G:NNC P:CCT bilang 1215 10 		Context - ang|DTC Eksperimento|NNP *bilang|CCT* 10|CDB ,|PMC 
+*CHECK* G:NNC P:CCT bilang 1260 2 		Context - Sa|CCT Eksperimento|NNP *bilang|CCT* 17|CDB ,|PMC 
+G:NNC P:CCT bilang 1349 22 		Context - wika|NNC na|CCP *bilang|CCT* sa|CCT Togolese|NNP 
+G:NNC P:CCT bilang 392 2 		Context - Kung|CCR sa|CCT *bilang|CCT* ng|CCB populasyon|NNC 
+G:NNC P:CCT bilang 817 35 		Context - edad|NNC na|CCP *bilang|CCT* ng|CCB kamatayan|NNC 
+G:NNC P:FW anghel 1563 30 		Context - nito|PRO sa|CCT *anghel|FW* ng|CCB Diyos|NNP 
+*CHECK* G:NNC P:FW apocryphal 868 12 		Context - Acts_of_Peter|NNP bilang|CCT *apocryphal|FW* .|PMP 
+*CHECK* G:NNC P:FW art 1586 2 		Context - Bilang|CCT isang|PRI_CCP *art|FW* direktor|NNC ,|PMC 
+*CHECK* G:NNC P:FW artists 636 12 		Context - iskolar|NNC ,|PMC *artists|FW* at|CCA environmentalist|FW 
+*CHECK* G:NNC P:FW ballads 322 14 		Context - ,|PMC melodramatic|FW *ballads|FW* ,|PMC na|CCP 
+G:NNC P:FW bansag 1030 5 		Context - dalawang|JJN_CCP salitang|NNC_CCP *bansag|FW* ang|DTC Nomen|NNP 
+G:NNC P:FW batas-militar 13 9 		Context - mahigpit|JJD na|CCP *batas-militar|FW* sa|CCT panahong|NNC_CCP 
+*CHECK* G:NNC P:FW bats 1143 13 		Context - hitter|NNC na|CCP *bats|FW* para_sa|RBB pitcher|NNC 
+*CHECK* G:NNC P:FW bill 1539 20 		Context - suportahan|VBOF ang|DTC *bill|FW* noong|RBW_CCP May|NNP 
+*CHECK* G:NNC P:FW blade 184 2 		Context - Mayroon|VBH buong|PRI_CCP *blade|FW* ang|DTC simpleng|JJD_CCP 
+*CHECK* G:NNC P:FW book 289 30 		Context - tinatawag|VBTR itong|PRO_CCP *book|FW* packaging|FW .|PMP 
+*CHECK* G:NNC P:FW bookshops 547 18 		Context - benta|NNC sa|CCT *bookshops|FW* ,|PMC namamakyaw|VBTR 
+*CHECK* G:NNC P:FW cardboard 355 25 		Context - pang|RBI_CCP pirasong|NNC_CCP *cardboard|FW* na|CCP may|VBH 
+*CHECK* G:NNC P:FW cell 1062 6 		Context - sa_loob|RBL ng_mga|DTCP *cell|FW* sa|CCT katawan|NNC 
+*CHECK* G:NNC P:FW charter 416 5 		Context - sa|CCT iba't_ibang|JJD_CCP *charter|FW* schools|NNC .|PMP 
+*CHECK* G:NNC P:FW components 999 27 		Context - at|CCA GNU|NNPA *components|FW* .|PMP 
+G:NNC P:FW conbiksyons 516 44 		Context - sa|CCT kanyang|PRSP_CCP *conbiksyons|FW* ang|DTC kailanman|RBW 
+*CHECK* G:NNC P:FW condominiums 960 15 		Context - )|PMS na|CCP *condominiums|FW* ,|PMC katulad_ng|JJC 
+*CHECK* G:NNC P:FW corona 945 15 		Context - magkaparehas|VBW na|CCP *corona|FW* ,|PMC o|CCT 
+*CHECK* G:NNC P:FW coup_d'etat 21 9 		Context - Carnation|NNP Revolution|NNP *coup_d'etat|FW* noong|RBW_CCP 1974|CDB 
+*CHECK* G:NNC P:FW curball 1025 20 		Context - ;|PMSC isang|PRI_CCP *curball|FW* naman|RBI ang|DTC 
+*CHECK* G:NNC P:FW dance 322 4 		Context - binubuo|VBTR ng|CCB *dance|FW* music|FW -|PMS 
+*CHECK* G:NNC P:FW decoy 997 10 		Context - para|CCT gawing|VBOF *decoy|FW* para_sa|RBB ulo|NNC 
+*CHECK* G:NNC P:FW delta 1555 15 		Context - ari-arian|NNC sa|CCT *delta|FW* at|CCA maaaring|RBM 
+G:NNC P:FW depresyon 1183 2 		Context - Dominado|NNC ng|CCB *depresyon|FW* ng|CCB Turan|NNP 
+G:NNC P:FW depresyon 269 12 		Context - medyor|JJD na|CCP *depresyon|FW* .|PMP 
+G:NNC P:FW diputado 1301 8 		Context - presidente|NNC si|DTP *diputado|FW* ispiker|FW Bonfoh|NNP 
+*CHECK* G:NNC P:FW disc 385 10 		Context - panlihang|JJD_CCP hugis|NNC *disc|FW* na|CCP yari|VBS 
+*CHECK* G:NNC P:FW disc 693 16 		Context - silindro|NNC kumpara_sa|JJC *disc|FW* .|PMP 
+*CHECK* G:NNC P:FW discos 427 13 		Context - lounges|FW at|CCA *discos|FW* na|CCP nagpapakita|VBTR 
+G:NNC P:FW disk 381 5 		Context - cylinders|FW at|CCA *disk|FW* rekords|FW para|CCT 
+*CHECK* G:NNC P:FW drayber 15 3 		Context - magpakamatay|VBW ang|DTC *drayber|FW* .|PMP 
+*CHECK* G:NNC P:FW duets 634 11 		Context - remakes|FW at|CCA *duets|FW* .|PMP 
+*CHECK* G:NNC P:FW electronic 292 8 		Context - akademya|NNC ng_mga|DTCP *electronic|FW* journal|FW at|CCA 
+*CHECK* G:NNC P:FW enrollment 169 3 		Context - pagbaba|NNC ng|CCB *enrollment|FW* nagplano|VBTS ang|DTC 
+*CHECK* G:NNC P:FW environmentalist 636 14 		Context - artists|FW at|CCA *environmentalist|FW* na|CCP nagpetisyon|VBTS 
+*CHECK* G:NNC P:FW football 730 7 		Context - ,|PMC Amerikanong|NNP_CCP *football|FW* ,|PMC at|CCA 
+*CHECK* G:NNC P:FW freelancers 1041 17 		Context - sa_pamamagitan_ng|CCT mga|DTCP *freelancers|FW* .|PMP 
+*CHECK* G:NNC P:FW gene 363 6 		Context - hindi|RBF kilalang|JJD_CCP *gene|FW* na|CCP maaaring|VBS_CCP 
+*CHECK* G:NNC P:FW gene 531 3 		Context - may|VBH mga|DTCP *gene|FW* na|CCP responsable|JJD 
+*CHECK* G:NNC P:FW graduate 898 20 		Context - at|CCA 96|CDB *graduate|FW* institutes|FW (|PMS 
+*CHECK* G:NNC P:FW grid 1288 23 		Context - sa|CCT isang|PRI_CCP *grid|FW* na|CCP dangkal|NNC 
+*CHECK* G:NNC P:FW hardball 1170 3 		Context - tinutukoy|VBTR bilang|CCT *hardball|FW* sa|CCT kaibahan|NNC 
+*CHECK* G:NNC P:FW harpsichord 356 17 		Context - naitutugtog|VBTS ang|DTC *harpsichord|FW* at|CCA minsan|RBW 
+*CHECK* G:NNC P:FW highway 1414 15 		Context - unahan|CDB ng|CCB *highway|FW* sa|CCT Cebu|NNP 
+G:NNC P:FW holokausto 1601 24 		Context - kinalaman|NNC sa|CCT *holokausto|FW* .|PMP 
+G:NNC P:FW holokausto 1601 7 		Context - museo|NNC ng|CCB *holokausto|FW* sa|CCT Israel|NNP 
+*CHECK* G:NNC P:FW horse 608 13 		Context - pistol|NNC at|CCA *horse|FW* tack|FW ang|DTC 
+*CHECK* G:NNC P:FW hotel 1001 19 		Context - British|NNP na|CCP *hotel|FW* PR|NNPA agent|NNC 
+*CHECK* G:NNC P:FW hotel 765 4 		Context - -|PMS star|FW *hotel|FW* ang|DTC Grand|NNP 
+*CHECK* G:NNC P:FW ice 730 3 		Context - basketbol|NNC ,|PMC *ice|FW* hockey|NNC ,|PMC 
+*CHECK* G:NNC P:FW imparted 1025 29 		Context - pag-ikot|NNC ng|CCB *imparted|FW* ang|DTC pitcher|NNC 
+*CHECK* G:NNC P:FW in-house 547 2 		Context - Nakatuon|VBTS ang|DTC *in-house|FW* mga|DTCP salespeople|FW 
+*CHECK* G:NNC P:FW inch 1420 1 		Context - .510|CDB *inch|FW* ang|DTC nakatiyak|RBD 
+*CHECK* G:NNC P:FW inches 133 3 		Context - hanggang|RBW 4|CDB *inches|FW* ang|DTC karaniwang|JJD_CCP 
+*CHECK* G:NNC P:FW inches 1420 47 		Context - ,|PMC .50|CDB *inches|FW* lamang|RBI sa|CCT 
+*CHECK* G:NNC P:FW institutes 898 21 		Context - 96|CDB graduate|FW *institutes|FW* (|PMS na|CCP 
+*CHECK* G:NNC P:FW instrumental 219 39 		Context - dominasyon|NNC ng|CCB *instrumental|FW* na|CCP rasyonalidad|NNC 
+*CHECK* G:NNC P:FW iris 1005 83 		Context - patak|NNC sa|CCT *iris|FW* na|CCP kinikilalang|VBTR_CCP 
+G:NNC P:FW iskuwater 463 42 		Context - ukol_sa|RBR mga|DTCP *iskuwater|FW* at|CCA mga|DTCP 
+G:NNC P:FW ispiker 1301 9 		Context - si|DTP diputado|FW *ispiker|FW* Bonfoh|NNP Abbass|NNP 
+*CHECK* G:NNC P:FW issue 1360 9 		Context - ,|PMC 2005|CDB *issue|FW* ng|CCB Playboy|NNP 
+*CHECK* G:NNC P:FW joints 9 8 		Context - sa_loob|RBL ng_mga|DTCP *joints|FW* maaaring|RBM nakakamatay|VBTR 
+*CHECK* G:NNC P:FW journal 292 9 		Context - ng_mga|DTCP electronic|FW *journal|FW* at|CCA ipamahagi|VBOF 
+*CHECK* G:NNC P:FW krill 705 10 		Context - at|CCA ang|DTC *krill|FW* .|PMP 
+*CHECK* G:NNC P:FW latitude 67 13 		Context - 60Â°|NNP T|NNP *latitude|FW* (|PMS na|CCP 
+*CHECK* G:NNC P:FW latitude 67 20 		Context - lupa|NNC sa|CCT *latitude|FW* na|CCP ito|PRO 
+*CHECK* G:NNC P:FW layer 809 17 		Context - ang|DTC aktibong|JJD_CCP *layer|FW* nagiging|VBTR mas|JJCC 
+*CHECK* G:NNC P:FW life 347 17 		Context - ang|DTC Campus|NNP *life|FW* sa_pamamagitan_ng|CCT pagpapairal|NNC 
+*CHECK* G:NNC P:FW live 403 7 		Context - lugar|NNC para_sa|RBB *live|FW* music|FW sa|CCT 
+*CHECK* G:NNC P:FW liverworts 1134 1 		Context - Ang_mga|DTCP *liverworts|FW* ang_mga|DTCP natitirang|JJD_CCP 
+*CHECK* G:NNC P:FW lounges 427 11 		Context - pubs|NNC ,|PMC *lounges|FW* at|CCA discos|FW 
+*CHECK* G:NNC P:FW magazine 232 8 		Context - Rolling|NNP Stone|NNP *magazine|FW* ,|PMC at|CCA 
+*CHECK* G:NNC P:FW mall 1158 10 		Context - na|CCP shopping|FW *mall|FW* na|CCP tinawag|VBOF 
+*CHECK* G:NNC P:FW markets 1197 30 		Context - mga|DTCP night|FW *markets|FW* sa|CCT Taipei|NNP 
+*CHECK* G:NNC P:FW marque 477 8 		Context - nila|PRP ang|DTC *marque|FW* ng|CCB lungsod|NNC 
+*CHECK* G:NNC P:FW mine 637 7 		Context - Salt|NNP Company|NNP *mine|FW* .|PMP 
+*CHECK* G:NNC P:FW miyural 1012 33 		Context - nakikita|VBTR sa|CCT *miyural|FW* ng|CCB siyudad|NNC 
+*CHECK* G:NNC P:FW model 983 17 		Context - liquid|FW sa|CCT *model|FW* na|CCP ito|PRO 
+*CHECK* G:NNC P:FW movie 264 16 		Context - pahayag|NNC ang_mga|DTCP *movie|FW* star|FW .|PMP 
+*CHECK* G:NNC P:FW music 322 5 		Context - ng|CCB dance|FW *music|FW* -|PMS ang|DTC 
+*CHECK* G:NNC P:FW music 403 8 		Context - para_sa|RBB live|FW *music|FW* sa|CCT Estados|NNP 
+*CHECK* G:NNC P:FW network 1491 2 		Context - Nagbabahagi|VBTR ang|DTC *network|FW* na|CCP ito|PRO 
+*CHECK* G:NNC P:FW night 1197 29 		Context - maraming|PRI_CCP mga|DTCP *night|FW* markets|FW sa|CCT 
+*CHECK* G:NNC P:FW numbering 975 1 		Context - Ang|DTC *numbering|FW* ng_mga|DTCP klase|NNC 
+*CHECK* G:NNC P:FW online 1110 11 		Context - ,|PMC ang|DTC *online|FW* na|CCP pamamahagi|NNC 
+*CHECK* G:NNC P:FW opera 1099 10 		Context - na|CCP ispiradong|JJD_CCP *opera|FW* ni|DTP Pushkin|NNP 
+*CHECK* G:NNC P:FW opera 139 22 		Context - itinatanghal|VBTR na|CCP *opera|FW* ay|LM sa|CCT 
+*CHECK* G:NNC P:FW opera 139 4 		Context - teatro|NNC ng|CCB *opera|FW* sa|CCT Sao|NNP 
+*CHECK* G:NNC P:FW opera 645 16 		Context - pinakapansin-pansin|JJCS_JJD sa|CCT *opera|FW* .|PMP 
+*CHECK* G:NNC P:FW orbit 1081 16 		Context - nabubulok|VBTR na|CCP *orbit|FW* ng|CCB kometang|NNC_CCP 
+*CHECK* G:NNC P:FW packaging 289 31 		Context - itong|PRO_CCP book|FW *packaging|FW* .|PMP 
+*CHECK* G:NNC P:FW phenotype 488 28 		Context - sanhi|NNC ng_mga|DTCP *phenotype|FW* .|PMP 
+*CHECK* G:NNC P:FW piket 620 39 		Context - ng|CCB submarinong|NNC_CCP *piket|FW* ng_mga|DTCP Aleman|NNP 
+*CHECK* G:NNC P:FW pister 66 29 		Context - humahampas|VBTR_VBAF ang|DTC *pister|FW* )|PMS ang|DTC 
+8CHECK* G:NNC P:FW polish 608 16 		Context - tack|FW ang|DTC *polish|FW* .|PMP 
+*CHECK* G:NNC P:FW population 105 3 		Context - senso|NNC ng|CCB *population|FW* 2005|CDB Japan|NNP 
+*CHECK* G:NNC P:FW programming 347 26 		Context - ng|CCB quality|FW *programming|FW* ,|PMC at|CCA 
+*CHECK* G:NNC P:FW protein 27 20 		Context - ng|CCB ibang|PRI_CCP *protein|FW* (|PMS Arron|NNP 
+*CHECK* G:NNC P:FW protein 734 19 		Context - para_sa|RBB mga|DTCP *protein|FW* na|CCP namamahala|VBTR 
+*CHECK* G:NNC P:FW psychedelic 666 13 		Context - tumutugtog|VBTR_VBAF ng|CCB *psychedelic|FW* rock|FW ay|LM 
+*CHECK* G:NNC P:FW quetzal 1012 28 		Context - pakpak|NNC ng|CCB *quetzal|FW* ,|PMC na|CCP 
+G:NNC P:FW rebyu 1142 37 		Context - pagsusulat|NNC ng|CCB *rebyu|FW* na|CCP tumulong|VBAF 
+*CHECK* G:NNC P:FW reformer 516 20 		Context - abogado|NNC at|CCA *reformer|FW* na|CCP nagpaprofessionalized|VBTS 
+*CHECK* G:NNC P:FW rekords 381 6 		Context - at|CCA disk|FW *rekords|FW* para|CCT makuha|VBW 
+*CHECK* G:NNC P:FW remakes 634 9 		Context - kanyang|PRSP_CCP mga|DTCP *remakes|FW* at|CCA duets|FW 
+*CHECK* G:NNC P:FW rock 666 14 		Context - ng|CCB psychedelic|FW *rock|FW* ay|LM ginawan|VBOF 
+*CHECK* G:NNC P:FW rotation 1127 21 		Context - ng|CCB bawal|JJD *rotation|FW* bago|RBW irecord|VBOF 
+*CHECK* G:NNC P:FW sale 1182 30 		Context - nagbebenta|VBTR ng|CCB *sale|FW* o|CCT batayan|NNC 
+*CHECK* G:NNC P:FW salespeople 547 4 		Context - in-house|FW mga|DTCP *salespeople|FW* ay|LM mabilis|RBD 
+*CHECK* G:NNC P:FW services 358 45 		Context - passenger|NNC railway|NNC *services|FW* .|PMP 
+*CHECK* G:NNC P:FW shareholders 142 25 		Context - internasyonal|JJD na|CCP *shareholders|FW* .|PMP 
+*CHECK* G:NNC P:FW shopping 1158 9 		Context - maliit|JJD na|CCP *shopping|FW* mall|FW na|CCP 
+*CHECK* G:NNC P:FW softball 1170 12 		Context - laro|NNC ng|CCB *softball|FW* ang|DTC laro|NNC 
+*CHECK* G:NNC P:FW sonete 1010 13 		Context - na|CCP isang|PRI_CCP *sonete|FW* ,|PMC isinulat|VBTS_VBOF 
+*CHECK* G:NNC P:FW species 589 9 		Context - nakadiskubre|JJD sa|CCT *species|FW* na|CCP ito|PRO 
+*CHECK* G:NNC P:FW spots 1005 87 		Context - kinikilalang|VBTR_CCP Brushfield|NNP *spots|FW* ,|PMC labis|JJCS 
+*CHECK* G:NNC P:FW star 264 17 		Context - ang_mga|DTCP movie|FW *star|FW* .|PMP 
+*CHECK* G:NNC P:FW star 765 3 		Context - 5|CDB -|PMS *star|FW* hotel|FW ang|DTC 
+*CHECK* G:NNC P:FW stock 142 11 		Context - palitan|NNC ng|CCB *stock|FW* at|CCA dapat|VBS 
+*CHECK* G:NNC P:FW studio 1230 32 		Context - at|CCA bagong|JJD_CCP *studio|FW* album|NNC sa|CCT 
+*CHECK* G:NNC P:FW subjects 1044 19 		Context - ang_mga|DTCP mandatory|FW *subjects|FW* na|CCP itinakda|VBTS_VBOF 
+*CHECK* G:NNC P:FW subsidaris 940 1 		Context - Naging|VBTS *subsidaris|FW* ng|CCB Bangko|NNP 
+*CHECK* G:NNC P:FW tabonuco 1033 22 		Context - )|PMS ,|PMC *tabonuco|FW* at|CCA mga|DTCP 
+*CHECK* G:NNC P:FW tack 608 14 		Context - at|CCA horse|FW *tack|FW* ang|DTC polish|FW 
+*CHECK* G:NNC P:FW temperature 149 5 		Context - bumagsak|VBAF ang|DTC *temperature|FW* antas|NNC ng|CCB 
+*CHECK* G:NNC P:FW tendencies 971 16 		Context - pag-aaral|NNC ng_mga|DTCP *tendencies|FW* ng|CCB pitchers|NNC 
+*CHECK* G:NNC P:FW tone 759 26 		Context - gramo|NNC kada|PRI *tone|FW* )|PMS .|PMP 
+*CHECK* G:NNC P:FW tour 344 41 		Context - naabala|VBTS ang|DTC *tour|FW* dahil_sa|RBP pag-atakeng|NNC 
+*CHECK* G:NNC P:FW ultrasound 384 12 		Context - mga|DTCP pagsusuring|NNC_CCP *ultrasound|FW* )|PMS ,|PMC 
+G:NNC P:FW unikameral 71 3 		Context - Konggreso|NNP ay|LM *unikameral|FW* na|CCP may|VBH 
+*CHECK* G:NNC P:FW union 1605 7 		Context - tumiwalag|VBTR_VBAF sa|CCT *union|FW* bilang|CCT isa|PRI 
+*CHECK* G:NNC P:FW wax 1135 6 		Context - temperatura|NNC ng|CCB *wax|FW* ,|PMC ang|DTC 
+G:NNC P:FW yate 58 9 		Context - katamtamang|JJD_CCP laking|JJD_CCP *yate|FW* o|CCT maliliit|JJD 
+*CHECK* G:NNC P:JJD Abot 85 0 		Context - *Abot|JJD* ng|CCB Kakatiy|NNP 
+*CHECK* G:NNC P:JJD Handog 993 0 		Context - *Handog|JJD* ng|CCB BOCHK|NNPA 
+*CHECK* G:NNC P:JJD Pasalungat 95 0 		Context - *Pasalungat|JJD* ,|PMC ang|DTC 
+G:NNC P:JJD alalahanin 1393 24 		Context - sa|CCT mga|DTCP *alalahanin|JJD* sa|CCT paparating|VBTF 
+*CHECK* G:NNC P:JJD berde 590 24 		Context - maliwanag|RBD na|CCP *berde|JJD* ,|PMC at|CCA 
+*CHECK* G:NNC P:JJD bernakular 147 5 		Context - ang|DTC paggamit|NNC *bernakular|JJD* na|CCP salita|NNC 
+*CHECK* G:NNC P:JJD biblical 297 31 		Context - ng_mga|DTCP tekstong|NNC_CCP *biblical|JJD* -|PMS bilang|CCT 
+G:NNC P:JJD bilog 482 3 		Context - pinapalibutan|VBTR ng|CCB *bilog|JJD* ang|DTC bulaklak|NNC 
+G:NNC P:JJD buhat 34 2 		Context - Nawalaan|VBTS ng|CCB *buhat|JJD* ang|DTC L-55|NNP 
+G:NNC P:JJD dagat-dagatan 1544 18 		Context - sa|CCT isang|PRI_CCP *dagat-dagatan|JJD* ,|PMC sa_pamamagitan_ng|CCT 
+G:NNC P:JJD dagat-dagatan 261 34 		Context - sa|CCT mga|DTCP *dagat-dagatan|JJD* ,|PMC yungib|NNC 
+*CHECK* G:NNC P:JJD dedikado 1063 9 		Context - propesyonal|NNC na|CCP *dedikado|JJD* sa|CCT urbanong|NNC_CCP 
+*CHECK* G:NNC P:JJD dulot 1045 6 		Context - ito|PRO ang|DTC *dulot|JJD* ng_mga|DTCP yelo|NNC 
+*CHECK* G:NNC P:JJD dulot 990 17 		Context - posibilidad|NNC na|CCP *dulot|JJD* ito|PRO ng|CCB 
+*CHECK* G:NNC P:JJD estadistikal 270 5 		Context - ang_mga|DTCP naunang|VBTS_CCP *estadistikal|JJD* na|CCP modelo|NNC 
+G:NNC P:JJD estado 1370 17 		Context - dose-dosenang|JJN_CCP mga|DTCP *estado|JJD* na|CCP lalong|JJCC_CCP 
+*CHECK* G:NNC P:JJD gitna 358 19 		Context - service|NNC mula_sa|RBL *gitna|JJD* ng|CCB lungsod|NNC 
+*CHECK* G:NNC P:JJD gitna 733 62 		Context - at|CCA ang|DTC *gitna|JJD* ng|CCB lungsod|NNC 
+*CHECK* G:NNC P:JJD hawak 628 23 		Context - titulo|NNC na|CCP *hawak|JJD* ng|CCB Osaka|NNP 
+*CHECK* G:NNC P:JJD huli 877 2 		Context - Pinasya|VBTS ng|CCB *huli|JJD* na|CCP dapat|VBS 
+*CHECK* G:NNC P:JJD identikal 1378 33 		Context - galing_sa|RBL kanyang|PRSP_CCP *identikal|JJD* na|CCP lalaking|NNC_CCP 
+*CHECK* G:NNC P:JJD kabalintunaan 1201 8 		Context - Einstein|NNP ang|DTC *kabalintunaan|JJD* na|CCP ito|PRO 
+*CHECK* G:NNC P:JJD kakilala 1211 2 		Context - Ang_mga|DTCP panlipunang|JJD_CCP *kakilala|JJD* ni|DTP Bellow|NNP 
+*CHECK* G:NNC P:JJD kakilala 758 5 		Context - tumulong|VBAF ang|DTC *kakilala|JJD* ni|DTP Turing|NNP 
+*CHECK* G:NNC P:JJD kakompetensya 1347 31 		Context - diskuwento|NNC ang_mga|DTCP *kakompetensya|JJD* nitong|PRO_CCP mga|DTCP 
+G:NNC P:JJD kalansay 682 24 		Context - mga|DTCP binaong|NNC_CCP *kalansay|JJD* na|CCP nagmumula|VBTR 
+G:NNC P:JJD kampo-militar 144 9 		Context - gumawa|VBAF ng|CCB *kampo-militar|JJD* ang_mga|DTCP taga-Roma|NNC 
+G:NNC P:JJD kapalit 865 10 		Context - Aeroscraft|NNP ang|DTC *kapalit|JJD* ng|CCB kinanselang|VBTR_CCP 
+G:NNC P:JJD kasabwat 758 14 		Context - sa|CCT isang|PRI_CCP *kasabwat|JJD* na|CCP akyatin|NNC 
+*CHECK* G:NNC P:JJD kasali 1308 13 		Context - noong|RBW_CCP 1482|CDB *kasali|JJD* na|CCP ang_mga|DTCP 
+*CHECK* G:NNC P:JJD kasalungat 1051 53 		Context - ay|LM maaaring|RBM *kasalungat|JJD* ng|CCB gusto|VBS 
+*CHECK* G:NNC P:JJD kasangkot 1007 15 		Context - gastos|NNC ang|DTC *kasangkot|JJD* .|PMP 
+*CHECK* G:NNC P:JJD kasangkot 1242 37 		Context - na|CCP mga|DTCP *kasangkot|JJD* ?|PMQ 
+G:NNC P:JJD kasiyahang-loob 1561 22 		Context - sakit|NNC at|CCA *kasiyahang-loob|JJD* .|PMP 
+*CHECK* G:NNC P:JJD kataas 855 35 		Context - ft|NNCA )|PMS *kataas|JJD* sa|CCT beywang|NNC 
+*CHECK* G:NNC P:JJD katambal 117 17 		Context - sa|CCT mga|DTCP *katambal|JJD* na|CCP mayroong|VBH_CCP 
+*CHECK* G:NNC P:JJD katamtaman 76 10 		Context - ,|PMC sa|CCT *katamtaman|JJD* na|CCP mga|DTCP 
+*CHECK* G:NNC P:JJD kayumanggi 390 23 		Context - hanggang|RBW sa|CCT *kayumanggi|JJD* .|PMP 
+*CHECK* G:NNC P:JJD kemikal 1123 1 		Context - Ang|DTC *kemikal|JJD* na|CCP pagkasira|NNC 
+*CHECK* G:NNC P:JJD konektado 737 25 		Context - na|CCP maaaring|RBM *konektado|JJD* sa|CCT dysregulation|FW 
+G:NNC P:JJD libog 714 22 		Context - ang|DTC kaniyang|PRSP_CCP *libog|JJD* .|PMP 
+*CHECK* G:NNC P:JJD lohikal 824 29 		Context - hindi|RBF ito|PRO *lohikal|JJD* ,|PMC ngunit|CCT 
+*CHECK* G:NNC P:JJD mahihirap 523 22 		Context - may|VBH mga|DTCP *mahihirap|JJD* .|PMP 
+*CHECK* G:NNC P:JJD mahihirap 699 52 		Context - matulungan|VBW ang_mga|DTCP *mahihirap|JJD* .|PMP 
+*CHECK* G:NNC P:JJD nominal 1396 26 		Context - ang|DTC kanyang|PRSP_CCP *nominal|JJD* na|CCP titulo|NNC 
+*CHECK* G:NNC P:JJD nominal 560 14 		Context - pagsukat|NNC (|PMS *nominal|JJD* ,|PMC ordinal|JJD 
+*CHECK* G:NNC P:JJD numerikal 270 24 		Context - nararapat|VBTR na|CCP *numerikal|JJD* na|CCP algorithm|FW 
+*CHECK* G:NNC P:JJD opisyal 1106 2 		Context - Portugal|NNP ,|PMC *opisyal|JJD* na|CCP tawag|NNC 
+*CHECK* G:NNC P:JJD ordinal 560 16 		Context - nominal|JJD ,|PMC *ordinal|JJD* ,|PMC interval|NNC 
+*CHECK* G:NNC P:JJD pa-renta 1553 12 		Context - taon|NNC na|CCP *pa-renta|JJD* pamula|NNC 2006|CDB 
+G:NNC P:JJD pakay 1140 20 		Context - Egypt|NNP sa|CCT *pakay|JJD* nitong|PRO_CCP pagpapalalim|NNC 
+G:NNC P:JJD pakipagtalik 400 19 		Context - nito|PRO ,|PMC *pakipagtalik|JJD* sa|CCT kanya|PRSP 
+*CHECK* G:NNC P:JJD pampanitikan 1052 5 		Context - pagsupling|NNC ng|CCB *pampanitikan|JJD* Ruso|NNP si|DTP 
+*CHECK* G:NNC P:JJD pampanitikan 995 19 		Context - kinikilala|VBTR ng|CCB *pampanitikan|JJD* pagtatag|NNC sa_pamamagitan_ng|CCT 
+G:NNC P:JJD pananalapi 699 46 		Context - pangbubuwis|JJD at|CCA *pananalapi|JJD* ng_mga|DTCP Pranses|NNP 
+*CHECK* G:NNC P:JJD pangkabuuan 481 4 		Context - nagkakasundo|VBTS sa|CCT *pangkabuuan|JJD* ang_mga|DTCP Kristiyano|NNP 
+*CHECK* G:NNC P:JJD panlipunan 827 9 		Context - ng|CCB kaganapang|NNC_CCP *panlipunan|JJD* sa_loob|RBL ng|CCB 
+G:NNC P:JJD panting 1582 15 		Context - bersyon|NNC na|CCP *panting|JJD* ng|CCB Microsoft|NNP 
+*CHECK* G:NNC P:JJD patag 1419 3 		Context - makakita|VBW ng_mga|DTCP *patag|JJD* na|CCP lagay|NNC 
+*CHECK* G:NNC P:JJD personal 337 2 		Context - Komplikado|JJD ang|DTC *personal|JJD* na|CCP buhay|NNC 
+G:NNC P:JJD pili 1574 5 		Context - ,|PMC ang_mga|DTCP *pili|JJD* ng|CCB antebellum|FW 
+*CHECK* G:NNC P:JJD pinansyal 1519 28 		Context - sa|CCT pagkawang-gawang|NNC_CCP *pinansyal|JJD* .|PMP 
+*CHECK* G:NNC P:JJD pook-palatandaan 1543 2 		Context - Ang|DTC ibang|PRI_CCP *pook-palatandaan|JJD* na|CCP may|VBH 
+*CHECK* G:NNC P:JJD popular 418 34 		Context - sa|CCT unang|JJN_CCP *popular|JJD* na|CCP mang-aawit|NNC 
+*CHECK* G:NNC P:JJD pulitikal 53 8 		Context - isang|PRI_CCP magasing|NNC_CCP *pulitikal|JJD* ,|PMC noong|RBW_CCP 
+G:NNC P:JJD pulitiko 50 30 		Context - Swahili|NNP ,|PMC *pulitiko|JJD* ang|DTC propesyon|NNC 
+G:NNC P:JJD rebelde 1379 30 		Context - ng|CCB isang|PRI_CCP *rebelde|JJD* na|CCP Taliban|NNP 
+*CHECK* G:NNC P:JJD responsable 734 28 		Context - ,|PMC maaaring|RBM *responsable|JJD* para_sa|RBB iilang|JJD_CCP 
+*CHECK* G:NNC P:JJD retorikal 1051 18 		Context - matataas|JJD na|CCP *retorikal|JJD* na|CCP estilo|NNC 
+*CHECK* G:NNC P:JJD sakop 735 2 		Context - Hindi|RBF na|CCP *sakop|JJD* ng|CCB teritoryo|NNC 
+*CHECK* G:NNC P:JJD sangkot 1418 15 		Context - mabilis|RBD na|CCP *sangkot|JJD* sa|CCT paggalaw|NNC 
+*CHECK* G:NNC P:JJD sekswal 1178 20 		Context - aspeto|NNC ng|CCB *sekswal|JJD* na|CCP kaibahan|NNC 
+*CHECK* G:NNC P:JJD sentro 1509 39 		Context - Ruh|NNP ay|LM *sentro|JJD* ng|CCB damdamin|NNC 
+G:NNC P:JJD sertipiko 660 18 		Context - sa_pamamagitan_ng|CCT inspeksiyon|NNC *sertipiko|JJD* na|CCP nakadikit|VBTS 
+*CHECK* G:NNC P:JJD sikat 965 7 		Context - pag-aaral|NNC ang|DTC *sikat|JJD* na|CCP Hawthorne|NNP 
+*CHECK* G:NNC P:JJD sikolohikal 1083 14 		Context - kapaligiran|NNC ,|PMC *sikolohikal|JJD* at|CCA sosyal|JJD 
+G:NNC P:JJD tagal 936 4 		Context - mas|JJCC maikling|JJD_CCP *tagal|JJD* ng|CCB buhay|NNC 
+*CHECK* G:NNC P:JJD tagapag-disenyo 1616 6 		Context - ,|PMC ang|DTC *tagapag-disenyo|JJD* ng|CCB live|FW 
+*CHECK* G:NNC P:JJD tagapagluwas 63 23 		Context - naging|VBTS pinakamalaking|JJCS_JJD_CCP *tagapagluwas|JJD* at|CCA pinakamalaking|JJCS_JJD_CCP 
+*CHECK* G:NNC P:JJD tagasulat 535 20 		Context - ng|CCB isang|PRI_CCP *tagasulat|JJD* ng|CCB senaryo|NNC 
+*CHECK* G:NNC P:JJD taglay 1519 1 		Context - Bagamat|CCT *taglay|JJD* ng|CCB estado|NNC 
+G:NNC P:JJD tagumpay 272 5 		Context - ng|CCB kaunting|PRI_CCP *tagumpay|JJD* ang|DTC pagpapatuloy|NNC 
+G:NNC P:JJD tapis 138 23 		Context - 30|CDB m|NNCA *tapis|JJD* ng|CCB bukas|JJD 
+G:NNC P:JJD teknikal 1545 5 		Context - trabahador|NNC ng|CCB *teknikal|JJD* at|CCA pakikipagkalakalan|NNC 
+*CHECK* G:NNC P:JJD tropikal 775 1 		Context - Ang|DTC *tropikal|JJD* storm|FW na|CCP 
+G:NNC P:JJD tustos 597 42 		Context - tuloy-tuloy|RBD na|RBI *tustos|JJD* ng|CCB oxygen|FW 
+*CHECK* G:NNC P:JJD_CCA daga't 715 17 		Context - ngunit|CCT mapa|NNC *daga't|JJD_CCA* man|RBI o|CCT 
+G:NNC P:JJD_CCP dating 799 45 		Context - ng_mga|DTCP bagong|JJD_CCP *dating|JJD_CCP* .|PMP 
+G:NNC P:NNC_CCP hukbong-dagat 1261 12 		Context - naglayag|VBTS ang|DTC *hukbong-dagat|NNC_CCP* pabalik|JJD ng|CCB 
+G:NNC P:NNC_CCP hukbong-dagat 537 6 		Context - U-boats|FW palayo_sa|RBL *hukbong-dagat|NNC_CCP* himpilan|NNC ng|CCB 
+*CHECK* G:NNC P:NNC_CCP pagkagambalang 67 17 		Context - na|CCP walang|VBN_CCP *pagkagambalang|NNC_CCP* lupa|NNC sa|CCT 
+G:NNC P:NNP Araw 395 0 		Context - *Araw|NNP* at|CCA gabi|RBW 
+*CHECK* G:NNC P:NNP Isla 40 13 		Context - ,|PMC mga|DTCP *Isla|NNP* ng|CCB Glorioso|NNP 
+*CHECK* G:NNC P:NNP Japan 628 6 		Context - sa|CCT buong|PRI_CCP *Japan|NNP* na|CCP '|PMS 
+G:NNC P:NNP Kabisera 455 0 		Context - *Kabisera|NNP* ng|CCB Osaka|NNP 
+*CHECK* G:NNC P:NNP trans-Siberia 599 7 		Context - Siberya|NNP ang|DTC *trans-Siberia|NNP* tren|NNC ,|PMC 
+*CHECK* G:NNC P:PRI kabuuan 725 11 		Context - lahi|NNC sa|CCT *kabuuan|PRI* ,|PMC nabawasan|VBTS 
+G:NNC P:PRO kadahilan 1244 41 		Context - iba|PRI pang|RBI_CCP *kadahilan|PRO* ang|DTC pagkahiwatig|NNC 
+G:NNC P:PRO kadahilan 1244 6 		Context - naging|VBTS pangunahing|JJD *kadahilan|PRO* ang|DTC paggamit|NNC 
+G:NNC P:RBD aksidente 501 6 		Context - niya|PRS na|CCP *aksidente|RBD* ang|DTC nangyari|VBTS 
+G:NNC P:RBW gabi 395 2 		Context - Araw|NNP at|CCA *gabi|RBW* lumilipad|VBTR_VBAF ang_mga|DTCP 
+G:NNC P:RBW gabi 727 1 		Context - Tuwing|RBW *gabi|RBW* ,|PMC pumapangatlo|VBTR_VBAF 
+*CHECK* G:NNC P:RBW kasalukuyan 528 20 		Context - benepisyal|JJD sa|CCT *kasalukuyan|RBW* ukol_sa|RBR kapaligirang|NNC_CCP 
+*CHECK* G:NNC P:RBW kasalukuyan 881 1 		Context - Sa|CCT *kasalukuyan|RBW* mayroon|VBH din|RBI 
+*CHECK* G:NNC P:RBW pagkatapos 1059 43 		Context - pandaigdig|JJD at|CCA *pagkatapos|RBW* nito|PRO binago|VBOF 
+G:NNC P:RBW tan 598 5 		Context - Kiwi|NNP Dark|NNP *tan|RBW* noong|RBW_CCP 1908|CDB 
+G:NNC P:VBOF bayarin 872 19 		Context - sa|CCT mga|DTCP *bayarin|VBOF* at|CCA pinasama|VBOF 
+G:NNC P:VBOF bilugan 401 25 		Context - regular|JJD na|CCP *bilugan|VBOF* o|CCT pantay-pantay|JJD 
+G:NNC P:VBOF ipo-ipo 145 6 		Context - tsunami|NNC ,|PMC *ipo-ipo|VBOF* ,|PMC lawa|NNC 
+G:NNC P:VBOF ipo-ipo 478 22 		Context - dahilan|NNC ng|CCB *ipo-ipo|VBOF* at|CCA umaapekto|VBTR 
+G:NNC P:VBOF isdaan 1091 6 		Context - dating|JJD_CCP bayang|NNC_CCP *isdaan|VBOF* ay|LM isa|PRI 
+G:NNC P:VBOF itulot 475 32 		Context - ang|DTC isang|PRI_CCP *itulot|VBOF* ng|CCB Formula|NNP 
+G:NNC P:VBOF limliman 178 7 		Context - gawain|NNC na|CCP *limliman|VBOF* .|PMP 
+*CHECK* G:NNC P:VBOF paghaluin 622 12 		Context - DNA|NNPA at|CCA *paghaluin|VBOF* ang|DTC genes|FW 
+*CHECK* G:NNC P:VBOF patugtugin 653 18 		Context - Bach|NNP ang|DTC *patugtugin|VBOF* sa|CCT kanyang|PRSP_CCP 
+*CHECK* G:NNC P:VBS Galit 353 0 		Context - *Galit|VBS* sa|CCT pananamantala|NNC 
+*CHECK* G:NNC P:VBS gamit 1468 5 		Context - pagkatanggap|NNC at|CCA *gamit|VBS* sa|CCT mga|DTCP 
+G:NNC P:VBTF handaan 389 15 		Context - at|CCA mga|DTCP *handaan|VBTF* ng|CCB pagkain|NNC 
+G:NNC P:VBTF lista 1207 2 		Context - Ito|PRO ay|LM *lista|VBTF* ng|CCB 48|CDB 
+G:NNC P:VBTF tawagan 1392 7 		Context - sentro|NNC ng|CCB *tawagan|VBTF* at|CCA mga|DTCP 
+*CHECK* G:NNC P:VBTS pinanindigan 397 16 		Context - kontrobersya|NNC sa|CCT *pinanindigan|VBTS* na|CCP "|PMS 
+*CHECK* G:NNC P:VBW Pagbalik 1321 0 		Context - *Pagbalik|VBW* niya|PRS galing_sa|RBL 
+*CHECK* G:NNC P:VBW gawa 781 11 		Context - naka-print|RBD na|CCP *gawa|VBW* katulad_ng|JJC aklat|NNC 
+G:NNC P:VBW kalangitan 1444 16 		Context - Hale-Bopp|NNP sa|CCT *kalangitan|VBW* .|PMP 
+G:NNC P:VBW kalangitan 584 15 		Context - kaisipan|NNC ng|CCB *kalangitan|VBW* .|PMP 
+G:NNC P:VBW kalangitan 685 3 		Context - asul|JJD na|CCP *kalangitan|VBW* ang|DTC pinakamahalagang|JJCS_JJD_CCP 
+G:NNC P:VBW magkakapatid 863 4 		Context - sa|CCT walong|JJN_CCP *magkakapatid|VBW* .|PMP 
+G:NNC P:VBW magkalaban 1127 11 		Context - puwesto|NNC ang|DTC *magkalaban|VBW* ;|PMSC walang|VBN_CCP 
+*CHECK* G:NNC P:VBW makakaya 1296 21 		Context - ng|CCB kanyang|PRSP_CCP *makakaya|VBW* .|PMP 
+G:NNC P:VBW masteral 898 27 		Context - ng|CCB 96|CDB *masteral|VBW* na|CCP programa|NNC 
+*CHECK* G:NNC P:VBW pag-project 355 4 		Context - gawin|VBOF sa_pamamagitan_ng|CCT *pag-project|VBW* ng|CCB imahe|NNC 
+*CHECK* G:NNC P:VBW pagbabasehan 392 6 		Context - populasyon|NNC ang|DTC *pagbabasehan|VBW* ,|PMC malalampasan|VBTF 
+*CHECK* G:NNC P:VBW pagsapit 463 22 		Context - ,|PMC at|CCA *pagsapit|VBW* ng|CCB 20|CDB 
+G:NNCA P:CCT o 1566 24 		Context - slash|FW sa_pagitan_ng|CCU *o|CCT* at|CCA s|NNCA 
+*CHECK* G:NNCA P:FW glibc 450 5 		Context - uClibc|NNPA para_sa|RBB *glibc|FW* at|CCA ang|DTC 
+*CHECK* G:NNCA P:FW glibc 692 10 		Context - Library|NNP (|PMS *glibc|FW* )|PMS ,|PMC 
+*CHECK* G:NNCA P:FW inch 1420 25 		Context - sa|CCT .50|CDB *inch|FW* (|PMS 12.7|CDB 
+*CHECK* G:NNCA P:FW rwy 803 33 		Context - patakbuhan|NNC (|PMS *rwy|FW* 06|PMP /|PMS 
+*CHECK* G:NNCA P:NNC kcal 1199 6 		Context - katumbas_ng|JJC 80|CDB *kcal|NNC* ng|CCB init|NNC 
+G:NNCA P:NNP uClinux 450 16 		Context - tumatakbo|VBTR_VBAF gamit|VBS *uClinux|NNP* .|PMP 
+G:NNCA P:NNP Âµm 425 10 		Context - naka-micrometers|VBTS (|PMS *Âµm|NNP* )|PMS ng|CCB 
+G:NNCA P:NNPA ftÂ³ 942 43 		Context - 4.6|CDB bilyon|NNC *ftÂ³|NNPA* )|PMS na|CCP 
+G:NNCA P:NNPA kmÂ² 327 4 		Context - sa|CCT bawat|PRI *kmÂ²|NNPA* ang|DTC densidad|NNC 
+G:NNCA P:NNPA uClibc 450 3 		Context - maipagpalit|VBW ang|DTC *uClibc|NNPA* para_sa|RBB glibc|FW 
+G:NNC_CCP P:CCB upuang 614 32 		Context - at|CCA naging|VBTS *upuang|CCB* sesyonal|JJD ang|DTC 
+*CHECK* G:NNC_CCP P:JJD karagdagang 1260 10 		Context - ang|DTC dalawang|JJN_CCP *karagdagang|JJD* guro|NNC ,|PMC 
+*CHECK* G:NNC_CCP P:JJD_CCP babaeng 677 19 		Context - ng|CCB isang|PRI_CCP *babaeng|JJD_CCP* Culhuacano|NNP na|CCP 
+*CHECK* G:NNC_CCP P:JJD_CCP baklang 1058 13 		Context - at|CCA ang|DTC *baklang|JJD_CCP* komunidad|NNC ng|CCB 
+*CHECK* G:NNC_CCP P:JJD_CCP bandang 1191 26 		Context - India|NNP sa|CCT *bandang|JJD_CCP* huli|RBW ng|CCB 
+*CHECK* G:NNC_CCP P:JJD_CCP bandang 1229 8 		Context - niya|PRS ang|DTC *bandang|JJD_CCP* Easy|NNP Money|NNP 
+*CHECK* G:NNC_CCP P:JJD_CCP basehang 778 36 		Context - istaktura|NNC ng|CCB *basehang|JJD_CCP* pagpaparis|NNC ,|PMC 
+*CHECK* G:NNC_CCP P:JJD_CCP bilugang 401 4 		Context - iregular|JJD na|CCP *bilugang|JJD_CCP* tabas|NNC ng|CCB 
+G:NNC_CCP P:JJD_CCP bise-presidenteng 1115 19 		Context - at|CCA isang|PRI_CCP *bise-presidenteng|JJD_CCP* Turkish|NNP Cypriot|NNP 
+G:NNC_CCP P:JJD_CCP daang 798 9 		Context - humigit|VBAF isang|JJN_CCP *daang|JJD_CCP* daungan|NNC .|PMP 
+*CHECK* G:NNC_CCP P:JJD_CCP dalang 775 5 		Context - na|CCP may|VBH *dalang|JJD_CCP* hangin|NNC na|CCP 
+G:NNC_CCP P:JJD_CCP dalubhasang 1162 1 		Context - Ang|DTC *dalubhasang|JJD_CCP* pandaigdigan|NNC hurado|NNC 
+G:NNC_CCP P:JJD_CCP damdaming 1059 33 		Context - ilang|PRQ_CCP mga|DTCP *damdaming|JJD_CCP* binahagi|VBTS na|CCP 
+G:NNC_CCP P:JJD_CCP dayandang 927 8 		Context - nagtatago|VBTR at|CCA *dayandang|JJD_CCP* ang|DTC gopura|NNC 
+G:NNC_CCP P:JJD_CCP demokrasyang 286 4 		Context - eponym|FW ng|CCB *demokrasyang|JJD_CCP* Jefferson|NNP at|CCA 
+G:NNC_CCP P:JJD_CCP demokratikong 1273 5 		Context - Keith|NNP ang|DTC *demokratikong|JJD_CCP* si|DTP Dan|NNP 
+*CHECK* G:NNC_CCP P:JJD_CCP domestikong 272 21 		Context - dayuhan|NNC at|CCA *domestikong|JJD_CCP* pag-imbak|NNC sa_labas|RBL 
+*CHECK* G:NNC_CCP P:JJD_CCP ebolusyonaryong 117 4 		Context - ito|PRO sa|CCT *ebolusyonaryong|JJD_CCP* aspekto|NNC na|CCP 
+G:NNC_CCP P:JJD_CCP ebolusyong 1150 31 		Context - halimbawa|NNC ng|CCB *ebolusyong|JJD_CCP* nagtatagpo|VBTR sa|CCT 
+*CHECK* G:NNC_CCP P:JJD_CCP ekonomikong 30 14 		Context - ng|CCB ibang|PRI_CCP *ekonomikong|JJD_CCP* kalayaan|NNC .|PMP 
+*CHECK* G:NNC_CCP P:JJD_CCP eukaryotikong 296 1 		Context - Ang_mga|DTCP *eukaryotikong|JJD_CCP* organism|NNC ay|LM 
+G:NNC_CCP P:JJD_CCP gawang 1448 16 		Context - komunikasyon|NNC ng|CCB *gawang|JJD_CCP* nailimbag|VBTS sa_pagitan_ng|CCU 
+*CHECK* G:NNC_CCP P:JJD_CCP genetikong 1165 18 		Context - syndrome|NNC ang|DTC *genetikong|JJD_CCP* pagpapayo|NNC ,|PMC 
+G:NNC_CCP P:JJD_CCP gradong 759 22 		Context - na|CCP may|VBH *gradong|JJD_CCP* 12.2|CDB gramo|NNC 
+G:NNC_CCP P:JJD_CCP kabayong 786 14 		Context - sa|CCT isang|PRI_CCP *kabayong|JJD_CCP* kahoy|NNC upang|CCB 
+G:NNC_CCP P:JJD_CCP kabuluhang 990 3 		Context - ,|PMC ang|DTC *kabuluhang|JJD_CCP* estadistikal|NNC ng|CCB 
+G:NNC_CCP P:JJD_CCP kameyong 1533 2 		Context - Mayroon|VBH siyang|PRS_CCP *kameyong|JJD_CCP* paglitaw|NNC sa|CCT 
+G:NNC_CCP P:JJD_CCP kapaligirang 1178 9 		Context - bayolohikal|JJD at|CCA *kapaligirang|JJD_CCP* mga|DTCP salik|NNC 
+*CHECK* G:NNC_CCP P:JJD_CCP karagdagang 251 10 		Context - sa|CCT mga|DTCP *karagdagang|JJD_CCP* bitamina|NNC ,|PMC 
+G:NNC_CCP P:JJD_CCP katutubong 256 11 		Context - naniniwala|VBTR ang_mga|DTCP *katutubong|JJD_CCP* Americano|NNP na|CCP 
+G:NNC_CCP P:JJD_CCP katutubong 726 9 		Context - lamang|RBI ang_mga|DTCP *katutubong|JJD_CCP* Monegasques|NNP sa|CCT 
+G:NNC_CCP P:JJD_CCP katutubong 735 24 		Context - wala|VBN pang|RBI_CCP *katutubong|JJD_CCP* naninirahan|VBTR )|PMS 
+*CHECK* G:NNC_CCP P:JJD_CCP klimatikong 736 5 		Context - tropikal|JJD na|CCP *klimatikong|JJD_CCP* kondisyon|NNC ang|DTC 
+*CHECK* G:NNC_CCP P:JJD_CCP kognitibong 824 22 		Context - hindi|RBF isang|PRI_CCP *kognitibong|JJD_CCP* paghatol|NNC ,|PMC 
+G:NNC_CCP P:JJD_CCP labang 1412 9 		Context - sa|CCT isang|PRI_CCP *labang|JJD_CCP* isinapubliko|NNC at|CCA 
+G:NNC_CCP P:JJD_CCP laking 58 8 		Context - mula_sa|RBL katamtamang|JJD_CCP *laking|JJD_CCP* yate|FW o|CCT 
+G:NNC_CCP P:JJD_CCP mayoryang 716 11 		Context - at|CCA ang|DTC *mayoryang|JJD_CCP* nagsasalita|VBTR ng|CCB 
+*CHECK* G:NNC_CCP P:JJD_CCP minoryang 1477 19 		Context - at|CCA mga|DTCP *minoryang|JJD_CCP* pangkat|NNC etniko|NNC 
+G:NNC_CCP P:JJD_CCP minoryang 1510 5 		Context - sinasalita|VBTR ng|CCB *minoryang|JJD_CCP* Arabo|NNP at|CCA 
+G:NNC_CCP P:JJD_CCP minoryang 716 5 		Context - salungatan|NNC sa_pagitan_ng|CCU *minoryang|JJD_CCP* nagsasalita|VBTR ng|CCB 
+G:NNC_CCP P:JJD_CCP modelong 270 63 		Context - modelo|NNC at|CCA *modelong|JJD_CCP* maraming|PRI_CCP lebel|NNC 
+*CHECK* G:NNC_CCP P:JJD_CCP motorsiklong 1604 8 		Context - sa|CCT mga|DTCP *motorsiklong|JJD_CCP* sasakyan|NNC ang_mga|DTCP 
+*CHECK* G:NNC_CCP P:JJD_CCP neogotikong 892 17 		Context - sa_lagpas|RBL modernong|JJD_CCP *neogotikong|JJD_CCP* tatulok|NNC ng|CCB 
+G:NNC_CCP P:JJD_CCP paaralang 1398 4 		Context - na|RBI sa|CCT *paaralang|JJD_CCP* elementarya|NNC ,|PMC 
+*CHECK* G:NNC_CCP P:JJD_CCP pangalagang 341 22 		Context - nutrisyon|NNC at|CCA *pangalagang|JJD_CCP* kalusugan|NNC ,|PMC 
+G:NNC_CCP P:JJD_CCP permisong 234 16 		Context - lat|FW may|VBH *permisong|JJD_CCP* partidong|NNC_CCP magpatakbo|VBW 
+G:NNC_CCP P:JJD_CCP publikong 264 12 		Context - magbigay|VBW ng_mga|DTCP *publikong|JJD_CCP* pampulitikong|JJD_CCP pahayag|NNC 
+G:NNC_CCP P:JJD_CCP punong 937 37 		Context - klase|NNC ng_mga|DTCP *punong|JJD_CCP* lagas|NNC -|PMS 
+G:NNC_CCP P:JJD_CCP samahang 843 3 		Context - ay|LM may|VBH *samahang|JJD_CCP* pagkakaibigan|NNC at|CCA 
+*CHECK* G:NNC_CCP P:JJD_CCP subhetibong 824 2 		Context - Ipinagtatanggol|VBTR para_sa|RBB *subhetibong|JJD_CCP* kalikasan|NNC ng|CCB 
+G:NNC_CCP P:JJD_CCP teritoryang 30 9 		Context - ay|LM isang|PRI_CCP *teritoryang|JJD_CCP* kapanhalatang|NNC_CCP nagsasaya|VBTR 
+G:NNC_CCP P:JJD_CCP territoryong 238 2 		Context - Kasama|CCB ang_mga|DTCP *territoryong|JJD_CCP* nila|PRP na|CCP 
+G:NNC_CCP P:JJD_CCP usapang 82 13 		Context - propesyonal|JJD na|CCP *usapang|JJD_CCP* militar|NNC .|PMP 
+G:NNC_CCP P:JJN_CCP halagang 635 13 		Context - buwan|NNC sa|CCT *halagang|JJN_CCP* HK|NNPA $|PMS 
+*CHECK* G:NNC_CCP P:JJN_CCP tatlong 1290 1 		Context - Sa|CCT *tatlong|JJN_CCP* set|FW matches|FW 
+*CHECK* G:NNC_CCP P:NNC gulang 402 44 		Context - nasa|RBL tamang|JJD_CCP *gulang|NNC* sa_Alexandria|RBL_NNP .|PMP 
+G:NNC_CCP P:NNC hangaring 1620 13 		Context - siya|PRS ng|CCB *hangaring|NNC* maging|VBW kakaiba|JJD 
+G:NNC_CCP P:NNC industriyalistang 788 27 		Context - anak|NNC ng|CCB *industriyalistang|NNC* si|DTP Austin|NNP 
+G:NNC_CCP P:NNC manlalarong 1300 1 		Context - Sa|CCT *manlalarong|NNC* sina|DTPP Martina|NNP 
+G:NNC_CCP P:NNC manunulang 1426 16 		Context - at|CCA ang|DTC *manunulang|NNC* si|DTP John|NNP 
+G:NNC_CCP P:NNC pag-atakeng 344 43 		Context - tour|FW dahil_sa|RBP *pag-atakeng|NNC* naganap|VBTS noong|RBW_CCP 
+G:NNC_CCP P:NNC pagkakataong 924 2 		Context - Mayroong|VBH_CCP makabuluhang|JJD_CCP *pagkakataong|NNC* makalikha|VBW ng|CCB 
+*CHECK* G:NNC_CCP P:NNC pagkamayabong 764 12 		Context - nang_mabuti|RBN dahil_sa|RBP *pagkamayabong|NNC* ng|CCB lupa|NNC 
+G:NNC_CCP P:NNC pagsalitang 217 22 		Context - ginagamit|VBTR sa|CCT *pagsalitang|NNC* mga|DTCP itim|JJD 
+G:NNC_CCP P:NNC pagsauling 635 31 		Context - niya|PRS laban_sa|CCU *pagsauling|NNC* anibersaryo|NNC at|CCA 
+G:NNC_CCP P:NNC saligang 1185 17 		Context - sinigurado|VBTS ng|CCB *saligang|NNC* batas|NNC .|PMP 
+G:NNC_CCP P:RBD_CCP disiplinang 1060 2 		Context - Mayroon|VBH ding|RBI_CCP *disiplinang|RBD_CCP* tinatawag|VBTR na|CCP 
+G:NNC_CCP P:RBD_CCP kakayahang 1440 31 		Context - binabawasan|VBTR ang|DTC *kakayahang|RBD_CCP* mabasa|VBW at|CCA 
+G:NNC_CCP P:RBD_CCP tanawing 185 15 		Context - paglalayag|NNC ng|CCB *tanawing|RBD_CCP* lupain|NNC .|PMP 
+G:NNC_CCP P:RBD_CCP tangkang 1575 31 		Context - ,|PMC isang|PRI_CCP *tangkang|RBD_CCP* tigilin|VBOF ang|DTC 
+G:NNC_CCP P:VBTF_CCP gastusing 406 20 		Context - di|RBF kailangang|VBS_CCP *gastusing|VBTF_CCP* pangpubliko|NNC .|PMP 
+G:NNC_CCP P:VBW_CCP magsasakang 1152 4 		Context - ang|DTC malayang|JJD_CCP *magsasakang|VBW_CCP* yeoman|NNC bilang|CCT 
+G:NNC_LM P:FW tao'y 1231 4 		Context - tinanong|VBOF na|CCP *tao'y|FW* naniwala|VBTS na|CCP 
+G:NNP P:CCR Kung 10 11 		Context - na|CCP sina|DTPP *Kung|CCR* Siu|NNP at|CCA 
+G:NNP P:CCR Kung 1042 10 		Context - ,|PMC at|CCA *Kung|CCR* Fu|NNP sa|CCT 
+G:NNP P:DTP Si 683 7 		Context - watawat|NNC si|DTP *Si|DTP* Leung|NNP Kwok-hung|NNP 
+G:NNP P:FW Allied 1404 20 		Context - malaman|VBW ng_mga|DTCP *Allied|FW* countries|FW .|PMP 
+G:NNP P:FW Burj 60 0 		Context - *Burj|FW* Dubai|NNP ang|DTC 
+G:NNP P:FW Cloud 1019 3 		Context - Asian|NNP Brown|NNP *Cloud|FW* ay|LM pumapaibabaw|VBTR_VBAF 
+G:NNP P:FW Gbe 1349 0 		Context - *Gbe|FW* na|CCP wika|NNC 
+G:NNP P:FW Transcontinental 186 3 		Context - ang|DTC American|NNP *Transcontinental|FW* Railroad|NNP na|CCP 
+G:NNP P:FW U-boats 537 4 		Context - ng|CCB madaming|JJD_CCP *U-boats|FW* palayo_sa|RBL hukbong-dagat|NNC_CCP 
+G:NNP P:JJD Matematika 901 0 		Context - *Matematika|JJD* ang|DTC siyensa|NNC 
+*CHECK* G:NNP P:JJN_CCP Ikalawang 522 1 		Context - Sa|CCT *Ikalawang|JJN_CCP* Digmaang|NNP_CCP Pandaigdig|NNP 
+*CHECK* G:NNP P:JJN_CCP Ikalawang 532 3 		Context - pagtatapos|NNC ng|CCB *Ikalawang|JJN_CCP* Digmaang|NNP_CCP Pandaigdig|NNP 
+G:NNP P:NNC Bahagi 362 5 		Context - Katawagan|NNP ng|CCB *Bahagi|NNC* ng|CCB Nauukol|NNP 
+G:NNP P:NNC Miyembro 71 7 		Context - may|VBH 295|CDB *Miyembro|NNC* ng|CCB Legislative|NNP 
+G:NNP P:NNC Probabilidad 883 17 		Context - Teorya|NNP ng|CCB *Probabilidad|NNC* .|PMP 
+G:NNP P:NNC lbol 1271 3 		Context - kadamihan|PRI ng_mga|DTCP *lbol|NNC* na|CCP Iranian|NNP 
+*CHECK* G:NNP P:NNC taon 294 20 		Context - 3.7|CDB bilyong|NNC_CCP *taon|NNC* .|PMP 
+*CHECK* G:NNP P:NNPA AC 925 63 		Context - kapangyarihan|NNC ng|CCB *AC|NNPA* 91|CDB -|PMS 
+*CHECK* G:NNP P:NNPA COILED 930 12 		Context - hibla|NNC ,|PMC *COILED|NNPA* sa|CCT hugis|NNC 
+*CHECK* G:NNP P:NNPA GOD 1501 22 		Context - soul|FW (|PMS *GOD|NNPA* )|PMS ,|PMC 
+*CHECK* G:NNP P:NNPA H2O 1345 3 		Context - 290|CDB grain|NNC *H2O|NNPA* cartridge|FW case|FW 
+*CHECK* G:NNP P:NNPA M1917 1214 19 		Context - M1919|NNPA /|PMS *M1917|NNPA* design|FW na|CCP 
+*CHECK* G:NNP P:NNPA M1919 1214 17 		Context - sa|CCT pinalaking|JJCS_JJD_CCP *M1919|NNPA* /|PMS M1917|NNPA 
+*CHECK* G:NNP P:NNPA X 1022 22 		Context - software|FW tulad_ng|JJC *X|NNPA* Window|NNP System|NNP 
+*CHECK* G:NNP P:NNPA X 1130 19 		Context - ibigay|RBD ng|CCB *X|NNPA* Windows|NNP System|NNP 
+*CHECK* G:NNP P:NNP_CCP Guateng 326 6 		Context - bahagi|NNC ng|CCB *Guateng|NNP_CCP* Province|NNP ,|PMC 
+*CHECK* G:NNP P:NNP_CCP Pangulong 49 5 		Context - ipinahayag|VBTS ni|DTP *Pangulong|NNP_CCP* Franklin|NNP D.|NNPA 
+*CHECK* G:NNP P:NNP_CCP Punong 905 23 		Context - ang|DTC ika-apatnapung|JJN_CCP *Punong|NNP_CCP* Mahistrado|NNP ng|CCB 
+G:NNP P:PRO Yun 10 16 		Context - Lee|NNP Kin|NNP *Yun|PRO* ,|PMC na|CCP 
+*CHECK* G:NNPA P:CDB 3D 1586 24 		Context - paniningin|NNC ng|CCB *3D|CDB* artwork|NNC at|CCA 
+*CHECK* G:NNPA P:NNP JP 1322 29 		Context - ngayon|RBW ng|CCB *JP|NNP* Morgan|NNP Chase|NNP 
+*CHECK* G:NNPA P:NNP MLAs 71 13 		Context - ,|PMC o|CCT *MLAs|NNP* ,|PMC kasama|CCB 
+G:NNPA P:NNP Nov. 1582 1 		Context - Noong|RBW_CCP *Nov.|NNP* 20|CDB ,|PMC 
+*CHECK* G:NNPA P:NNP P 801 27 		Context - )|PMS '|PMS *P|NNP* '|PMS grade|FW 
+*CHECK* G:NNPA P:NNP T 67 12 		Context - linyang|NNC_CCP 60Â°|NNP *T|NNP* latitude|FW (|PMS 
+*CHECK* G:NNPA P:NNP T 67 39 		Context - mahigit|JJC 50Â°|NNP *T|NNP* ,|PMC pero|CCT 
+*CHECK* G:NNPA P:NNP T 67 47 		Context - para_sa|RBB 35Â°|NNP *T|NNP* .|PMP 
+*CHECK* G:NNPA P:NNP TAC-50 1379 8 		Context - ang|DTC McMillan|NNP *TAC-50|NNP* .50|CDB BMG|NNPA 
+*CHECK* G:NNPA P:NNP ZAR 1557 9 		Context - kalalakihan|NNC at|CCA *ZAR|NNP* 22|CDB 265|CDB 
+G:NNP_CCP P:JJD_CCP Bagong 281 5 		Context - estado|NNC ng|CCB *Bagong|JJD_CCP* Inglatera|NNP ,|PMC 
+G:NNP_CCP P:JJD_CCP Kanlurang 1348 26 		Context - Bohol|NNP ,|PMC *Kanlurang|JJD_CCP* Leyte|NNP ,|PMC 
+G:NNP_CCP P:JJD_CCP Kanlurang 484 6 		Context - turista|NNC sa|CCT *Kanlurang|JJD_CCP* Indies|NNP ang|DTC 
+G:NNP_CCP P:JJD_CCP Matinding 1365 3 		Context - panahon|NNC ng|CCB *Matinding|JJD_CCP* Depresyon|NNP ,|PMC 
+G:NNP_CCP P:NNP Asya-Pasipikong 1257 26 		Context - pangwalong|JJN_CCP pinakamagandang|JJCS_JJD_CCP *Asya-Pasipikong|NNP* isla|NNC na|CCP 
+G:NNP_CCP P:NNP Korporasyong 940 20 		Context - Kong|NNP at|CCA *Korporasyong|NNP* Bangko|NNP ng|CCB 
+G:NNP_CCP P:NNP Kristyanong 1417 4 		Context - binigyan|VBOF ng|CCB *Kristyanong|NNP* pangalan|NNC na|CCP 
+G:NNP_CCP P:NNP Magasing 806 27 		Context - para_sa|RBB isang|PRI_CCP *Magasing|NNP* Ruso|NNP --|PMS 
+G:NNP_CCP P:NNP Nawawalang 807 8 		Context - ang|DTC '|PMS *Nawawalang|NNP* Puting|NNP Kapatid|NNP 
+G:NNP_CCP P:NNP Pantiking 966 4 		Context - Maddox|NNP ng|CCB *Pantiking|NNP* Ingles|NNP sa|CCT 
+G:NNP_CCP P:NNP Punong 1487 40 		Context - wika|NNC ng|CCB *Punong|NNP* Ministro|NNP na|CCP 
+G:NNP_CCP P:NNP Punong 93 13 		Context - Lini|NNP ,|PMC *Punong|NNP* Ministro|NNP ng|CCB 
+G:NNP_CCP P:NNP Puting 807 9 		Context - '|PMS Nawawalang|NNP *Puting|NNP* Kapatid|NNP '|PMS 
+G:NNP_CCP P:VBTS_CCP Paniniwalang 1593 0 		Context - *Paniniwalang|VBTS_CCP* Katoliko|NNP Romano|NNP 
+*CHECK* G:PMC P:PMS ( 1384 18 		Context - Northwestern|NNP India|NNP *(|PMS* tignan|VBOF ang|DTC 
+G:PMQ P:FW ? 1506 40 		Context - go|FW today|FW *?|FW* '|PMS 
+G:PMQ P:FW ? 274 8 		Context - '|PMS What_is_Enlightenment|NNP *?|FW* '|PMS (|PMS 
+G:PMS P:FW 'zz 10 52 		Context - ng|CCB salitang|NNC_CCP *'zz|FW* Shame|NNP '|PMS 
+G:PMS P:NNC â€¦ 190 4 		Context - sumusunod|VBTR_VBAF na|CCP *â€¦|NNC* 
+G:PMS P:NNCA â€¦ 1254 6 		Context - ganoon|PRC kakilala|JJD *â€¦|NNCA* '|PMS ang|DTC 
+G:PMS P:NNCA â€¦ 282 14 		Context - File|NNP )|PMS *â€¦|NNCA* 
+G:PMS P:NNCA â€¦ 838 0 		Context - *â€¦|NNCA* at|CCA nananatili|VBTR 
+G:PMS P:NNP Â± 1496 3 		Context - mundo|NNC ,|PMC *Â±|NNP* 40|CDB Â°C|NNPA 
+G:PMS P:NNPA Â£ 611 13 		Context - bn|NNCA (|PMS *Â£|NNPA* 4.3|CDB bn|NNCA 
+G:PMS P:NNPA Â°C 1496 5 		Context - Â±|NNP 40|CDB *Â°C|NNPA* ang|DTC ating|PRSP_CCP 
+G:PMS P:NNPA Â°C 1549 1 		Context - 34.4|CDB *Â°C|NNPA* (|PMS 94|CDB 
+G:PMS P:NNPA Â°C 1619 10 		Context - ay|LM -50.6|CDB *Â°C|NNPA* (|PMS -59|CDB 
+G:PMS P:NNPA Â°C 31 15 		Context - ng|CCB -2|CDB *Â°C|NNPA* sa|CCT mga|DTCP 
+G:PMS P:NNPA Â°C 31 25 		Context - at|CCA 37|CDB *Â°C|NNPA* sa|CCT mga|DTCP 
+G:PMS P:NNPA Â°F 1549 4 		Context - (|PMS 94|CDB *Â°F|NNPA* )|PMS sa|CCT 
+G:PMS P:NNPA Â°F 1619 13 		Context - (|PMS -59|CDB *Â°F|NNPA* )|PMS .|PMP 
+G:PMS P:PMQ ? 1242 27 		Context - sa|CCT Holocaust|NNP *?|PMQ* Pwede|VBS ba|RBI 
+G:PMS P:PMQ ? 1242 38 		Context - mga|DTCP kasangkot|JJD *?|PMQ* 
+G:PRC P:CCB Gayun 693 0 		Context - *Gayun|CCB* pa|RBI man|RBI 
+G:PRC_CCP P:PRO_CCP gayong 458 9 		Context - Protoctista|NNP ,|PMC *gayong|PRO_CCP* bahagyang|JJD_CCP maiwan|VBW 
+*CHECK* G:PRI P:JJD Iba-iba 1057 0 		Context - *Iba-iba|JJD* ang|DTC katamtaman|JJD 
+G:PRI P:JJD Kapwa 743 0 		Context - *Kapwa|JJD* nag-aral|VBTS sina|DTPP 
+*CHECK* G:PRI P:JJD Konti 1592 0 		Context - *Konti|JJD* pa|RBI sa|CCT 
+*CHECK* G:PRI P:JJD iilan 1005 3 		Context - magkaroon|VBW ng|CCB *iilan|JJD* o|CCT lahat|PRI 
+*CHECK* G:PRI P:JJD itaas 377 1 		Context - Sa|CCT *itaas|JJD* ng|CCB pulang|JJD_CCP 
+*CHECK* G:PRI P:JJD kalahati 1118 27 		Context - karagatan|NNC sa_katimugang|RBL_CCP *kalahati|JJD* ng|CCB mundo|NNC 
+*CHECK* G:PRI P:JJD kalahati 1534 10 		Context - na|CCP may|VBH *kalahati|JJD* ng|CCB estado|NNC 
+*CHECK* G:PRI P:JJD marami 897 8 		Context - kumain|VBAF ng|CCB *marami|JJD* o|CCT isang|PRI_CCP 
+G:PRI P:JJD_CCP bawa't 114 24 		Context - kinalabasan|NNC ng|CCB *bawa't|JJD_CCP* laro|NNC .|PMP 
+G:PRI P:NNC kabuuuan 917 7 		Context - mga|DTCP inaasahang|VBTR_CCP *kabuuuan|NNC* ng_mga|DTCP buhay|NNC 
+G:PRI P:NNC kalahatan 1116 14 		Context - pagtapos|RBW ng|CCB *kalahatan|NNC* .|PMP 
+G:PRI P:NNC karamhan 567 2 		Context - Binubuo|VBTR ang|DTC *karamhan|NNC* sa|CCT West|NNP 
+G:PRI P:NNC madla 464 36 		Context - mula_sa|RBL ating|PRSP_CCP *madla|NNC* ng_mga|DTCP masamang|JJD_CCP 
+*CHECK* G:PRI P:PRQ ilan 634 5 		Context - Dion|NNP dahil_sa|RBP *ilan|PRQ* sa|CCT kanyang|PRSP_CCP 
+*CHECK* G:PRI P:PRQ ilan 737 8 		Context - nagpapakita|VBTR ng|CCB *ilan|PRQ* sa|CCT mga|DTCP 
+*CHECK* G:PRI P:PRQ ilan 81 7 		Context - impluwensya|NNC ay|LM *ilan|PRQ* sa|CCT ika-5|JJN 
+*CHECK* G:PRI_CCB P:PRI_CCP anumang 652 32 		Context - hangin|NNC sa|CCT *anumang|PRI_CCP* oras|NNC .|PMP 
+G:PRI_CCP P:JJD Ibang 473 0 		Context - *Ibang|JJD* mga|DTCP actor|NNC 
+G:PRI_CCP P:JJD_CCP Isang 641 0 		Context - *Isang|JJD_CCP* diyos|NNC na|CCP 
+*CHECK) G:PRI_CCP P:JJD_CCP Maraming 3 0 		Context - *Maraming|JJD_CCP* dolphin|FW ang|DTC 
+G:PRI_CCP P:JJD_CCP buong 17 27 		Context - bayan|NNC sa|CCT *buong|JJD_CCP* rehiyon|NNC .|PMP 
+G:PRI_CCP P:JJD_CCP buong 482 20 		Context - taas|NNC ng|CCB *buong|JJD_CCP* watawat|NNC .|PMP 
+*CHECK* G:PRI_CCP P:JJD_CCP iba't_ibang 247 18 		Context - Barbados|NNP ng|CCB *iba't_ibang|JJD_CCP* larangan|NNC .|PMP 
+*CHECK* G:PRI_CCP P:JJD_CCP iba't_ibang 823 46 		Context - tumutugtog|VBTR_VBAF sa|CCT *iba't_ibang|JJD_CCP* istilong|NNC_CCP Europeo|NNP 
+G:PRI_CCP P:JJD_CCP ibang 1350 4 		Context - pinaniniwalaan|VBTS ng_mga|DTCP *ibang|JJD_CCP* iskolar|NNC na|CCP 
+G:PRI_CCP P:JJD_CCP ibang 1350 8 		Context - na|CCP ang_mga|DTCP *ibang|JJD_CCP* relihiyon|NNC ng_mga|DTCP 
+*CHECK* G:PRI_CCP P:JJD_CCP ibang 139 19 		Context - at|CCA ang_mga|DTCP *ibang|JJD_CCP* itinatanghal|VBTR na|CCP 
+*CHECK* G:PRI_CCP P:JJD_CCP ibang 40 2 		Context - Mayroon|VBH ring|RBI_CCP *ibang|JJD_CCP* populasyon|NNC sa|CCT 
+*CHECK* G:PRI_CCP P:JJD_CCP ibang 585 7 		Context - tulong|NNC ng_mga|DTCP *ibang|JJD_CCP* distrito|NNC .|PMP 
+G:PRI_CCP P:JJD_CCP ibang 721 23 		Context - marami|PRI pang|RBI_CCP *ibang|JJD_CCP* internasyonal|NNC na|CCP 
+*CHECK* G:PRI_CCP P:JJD_CCP iilang 734 30 		Context - responsable|JJD para_sa|RBB *iilang|JJD_CCP* mga|DTCP phenotype|NNC 
+*CHECK* G:PRI_CCP P:JJD_CCP kalahating 1489 15 		Context - dalawa|JJN at|CCA *kalahating|JJD_CCP* taon|NNC na|CCP 
+*CHECK* G:PRI_CCP P:JJD_CCP kalahating 313 28 		Context - bilis|NNC na|CCP *kalahating|JJD_CCP* oras|NNC bawat|PRI 
+*CHECK* G:PRI_CCP P:JJD_CCP kalahating 808 2 		Context - Ihahalo|VBTS_VBOF ng|CCB *kalahating|JJD_CCP* oras|NNC ang|DTC 
+G:PRI_CCP P:JJD_CCP kaunting 1488 9 		Context - ilog|NNC sa|CCT *kaunting|JJD_CCP* rehiyon|NNC sa|CCT 
+G:PRI_CCP P:JJD_CCP madaming 537 3 		Context - mag-istasyon|NNC ng|CCB *madaming|JJD_CCP* U-boats|FW palayo_sa|RBL 
+*CHECK* G:PRI_CCP P:JJD_CCP maramihang 384 5 		Context - pagtuklas|NNC ng|CCB *maramihang|JJD_CCP* similya|NNC (|PMS 
+G:PRI_CCP P:JJD_CCP maraming 1011 20 		Context - pagdalo|NNC ng|CCB *maraming|JJD_CCP* miyembro|NNC .|PMP 
+G:PRI_CCP P:JJD_CCP maraming 1038 9 		Context - sanktuaryo|NNC sa|CCT *maraming|JJD_CCP* hayop|NNC tulad_ng|JJC 
+G:PRI_CCP P:JJD_CCP maraming 1486 5 		Context - ito|PRO ay|LM *maraming|JJD_CCP* lumabas|VBAF ng|CCB 
+G:PRI_CCP P:JJD_CCP maraming 94 22 		Context - at|CCA sa|CCT *maraming|JJD_CCP* kaso|NNC ,|PMC 
+*CHECK* G:PRI_CCP P:JJN_CCP isang 141 15 		Context - subalit|CCT kulang-kulang|JJD *isang|JJN_CCP* taon|NNC lamang|RBI 
+G:PRI_CCP P:JJN_CCP isang 182 6 		Context - itinalaga|VBTS bilang|CCT *isang|JJN_CCP* emergency|NNC diversion|FW 
+*CHECK* G:PRI_CCP P:JJN_CCP isang 250 12 		Context - umabot|VBAF sa|CCT *isang|JJN_CCP* dekada|NNC pagkatapos|RBW 
+*CHECK* G:PRI_CCP P:JJN_CCP isang 413 43 		Context - higit|JJCC sa|CCT *isang|JJN_CCP* milyong|NNC_CCP miyembro|NNC 
+G:PRI_CCP P:PRI_CCB isang 411 7 		Context - Eteria|NNP ,|PMC *isang|PRI_CCB* lihim|JJD na|CCP 
+*CHECK* G:PRI_CCP P:PRQ_CCP ilang 104 17 		Context - alyansa|NNC sa_pagitan_ng|CCU *ilang|PRQ_CCP* miyembro|NNC .|PMP 
+*CHECK* G:PRI_CCP P:PRQ_CCP ilang 209 11 		Context - ito|PRO ng|CCB *ilang|PRQ_CCP* beses|NNC bago|RBW 
+*CHECK* G:PRI_CCP P:PRQ_CCP ilang 27 10 		Context - nagpasimula|VBTS ng|CCB *ilang|PRQ_CCP* segment|NNC ng|CCB 
+*CHECK* G:PRI_CCP P:PRQ_CCP ilang 352 5 		Context - laro|NNC sa|CCT *ilang|PRQ_CCP* mga|DTCP kabataan|NNC 
+*CHECK* G:PRI_CCP P:PRQ_CCP ilang 442 2 		Context - Nag-aambag|VBTR ang|DTC *ilang|PRQ_CCP* mataas|JJD na|CCP 
+*CHECK* G:PRI_CCP P:PRQ_CCP ilang 454 4 		Context - Nyerere|NNP ang|DTC *ilang|PRQ_CCP* militanteng|JJD_CCP grupo|NNC 
+*CHECK* G:PRI_CCP P:PRQ_CCP ilang 463 2 		Context - Pagkatapos|VBW ng|CCB *ilang|PRQ_CCP* panahon|NNC sa|CCT 
+*CHECK* G:PRI_CCP P:PRQ_CCP ilang 470 8 		Context - makalipas|VBW ng|CCB *ilang|PRQ_CCP* panahon|NNC .|PMP 
+*CHECK* G:PRI_CCP P:PRQ_CCP ilang 633 15 		Context - sa|CCT unang|JJN_CCP *ilang|PRQ_CCP* taon|NNC na|CCP 
+*CHECK* G:PRI_CCP P:PRQ_CCP ilang 681 43 		Context - interior|JJD sa|CCT *ilang|PRQ_CCP* coastal|FW points|FW 
+*CHECK* G:PRI_CCP P:PRQ_CCP ilang 713 14 		Context - nakatakda|VBTS sa|CCT *ilang|PRQ_CCP* mga|DTCP batas|NNC 
+*CHECK* G:PRI_CCP P:PRQ_CCP ilang 894 3 		Context - lumipas|VBAF ng|CCB *ilang|PRQ_CCP* lingo|NNC ang|DTC 
+G:PRI_CCP P:RBD_CCP tanang 259 19 		Context - sa|CCT kanilang|PRSP_CCP *tanang|RBD_CCP* buhay|NNC .|PMP 
+*CHECK* G:PRI_CCP P:RBM maaaring 149 2 		Context - Sa_gabi|RBW ,|PMC *maaaring|RBM* bumagsak|VBAF ang|DTC 
+G:PRL P:PRO dito 1268 35 		Context - ,|PMC kasama|CCB *dito|PRO* ang|DTC Togo|NNP 
+G:PRO P:FW to 977 27 		Context - at|CCA kilala|JJD *to|FW* bilang|CCT Hawaii-Emperor|NNP 
+*CHECK* G:PRO P:PRL dito 491 1 		Context - Kasama|CCB *dito|PRL* ang|DTC dose-dosenang|JJN_CCP 
+*CHECK* G:PRO P:PRL rito 1291 11 		Context - ngunit|CCT hindi|RBF *rito|PRL* kasama|CCB ang|DTC 
+*CHECK* G:PRO P:PRL rito 13 2 		Context - Higit|JJCC pa|RBI *rito|PRL* ,|PMC hindi|RBF 
+*CHECK* G:PRO P:PRO_LM ito'y 199 8 		Context - Leagues|NNP noong|RBW_CCP *ito'y|PRO_LM* nilikha|VBTS ,|PMC 
+*CHECK* G:PRO P:RBL naroon 732 6 		Context - kung|RBK saan|RBQ *naroon|RBL* ang|DTC populasyon|NNC 
+*CHECK* G:PRO_CCP P:NNC_CCP ibong 1175 4 		Context - ng|CCB ibang|PRI_CCP *ibong|NNC_CCP* ito|PRO ay|LM 
+*CHECK* G:PRO_CCP P:PRC_CCP ganitong 1007 8 		Context - pag-publish|NNC sa|CCT *ganitong|PRC_CCP* paraan|NNC dahil_sa|RBP 
+G:PRO_CCP P:PRO yung 1223 15 		Context - para|CCT hanapin|VBTF *yung|PRO* mga|DTCP ibang|PRI_CCP 
+G:PRP_LM P:VBOF sila'y 1627 13 		Context - nila|PRP na|CCP *sila'y|VBOF* minerong|NNC_CCP ginahasa|VBOF 
+G:PRQ P:PRI ilan 1271 19 		Context - sa_lugar|RBL ang|DTC *ilan|PRI* ng_mga|DTCP Iranian|NNP 
+G:PRQ P:PRI ilan 1384 2 		Context - Lumalayo|VBAF ang|DTC *ilan|PRI* ng_mga|DTCP Saka-Scythian|NNP 
+G:PRQ_CCP P:PRI_CCP ilang 1448 4 		Context - HTML|NNPA sa|CCT *ilang|PRI_CCP* mga|DTCP kumbensyong|NNC_CCP 
+*CHECK* G:PRSP P:NNC sarili 380 50 		Context - pag-iwan|NNC sa|CCT *sarili|NNC* natin|PRP .|PMP 
+G:RBB P:CCT Para_kay 493 0 		Context - *Para_kay|CCT* Joan|NNP Miro|NNP 
+*CHECK* G:RBB P:RBP Dahil_sa 1121 0 		Context - *Dahil_sa|RBP* dalubhasang|JJD_CCP kasanayan|NNC 
+G:RBD P:CCB nang 51 27 		Context - ang|DTC pitcher|NNC *nang|CCB* mas|JJCC mabilis|JJD 
+*CHECK* G:RBD P:CCB nang 771 43 		Context - upang|CCB mag-ehersisyo|VBW *nang|CCB* walang|VBN_CCP paghihigpit|NNC 
+*CHECK* G:RBD P:CCB ng 1277 19 		Context - ngunit|CCT pababa|JJD *ng|CCB* pababa|JJD ito|PRO 
+*CHECK* G:RBD P:CCP na 1005 20 		Context - :|PMS pairap|JJD *na|CCP* pangmatang|JJD_CCP fissures|FW 
+*CHECK* G:RBD P:CCP na 1098 21 		Context - na|CCP tagumpay|NNC *na|CCP* natapos|VBTS ,|PMC 
+*CHECK* G:RBD P:CCP na 1135 20 		Context - hiwalay|JJD ngayon|RBW *na|CCP* iniinit|VBTR ang|DTC 
+*CHECK* G:RBD P:CCP na 933 30 		Context - na|CCP napilitan|VBTS *na|CCP* tumalikod|VBAF sa|CCT 
+G:RBD P:JJD Halos 374 0 		Context - *Halos|JJD* nagsimula|VBTS kay|DTP 
+*CHECK* G:RBD P:JJD Malalapit 804 0 		Context - *Malalapit|JJD* na|CCP magkaalyansa|VBW 
+*CHECK* G:RBD P:JJD Patuloy 1137 0 		Context - *Patuloy|JJD* pa|RBI ring|RBI_CCP 
+*CHECK* G:RBD P:JJD Tipikal 956 0 		Context - *Tipikal|JJD* na|CCP mayroong|VBH_CCP 
+*CHECK* G:RBD P:JJD handa 1231 15 		Context - )|PMS ang|DTC *handa|JJD* na|CCP ibigay|VBTF_VBOF 
+*CHECK* G:RBD P:JJD hiwalay 1135 18 		Context - ginamit|VBOF ,|PMC *hiwalay|JJD* ngayon|RBW na|CCP 
+G:RBD P:JJD husto 188 2 		Context - Nagbago|VBTS nang|RBW *husto|JJD* ang|DTC Midway|NNP 
+G:RBD P:JJD legal 925 56 		Context - pag-uunawa|NNC na|CCP *legal|JJD* silang|PRP_CCP mag-opera|VBW 
+G:RBD P:JJD ligtas 24 4 		Context - makita|VBW ng|CCB *ligtas|JJD* ang|DTC projected|FW 
+G:RBD P:JJD likas 1123 7 		Context - DNA|NNPA ay|LM *likas|JJD* na|CCP lumalabas|VBTR 
+G:RBD P:JJD maayos 460 16 		Context - paraang|NNC_CCP hindi|RBF *maayos|JJD* na|CCP matatamaan|VBTF 
+G:RBD P:JJD maayos 642 9 		Context - maari|VBS nang|RBW *maayos|JJD* .|PMP 
+*CHECK* G:RBD P:JJD mabigat 849 9 		Context - sumali|VBAF ng|CCB *mabigat|JJD* na|CCP mga|DTCP 
+*CHECK* G:RBD P:JJD mabilis 18 2 		Context - Madalas|JJD at|CCA *mabilis|JJD* magkabyak|VBW ang|DTC 
+G:RBD P:JJD madalas 1266 24 		Context - nakikita|VBTR na|CCP *madalas|JJD* nagtutulungan|VBTR sila|PRP 
+G:RBD P:JJD madalas 673 7 		Context - beeswax|FW na|CCP *madalas|JJD* na|CCP ginagamit|VBTR 
+G:RBD P:JJD mahigpit 516 35 		Context - sa|CCT pagiging|RBD *mahigpit|JJD* ,|PMC ngunit|CCT 
+G:RBD P:JJD mahina 66 25 		Context - pang|RBI_CCP mas|JJCC *mahina|JJD* na|CCP humahampas|VBTR_VBAF 
+G:RBD P:JJD mahirap 1454 8 		Context - pahirap|NNC at|CCA *mahirap|JJD* matutunan|VBW ,|PMC 
+G:RBD P:JJD mahirap 794 5 		Context - kondisyon|NNC ,|PMC *mahirap|JJD* tumitig|VBAF sa|CCT 
+G:RBD P:JJD malawak 368 46 		Context - hindi|RBF ito|PRO *malawak|JJD* na|CCP pinamahagi|VBTS 
+G:RBD P:JJD malawak 915 1 		Context - Isang|PRI_CCP *malawak|JJD* na|CCP ginagamit|VBTR 
+G:RBD P:JJD malawak 995 15 		Context - tula|NNC at|CCA *malawak|JJD* na|CCP kinikilala|VBTR 
+G:RBD P:JJD manganib 780 7 		Context - tagabato|NNC o|CCT *manganib|JJD* na|CCP matalo|VBW 
+G:RBD P:JJD manipis 869 13 		Context - at|CCA maging|VBW *manipis|JJD* sa_ibabaw|RBL ng|CCB 
+G:RBD P:JJD matagumpay 963 7 		Context - rekordings|NNC ang|DTC *matagumpay|JJD* na|CCP naitugtog|VBTS 
+G:RBD P:JJD pababa 1277 18 		Context - 1970|CDB ngunit|CCT *pababa|JJD* ng|CCB pababa|JJD 
+G:RBD P:JJD pababa 1277 20 		Context - pababa|JJD ng|CCB *pababa|JJD* ito|PRO .|PMP 
+G:RBD P:JJD paikot 782 8 		Context - sa_himpapawid|RBL na|CCP *paikot|JJD* sa|CCT Labrador|NNP 
+G:RBD P:JJD pairap 1005 19 		Context - syndrome|NNC :|PMS *pairap|JJD* na|CCP pangmatang|JJD_CCP 
+G:RBD P:JJD patuloy 345 14 		Context - )|PMS o|CCT *patuloy|JJD* na|CCP tinawag|VBOF 
+G:RBD P:JJD patuloy-tuloy 1155 11 		Context - ngayon|RBW ay|LM *patuloy-tuloy|JJD* na|CCP nanatili|VBTS 
+G:RBD P:JJD sabik 933 20 		Context - biglang|RBD_CCP naging|VBTS *sabik|JJD* na|CCP ilipat|VBTF 
+G:RBD P:JJD sentro 922 7 		Context - at|CCA pagiging|VBTR *sentro|JJD* ng|CCB komersyo|NNC 
+G:RBD P:JJD sikat 101 1 		Context - Naging|VBTS *sikat|JJD* ang_mga|DTCP kolumns|NNC 
+G:RBD P:JJD sulat-kamay 222 2 		Context - Matapos|VBW ,|PMC *sulat-kamay|JJD* na|CCP nila|PRP 
+G:RBD P:JJD tapat 319 3 		Context - rin|RBI itong|PRO_CCP *tapat|JJD* na|CCP sinusundan|VBTR 
+*CHECK* G:RBD P:NNC Partikular 375 0 		Context - *Partikular|NNC* na|CCP kumbinsido|VBTS_VBAF 
+G:RBD P:NNC paanunsiyo 486 11 		Context - pamamaraan|NNC nang|RBW *paanunsiyo|NNC* o|CCT tatak|NNC 
+*CHECK* G:RBD P:NNC pansin 309 2 		Context - Dapat|VBS bigyang|VBOF_CCP *pansin|NNC* na|CCP mayroong|VBH_CCP 
+G:RBD P:NNC tagumpay 1098 20 		Context - War|NNP na|CCP *tagumpay|NNC* na|CCP natapos|VBTS 
+*CHECK* G:RBD P:NNC tiklop 1005 53 		Context - ,|PMC nag-iisang|VBTR_CCP *tiklop|NNC* na|CCP palmar|FW 
+*CHECK* G:RBD P:PRI kabuuan 1428 79 		Context - umaasa|RBD nang|RBD *kabuuan|PRI* .|PMP 
+G:RBD P:RBD_CCP Nagtangkang 15 0 		Context - *Nagtangkang|RBD_CCP* magpakamatay|VBW ang|DTC 
+G:RBD P:RBD_CCP laging 1318 29 		Context - ginagarantiya|VBTR na|CCP *laging|RBD_CCP* magiging|VBTR '|PMS 
+G:RBD P:RBN nang_mabuti 764 10 		Context - ay|LM napagmarkahan|VBTS *nang_mabuti|RBN* dahil_sa|RBP pagkamayabong|NNC 
+*CHECK* G:RBD P:RBW Pana-panahon 239 0 		Context - *Pana-panahon|RBW* gumagawa|VBTR pa|RBI 
+G:RBD P:RBW nang 1110 21 		Context - pang-akademikong|JJD_CCP jornal|NNC *nang|RBW* walang|RBF bayad|NNC 
+G:RBD P:RBW nang 188 1 		Context - Nagbago|VBTS *nang|RBW* husto|JJD ang|DTC 
+G:RBD P:RBW nang 292 16 		Context - mga|DTCP materyales|NNC *nang|RBW* hindi|RBF nangangailangan|VBTR 
+G:RBD P:RBW nang 642 8 		Context - ay|LM maari|VBS *nang|RBW* maayos|JJD .|PMP 
+G:RBD P:RBW nang 856 10 		Context - mga|DTCP elemento|NNC *nang|RBW* nadiskubre|VBTS niya|PRS 
+G:RBD P:VBAF humintong 259 3 		Context - 1944|CDB ,|PMC *humintong|VBAF* manirahang|VBTF_CCP magkasama|VBW 
+G:RBD P:VBAF tumalikod 933 31 		Context - napilitan|VBTS na|CCP *tumalikod|VBAF* sa|CCT mga|DTCP 
+*CHECK* G:RBD P:VBOF isamapa 514 1 		Context - Nagawang|VBTS_CCP *isamapa|VBOF* ang|DTC gene|FW 
+*CHECK* G:RBD P:VBOF pakintabin 608 3 		Context - din|RBI para|CCT *pakintabin|VBOF* ang|DTC katad|NNC 
+*CHECK* G:RBD P:VBOF palaganapin 1085 22 		Context - karakter|NNC para|CCT *palaganapin|VBOF* ang|DTC kasikatan|NNC 
+*CHECK* G:RBD P:VBOF pasabugin 792 11 		Context - Napoleon|NNP na|CCP *pasabugin|VBOF* o|CCT sunugin|VBOF 
+*CHECK* G:RBD P:VBOF pasiglahin 216 9 		Context - kinokopya|NNC para|CCT *pasiglahin|VBOF* ang|DTC chromosome|NNC 
+*CHECK* G:RBD P:VBOF pinayagan 186 15 		Context - ,|PMC at|CCA *pinayagan|VBOF* na|CCP maikot|VBW 
+G:RBD P:VBTF dagdagan 347 14 		Context - na|CCP naglalayong|VBTR_CCP *dagdagan|VBTF* ang|DTC Campus|NNP 
+G:RBD P:VBTF magiging 984 15 		Context - noon|RBW ay|LM *magiging|VBTF* kinalalagyan|VBTR ng|CCB 
+*CHECK* G:RBD P:VBTF papalitan 547 8 		Context - mabilis|RBD na|CCP *papalitan|VBTF* sa_pamamagitan_ng|CCT pinasadyang|VBTS_CCP 
+G:RBD P:VBTF papanghinain 1164 8 		Context - ay|LM nagsimulang|VBTS_CCP *papanghinain|VBTF* ang|DTC kapangyarihan|NNC 
+G:RBD P:VBTR Tuloy-tuloy 784 0 		Context - *Tuloy-tuloy|VBTR* ang|DTC pampanitikang|JJD_CCP 
+*CHECK* G:RBD P:VBTR binabakas 687 4 		Context - agham|NNC ay|LM *binabakas|VBTR* ng|CCB pinagmulan|VBRF 
+*CHECK* G:RBD P:VBTR iniinit 1135 21 		Context - ngayon|RBW na|CCP *iniinit|VBTR* ang|DTC taba|NNC 
+G:RBD P:VBTR naging_kakilala 388 6 		Context - Buckley|NNP ,|PMC *naging_kakilala|VBTR* ng|CCB libertaryong|JJD_CCP 
+*CHECK* G:RBD P:VBTR nakakamit 28 2 		Context - Kahit|CCT na|CCP *nakakamit|VBTR* ito|PRO ng|CCB 
+G:RBD P:VBTR nananatili 838 2 		Context - â€¦|NNCA at|CCA *nananatili|VBTR* itong|PRO_CCP kompidensiyal|JJD 
+G:RBD P:VBTR nananatili 986 10 		Context - pelikula|NNC ,|PMC *nananatili|VBTR* siyang|PRS_CCP aktibo|JJD 
+G:RBD P:VBTR nararapat 264 9 		Context - niya|PRS pinaniwalaang|VBTS_CCP *nararapat|VBTR* magbigay|VBW ng_mga|DTCP 
+*CHECK* G:RBD P:VBTR pagiging 165 2 		Context - Kahit|CCT sa|CCT *pagiging|VBTR* kalaban|NNC sa_lugar|RBL 
+*CHECK* G:RBD P:VBTR pagiging 544 21 		Context - ,|PMC laban_sa|CCU *pagiging|VBTR* irasyonal|JJD at|CCA 
+G:RBD P:VBTR pinipilit 94 31 		Context - regulasyon|NNC ,|PMC *pinipilit|VBTR* paboran|RBD ang|DTC 
+*CHECK* G:RBD P:VBTR_CCP naglalayong 347 13 		Context - Campus|NNP na|CCP *naglalayong|VBTR_CCP* dagdagan|VBTF ang|DTC 
+*CHECK* G:RBD P:VBTR_VBAF pumapapel 452 9 		Context - sinabing|VBTS_CCP bansa|NNC *pumapapel|VBTR_VBAF* na|CCP namamahala|VBTR 
+*CHECK* G:RBD P:VBTS Naging 168 0 		Context - *Naging|VBTS* sentral|NNC ng|CCB 
+*CHECK* G:RBD P:VBTS Nakagawa 265 0 		Context - *Nakagawa|VBTS* ng|CCB maraming|PRI_CCP 
+*CHECK* G:RBD P:VBTS Nakalista 142 0 		Context - *Nakalista|VBTS* ang|DTC pagbabahagi|NNC 
+*CHECK* G:RBD P:VBTS Nakatuon 547 0 		Context - *Nakatuon|VBTS* ang|DTC in-house|FW 
+*CHECK* G:RBD P:VBTS naatasan 1162 5 		Context - hurado|NNC ang|DTC *naatasan|VBTS* magsiyasat|VBW sa|CCT 
+G:RBD P:VBTS naging 1181 3 		Context - ikalabing-dalawang|JJN_CCP siglo|NNC *naging|VBTS* bihasang|JJD_CCP at|CCA 
+G:RBD P:VBTS naging 616 22 		Context - kilala|JJD na|CCP *naging|VBTS* kritikal|JJD naman|RBI 
+G:RBD P:VBTS naging 933 19 		Context - ang|DTC biglang|RBD_CCP *naging|VBTS* sabik|JJD na|CCP 
+*CHECK* G:RBD P:VBTS nagsimula 787 5 		Context - istruktura|NNC ,|PMC *nagsimula|VBTS* ng|CCB tawagin|VBOF 
+*CHECK* G:RBD P:VBTS nakabukas 82 3 		Context - pagbabago|NNC ay|LM *nakabukas|VBTS* din|RBI sa|CCT 
+*CHECK* G:RBD P:VBTS nakakapagtalastasan 1560 5 		Context - Israelis|NNP ay|LM *nakakapagtalastasan|VBTS* ng|CCB mabuti|RBD 
+*CHECK* G:RBD P:VBTS nakasuot 441 14 		Context - Harvard-Yale|NNP na|CCP *nakasuot|VBTS* ng|CCB isang|PRI_CCP 
+*CHECK* G:RBD P:VBTS nakatakas 7 12 		Context - sa_gabi|RBW ,|PMC *nakatakas|VBTS* kasama|CCB ng|CCB 
+*CHECK* G:RBD P:VBTS nakatira 347 9 		Context - ang_mga|DTCP estudyanteng|NNC_CCP *nakatira|VBTS* sa|CCT Campus|NNP 
+*CHECK* G:RBD P:VBTS nakatira 895 5 		Context - siglo|NNC ,|PMC *nakatira|VBTS* ang_mga|DTCP unang|JJN_CCP 
+*CHECK* G:RBD P:VBTS nakatulong 13 5 		Context - ,|PMC hindi|RBF *nakatulong|VBTS* ang|DTC mahigpit|JJD 
+G:RBD P:VBTS nanatili 739 5 		Context - 1945|CDB ,|PMC *nanatili|VBTS* silang|PRP_CCP matalik|JJD 
+G:RBD P:VBTS nang_hiwalay 879 25 		Context - ilang|PRQ_CCP taon|NNC *nang_hiwalay|VBTS* .|PMP 
+G:RBD P:VBTS napilitan 933 29 		Context - barkong|NNC_CCP na|CCP *napilitan|VBTS* na|CCP tumalikod|VBAF 
+*CHECK* G:RBD P:VBTS natalo 464 39 		Context - ng_mga|DTCP masamang|JJD_CCP *natalo|VBTS* ,|PMC ang|DTC 
+*CHECK* G:RBD P:VBTS natapos 1098 22 		Context - tagumpay|NNC na|CCP *natapos|VBTS* ,|PMC ang|DTC 
+*CHECK* G:RBD P:VBTS_CCP nakatalagang 66 32 		Context - )|PMS ang|DTC *nakatalagang|VBTS_CCP* hitter|NNC (|PMS 
+*CHECK* G:RBD P:VBW Matapos 1459 0 		Context - *Matapos|VBW* magretiro|VBW ni|DTP 
+G:RBD P:VBW maging 869 12 		Context - kumalat|VBAF at|CCA *maging|VBW* manipis|JJD sa_ibabaw|RBL 
+G:RBD P:VBW maging 959 31 		Context - inaako|VBOF upang|CCB *maging|VBW* mabasa|VBW ang|DTC 
+G:RBD P:VBW mapagbigay 497 41 		Context - at|CCA pagiging|RBD *mapagbigay|VBW* sa|CCT pakikitungo|NNC 
+G:RBD P:VBW parating 620 10 		Context - may|VBH posibleng|RBT *parating|VBW* na|CCP kapahamakan|NNC 
+*CHECK* G:RBD_CCB P:VBOF_CCP bigyang 309 1 		Context - Dapat|VBS *bigyang|VBOF_CCP* pansin|NNC na|CCP 
+*CHECK* G:RBD_CCP P:JJCS_CCP masyadong 549 30 		Context - pangalan|NNC dahil|CCR *masyadong|JJCS_CCP* malaki|JJD upang|CCB 
+*CHECK* G:RBD_CCP P:JJD mabagal 195 8 		Context - hayop|NNC na|CCP *mabagal|JJD* masyadong|JJCS_CCP tumakas|VBAF 
+G:RBD_CCP P:JJD marangyang 523 7 		Context - pagkakaiba|NNC ng|CCB *marangyang|JJD* naninirahan|VBTR at|CCA 
+G:RBD_CCP P:JJD_CCP Aktibong 244 0 		Context - *Aktibong|JJD_CCP* sinuportahan|VBTS ni|DTP 
+G:RBD_CCP P:JJD_CCP Kapansin-pansing 226 0 		Context - *Kapansin-pansing|JJD_CCP* nagtaas|VBTS noon|RBW 
+G:RBD_CCP P:JJD_CCP Karaniwang 854 0 		Context - *Karaniwang|JJD_CCP* mas|JJCC pahaba|JJD 
+G:RBD_CCP P:JJD_CCP Kilalang 1187 0 		Context - *Kilalang|JJD_CCP* nilalaro|VBTR simula|RBW 
+G:RBD_CCP P:JJD_CCP Laging 832 20 		Context - material|FW ,|PMC *Laging|JJD_CCP* kinokonsider|NNC ang|DTC 
+G:RBD_CCP P:JJD_CCP Mahalagang 961 0 		Context - *Mahalagang|JJD_CCP* tandaan|VBOF na|CCP 
+G:RBD_CCP P:JJD_CCP Matinding 370 0 		Context - *Matinding|JJD_CCP* naimpluwensyahan|VBTS ang_mga|DTCP 
+G:RBD_CCP P:JJD_CCP Matrabahong 1100 0 		Context - *Matrabahong|JJD_CCP* komersyal|NNC na|CCP 
+G:RBD_CCP P:JJD_CCP Tahasang 609 0 		Context - *Tahasang|JJD_CCP* nilikha|VBTS ang|DTC 
+G:RBD_CCP P:JJD_CCP agresibong 311 10 		Context - pagdating|NNC ng|CCB *agresibong|JJD_CCP* bagong|JJD_CCP ministro|NNC 
+G:RBD_CCP P:JJD_CCP bagong 195 13 		Context - gaya_ng|JJC mga|DTCP *bagong|JJD_CCP* pisang|NNC_CCP pagong|NNC 
+G:RBD_CCP P:JJD_CCP bahagyang 458 10 		Context - ,|PMC gayong|PRO_CCP *bahagyang|JJD_CCP* maiwan|VBW ang|DTC 
+G:RBD_CCP P:JJD_CCP beteranong 934 2 		Context - Maraming|PRI_CCP pang|RBI_CCP *beteranong|JJD_CCP* nanghahabol|VBTR ng|CCB 
+G:RBD_CCP P:JJD_CCP dating 1527 7 		Context - ang_mga|DTCP produktong|NNC_CCP *dating|JJD_CCP* ginagawa|VBTR ng|CCB 
+G:RBD_CCP P:JJD_CCP exclusibong 474 17 		Context - ,|PMC na|CCP *exclusibong|JJD_CCP* naninirahan|VBTR sa|CCT 
+G:RBD_CCP P:JJD_CCP indirektang 162 10 		Context - ,|PMC at|CCA *indirektang|JJD_CCP* iniugnay|VBOF ang|DTC 
+G:RBD_CCP P:JJD_CCP maling 166 25 		Context - Lavoisier|NNP na|CCP *maling|JJD_CCP* nahatulan|VBTS .|PMP 
+G:RBD_CCP P:JJD_CCP masamang 464 38 		Context - madla|NNC ng_mga|DTCP *masamang|JJD_CCP* natalo|VBTS ,|PMC 
+*CHECK* G:RBD_CCP P:JJD_CCP pangmatang 1005 21 		Context - pairap|JJD na|CCP *pangmatang|JJD_CCP* fissures|FW na|CCP 
+*CHECK* G:RBD_CCP P:JJD_CCP pangunahing 504 1 		Context - Naging|VBTS *pangunahing|JJD_CCP* tuon|NNC ng|CCB 
+*CHECK* G:RBD_CCP P:JJD_CCP patulang 670 9 		Context - kanyang|PRSP_CCP maikling|JJD_CCP *patulang|JJD_CCP* drama|NNC '|PMS 
+*CHECK* G:RBD_CCP P:JJD_CCP sinaunang 682 9 		Context - ebidensya|NNC ng|CCB *sinaunang|JJD_CCP* paninirhan|NNC sa|CCT 
+*CHECK* G:RBD_CCP P:NNC_CCP kapakinabangang 732 23 		Context - marahil|RBM na|CCP *kapakinabangang|NNC_CCP* maghahanap|VBTF ng|CCB 
+*CHECK* G:RBD_CCP P:NNC_CCP kapanhalatang 30 10 		Context - isang|PRI_CCP teritoryang|JJD_CCP *kapanhalatang|NNC_CCP* nagsasaya|VBTR ng|CCB 
+G:RBD_CCP P:NNC_CCP paminsang 1062 32 		Context - ,|PMC na|CCP *paminsang|NNC_CCP* nagdudulot|VBTR ng|CCB 
+*CHECK* G:RBD_CCP P:RBT_CCP sadyang 1175 7 		Context - ito|PRO ay|LM *sadyang|RBT_CCP* lumilikas|VBTR_VBAF .|PMP 
+*CHECK* G:RBD_CCP P:RBW_CCP kadalasang 1187 15 		Context - laro|NNC na|CCP *kadalasang|RBW_CCP* ginagamit|VBTR bilang|CCT 
+*CHECK* G:RBD_CCP P:RBW_CCP muling 194 13 		Context - 1191|CDB ,|PMC *muling|RBW_CCP* naitatag|VBTS ang|DTC 
+G:RBD_CCP P:VBH_CCP Planong 537 0 		Context - *Planong|VBH_CCP* mag-istasyon|NNC ng|CCB 
+*CHECK* G:RBD_CCP P:VBOF gawing 1440 18 		Context - SGML|NNPA upang|CCB *gawing|VBOF* simple|JJD ang|DTC 
+*CHECK* G:RBD_CCP P:VBOF gawing 293 9 		Context - nabuo|VBTS upang|CCB *gawing|VBOF* popular|JJD ang|DTC 
+G:RBD_CCP P:VBOF_CCP pinangangambahang 1140 28 		Context - kanal|NNC ;|PMSC *pinangangambahang|VBOF_CCP* magpapalala|VBTR lang|RBI 
+*CHECK* G:RBD_CCP P:VBTR nakikitang 811 18 		Context - na|RBI itong|PRO_CCP *nakikitang|VBTR* pampigil|JJD laban_sa|CCU 
+G:RBD_CCP P:VBTR_CCP minadaling 193 16 		Context - ito|PRO ay|LM *minadaling|VBTR_CCP* isinama|VBTS bilang|CCT 
+*CHECK* G:RBD_CCP P:VBTR_CCP nag-iisang 1005 52 		Context - ilong|NNC ,|PMC *nag-iisang|VBTR_CCP* tiklop|NNC na|CCP 
+G:RBD_CCP P:VBTR_CCP nagsasabing 256 8 		Context - partido|NNC na|CCP *nagsasabing|VBTR_CCP* naniniwala|VBTR ang_mga|DTCP 
+G:RBD_CCP P:VBTR_CCP nagsisilbing 484 12 		Context - ,|PMC at|CCA *nagsisilbing|VBTR_CCP* mahalagang|JJD_CCP sentro|NNC 
+G:RBD_CCP P:VBTR_CCP pinapayagang 846 1 		Context - Hindi|RBF *pinapayagang|VBTR_CCP* makapasok|VBW ang|DTC 
+G:RBD_CCP P:VBTS_CCP Nagawang 514 0 		Context - *Nagawang|VBTS_CCP* isamapa|VBOF ang|DTC 
+G:RBD_CCP P:VBTS_CCP Nagsimulang 744 0 		Context - *Nagsimulang|VBTS_CCP* mag-isyu|VBW ng|CCB 
+*CHECK* G:RBD_CCP P:VBTS_CCP ideklarang 172 6 		Context - Grant|NNP na|CCP *ideklarang|VBTS_CCP* nais|VBS niyang|PRS_CCP 
+G:RBD_CCP P:VBTS_CCP nagdesisyong 304 21 		Context - lumipat|VBAF o|CCT *nagdesisyong|VBTS_CCP* manirahan|VBW nang|RBD 
+G:RBD_CCP P:VBTS_CCP nagsimulang 1164 7 		Context - sa_kanluran|RBL ay|LM *nagsimulang|VBTS_CCP* papanghinain|VBTF ang|DTC 
+G:RBD_CCP P:VBTS_CCP nagsimulang 1506 3 		Context - 2002|CDB ,|PMC *nagsimulang|VBTS_CCP* gumamit|VBAF ang|DTC 
+G:RBD_CCP P:VBTS_CCP nanatiling 1376 1 		Context - Ngunit|CCT *nanatiling|VBTS_CCP* nangunguna|VBTR sa_loob_ng|CCU 
+G:RBD_CCP P:VBTS_CCP naunang 290 10 		Context - sa|CCT mga|DTCP *naunang|VBTS_CCP* sumaliksik|VBAF sa|CCT 
+*CHECK* G:RBD_CCP P:VBW manatiling 438 28 		Context - rito|PRL upang|CCB *manatiling|VBW* buhay|NNC "|PMS 
+G:RBF P:FW Di 1278 0 		Context - *Di|FW* naglaon|VBTS ,|PMC 
+G:RBF P:NNC di-pagsangayon 309 7 		Context - matibay|JJD na|CCP *di-pagsangayon|NNC* sa|CCT katotohanan|NNC 
+G:RBF P:NNP Hind 1254 1 		Context - '|PMS *Hind|NNP* ko|PRS siya|PRS 
+*CHECK* G:RBF P:VBN Wala 920 0 		Context - *Wala|VBN* namang|RBI_CCP tunay|RBT 
+*CHECK* G:RBF P:VBN wala 1 6 		Context - mabuhay|RBD nang|RBD *wala|VBN* ang|DTC lahat|PRI 
+*CHECK* G:RBF P:VBN wala 377 6 		Context - rehiyon|NNC ,|PMC *wala|VBN* nang|RBI_CCP nagaganap|VBTR 
+*CHECK* G:RBF P:VBN_CCP walang 1070 11 		Context - malaki|JJD ngunit|CCT *walang|VBN_CCP* hangganang|NNC_CCP bilis|NNC 
+*CHECK* G:RBF P:VBN_CCP walang 251 1 		Context - Ipinapakitang|VBTR_CCP *walang|VBN_CCP* bisa|NNC ang|DTC 
+*CHECK* G:RBF P:VBN_CCP walang 771 44 		Context - mag-ehersisyo|VBW nang|CCB *walang|VBN_CCP* paghihigpit|NNC ng|CCB 
+*CHECK* G:RBF P:VBS ayaw 1306 20 		Context - kalahok|NNC na|CCP *ayaw|VBS* magbigay|VBAF ng|CCB 
+*CHECK* G:RBF_JJD_CCP P:RBF_CCP di-karaniwang 1011 17 		Context - ng|CCB '|PMS *di-karaniwang|RBF_CCP* pagdalo|NNC ng|CCB 
+G:RBF_VBTR P:NNC di-sinasadya 1374 29 		Context - papel|NNC ng|CCB *di-sinasadya|NNC* .|PMP 
+G:RBF_VBW_CCP P:RBF_CCP di-mapagkakatiwalaang 1152 12 		Context - ugali|NNC ,|PMC *di-mapagkakatiwalaang|RBF_CCP* lungsod|NNC at|CCA 
+G:RBI P:CCP na 1045 32 		Context - marahil|RBM pati|CCA *na|CCP* rin|RBI sa|CCT 
+G:RBI P:CCP na 1061 1 		Context - Kasama|CCB *na|CCP* dito|PRL ang|DTC 
+*CHECK* G:RBI P:CCP na 107 10 		Context - may|VBH talampas|NNC *na|CCP* may|VBH mga|DTCP 
+*CHECK* G:RBI P:CCP na 107 7 		Context - sa_loob|RBL ,|PMC *na|CCP* may|VBH talampas|NNC 
+G:RBI P:CCP na 1076 10 		Context - bandang|JJD_CCP huli|NNC *na|CCP* ng|CCB 1960s|CDB 
+G:RBI P:CCP na 1127 1 		Context - Tapos|RBW *na|CCP* ang|DTC kalahating|JJD_CCP 
+G:RBI P:CCP na 1127 7 		Context - at|CCA magpapalit|VBW *na|CCP* ng|CCB puwesto|NNC 
+G:RBI P:CCP na 1137 23 		Context - ang|DTC nagbabalik|VBTR *na|CCP* Quetzalcoatl|NNP ,|PMC 
+G:RBI P:CCP na 114 2 		Context - Ang|DTC kahit|CCT *na|CCP* anong|PRQ_CCP laro|NNC 
+G:RBI P:CCP na 1141 40 		Context - (|PMS kasama|CCB *na|CCP* ang|DTC '|PMS 
+G:RBI P:CCP na 117 9 		Context - dapat|VBS lang|RBI *na|CCP* maakit|JJD ang_mga|DTCP 
+G:RBI P:CCP na 12 8 		Context - ngunit|CCT ginagamit|VBTR *na|CCP* ito|PRO bilang|CCT 
+G:RBI P:CCP na 1246 14 		Context - sinabing|VBTS_CCP lubos|JJCS *na|CCP* may|VBH pagkakatulad|NNC 
+G:RBI P:CCP na 1271 25 		Context - ,|PMC kasama|CCB *na|CCP* ang_mga|DTCP Talysh|NNP 
+G:RBI P:CCP na 1278 4 		Context - ,|PMC nanggagaling|VBTS *na|CCP* sa|CCT Standard|NNP 
+G:RBI P:CCP na 1322 26 		Context - (|PMS bahagi|NNC *na|CCP* ngayon|RBW ng|CCB 
+*CHECK* G:RBI P:CCP na 1368 4 		Context - oberbasyong|NNC_CCP sinasabi|VBTR *na|CCP* may|VBH display|FW 
+G:RBI P:CCP na 1385 63 		Context - ,|PMC kabilang|CCB *na|CCP* ang|DTC ilang|PRQ_CCP 
+G:RBI P:CCP na 1474 16 		Context - at|CCA tapos|JJD *na|CCP* ang|DTC palabas|NNC 
+G:RBI P:CCP na 1489 17 		Context - kalahating|JJD_CCP taon|NNC *na|CCP* ang|DTC nakalilipas|JJD 
+G:RBI P:CCP na 1509 1 		Context - Dahil|CCR *na|CCP* din|RBI sa|CCT 
+G:RBI P:CCP na 1515 24 		Context - ,|PMC kasama|CCB *na|CCP* ang_mga|DTCP sanga|NNC 
+G:RBI P:CCP na 1600 10 		Context - ,|PMC nakapagtanghal|VBTS *na|CCP* ang|DTC Tool|NNP 
+G:RBI P:CCP na 1628 19 		Context - (|PMS lalo|JJCC *na|CCP* pagkatapos|VBW ng|CCB 
+G:RBI P:CCP na 199 14 		Context - siguro|RBM nandito|VBTS *na|CCP* ang|DTC istatistika|NNC 
+G:RBI P:CCP na 292 1 		Context - Maaari|VBS *na|CCP* ngayong|RBW_CCP magpatakbo|VBW 
+G:RBI P:CCP na 39 17 		Context - ,|PMC lumikas|VBTS_VBAF *na|CCP* ang|DTC huli|NNC 
+*CHECK* G:RBI P:CCP na 408 10 		Context - ay|LM nagsabi|VBTS *na|CCP* ang|DTC timog|JJD 
+G:RBI P:CCP na 417 4 		Context - halos|JJD magkadikit|JJD *na|CCP* sa|CCT Finnish|NNP 
+G:RBI P:CCP na 469 1 		Context - Itinanggal|VBTS_VBOF *na|CCP* ang|DTC dalawang|JJN_CCP 
+G:RBI P:CCP na 482 8 		Context - ,|PMC higit|JJCC *na|CCP* 0.6|CDB na|CCP 
+*CHECK* G:RBI P:CCP na 497 9 		Context - pagsisisi|NNC gayon|PRC *na|CCP* magiging|VBTF hindi|RBF 
+G:RBI P:CCP na 524 6 		Context - kapag|CCR balanse|NNC *na|CCP* ang|DTC gravitational|FW 
+G:RBI P:CCP na 552 8 		Context - ay|LM lumipat|VBAF *na|CCP* sa_hilagang-silangan|RBL ng|CCB 
+G:RBI P:CCP na 623 19 		Context - kandidato|NNC pati|CCA *na|CCP* si|DTP Yunis|NNP 
+G:RBI P:CCP na 647 6 		Context - ,|PMC madami|JJD *na|CCP* ang_mga|DTCP batas|NNC 
+*CHECK* G:RBI P:CCP na 680 16 		Context - Farne|NNP Islands|NNP *na|CCP* nagtantya|VBTS ng|CCB 
+G:RBI P:CCP na 680 9 		Context - pangkaraniwang|JJD_CCP ,|PMC *na|CCP* may|VBH isang|PRI_CCP 
+G:RBI P:CCP na 693 8 		Context - sabihin|VBOF nito|PRO *na|CCP* hindi|RBF maganda|JJD 
+G:RBI P:CCP na 719 1 		Context - Isa|PRI *na|CCP* dito|PRL ang|DTC 
+G:RBI P:CCP na 725 14 		Context - ,|PMC nabawasan|VBTS *na|CCP* ang|DTC bilang|NNC 
+G:RBI P:CCP na 735 1 		Context - Hindi|RBF *na|CCP* sakop|JJD ng|CCB 
+*CHECK* G:RBI P:CCP na 782 7 		Context - sisiw|NNC sa_himpapawid|RBL *na|CCP* paikot|JJD sa|CCT 
+G:RBI P:CCP na 853 7 		Context - :|PMS nakontratado|VBTS *na|CCP* siya|PRS ng|CCB 
+G:RBI P:CCP na 861 9 		Context - ay|LM matanda|JJD *na|CCP* ,|PMC hindi|RBF 
+*CHECK* G:RBI P:CCP na 971 29 		Context - na|CCP dati|JJD *na|CCP* nahaharap|VBTR ang|DTC 
+G:RBI P:CCP na 980 30 		Context - na|CCP magreretiro|VBW *na|CCP* siya|PRS bilang|CCT 
+*CHECK* G:RBI P:JJD_CCP lumang 90 16 		Context - na|CCP karamihan|PRI *lumang|JJD_CCP* gusali|NNC yari|VBS 
+*CHECK* G:RBI_CCP P:RBI lamang 510 14 		Context - na|CCP naghihintay|VBTR *lamang|RBI* para_sa|RBB kanilang|PRSP_CCP 
+G:RBI_LM P:VBTS nama'y 87 17 		Context - kahit|CCT kailan|PRQ *nama'y|VBTS* hindi|RBF naging|VBTS 
+*CHECK* G:RBK P:CCR Kapag 531 0 		Context - *Kapag|CCR* may|VBH mga|DTCP 
+G:RBK P:CCR Kapag 597 0 		Context - *Kapag|CCR* sinindihan|VBOF ,|PMC 
+G:RBK P:CCR kapag 1093 12 		Context - League|NNP Office|NNP *kapag|CCR* magtatayo|VBW ng|CCB 
+G:RBK P:CCR kapag 1093 19 		Context - ,|PMC o|CCT *kapag|CCR* magmumungkahi|VBW ng_mga|DTCP 
+G:RBK P:CCR kapag 1121 15 		Context - isang|PRI_CCP pitser|NNC *kapag|CCR* magbabat|VBW ito|PRO 
+G:RBK P:CCR kapag 1176 28 		Context - sa_Hindenburg|RBL_NNP )|PMS *kapag|CCR* pinilit|VBOF niya|PRS 
+G:RBK P:CCR kapag 1196 13 		Context - 1791|CDB ,|PMC *kapag|CCR* pinatibay|VBTS sa_pamamagitan_ng|CCT 
+G:RBK P:CCR kapag 287 4 		Context - ito|PRO ,|PMC *kapag|CCR* pinagsama|VBRF ,|PMC 
+G:RBK P:CCR kapag 295 24 		Context - ang|DTC buwan|NNC *kapag|CCR* malapit|JJD sa|CCT 
+G:RBK P:CCR kapag 345 8 		Context - lalo|JJCC na|RBI *kapag|CCR* hinalo|VBTS_VBOF sa|CCT 
+*CHECK* G:RBK P:CCR kapag 352 13 		Context - na|CCP liga|NNC *kapag|CCR* sampu|JJN o|CCT 
+*CHECK* G:RBK P:CCR kapag 66 7 		Context - tanging|JJD_CCP layunin|NNC *kapag|CCR* ito|PRO nais|VBS 
+G:RBK P:CCR kapag 897 22 		Context - maaaring|RBM ibunga|VBOF *kapag|CCR* nilaro|VBTS bago|RBW 
+G:RBK P:CCR kapag 964 25 		Context - na|CCP listahan|NNC *kapag|CCR* pag-uusapan|VBW ang|DTC 
+G:RBK P:CCR kaya 1045 22 		Context - Rivers|NNP ,|PMC *kaya|CCR* idinerekta|VBTS ang_mga|DTCP 
+G:RBK P:CCR kung 1135 15 		Context - langis|NNC at|CCA *kung|CCR* ginamit|VBOF ,|PMC 
+G:RBK P:CCR kung 722 28 		Context - ,|PMC at|CCA *kung|CCR* kakailanganin|VBTF ,|PMC 
+*CHECK* G:RBK P:CCR kung 733 27 		Context - Campinas|NNP ,|PMC *kung|CCR* alin|PRQ magbabawas|VBTR 
+G:RBK P:CCR kung 733 42 		Context - limampung|JJN_CCP minuto|NNC *kung|CCR* gamit|VBW ang|DTC 
+G:RBK P:CCR kung 848 21 		Context - sipnayan|NNC ,|PMC *kung|CCR* hindi|RBF natatanging|JJD_CCP 
+G:RBK P:CCR kung 849 16 		Context - iskuwadra|NNC ,|PMC *kung|CCR* posible|RBT ,|PMC 
+*CHECK* G:RBK P:CCR kung 974 11 		Context - na|CCP tono|NNC *kung|CCR* mataas|JJD o|CCT 
+*CHECK* G:RBL P:CCT sa 1106 13 		Context - isang|PRI_CCP bansa|NNC *sa|CCT* timog-kanlurang|JJD_CCP bahagi|NNC 
+*CHECK* G:RBL P:CCT sa 1106 19 		Context - Europa|NNP ,|PMC *sa|CCT* Iberian|NNP Peninsula|NNP 
+*CHECK* G:RBL P:CCT sa 1155 2 		Context - Ang|DTC lupa|NNC *sa|CCT* loob|NNC ng|CCB 
+*CHECK* G:RBL P:CCT sa 1171 12 		Context - ay|LM bingit|NNC *sa|CCT* karagatang|NNC_CCP Atlantiko|NNP 
+*CHECK* G:RBL P:CCT sa 1171 15 		Context - karagatang|NNC_CCP Atlantiko|NNP *sa|CCT* kanluran|JJD at|CCA 
+*CHECK* G:RBL P:CCT sa 1171 5 		Context - pinakakanlurang|JJCS_JJD_CCP bansa|NNC *sa|CCT* Europa|NNP ,|PMC 
+*CHECK* G:RBL P:CCT sa 21 18 		Context - ay|LM pinanumpaan|VBTR *sa|CCT* Lisbon|NNP at|CCA 
+*CHECK* G:RBL P:CCT sa 21 28 		Context - probinsyang|NNC_CCP panlabas|JJD *sa|CCT* Aprika|NNP .|PMP 
+*CHECK* G:RBL P:CCT sa 347 10 		Context - estudyanteng|NNC_CCP nakatira|VBTS *sa|CCT* Campus|NNP na|CCP 
+*CHECK* G:RBL P:CCT sa 405 30 		Context - Park|NNP ,|PMC *sa|CCT* kanluran|JJD ng|CCB 
+*CHECK* G:RBL P:CCT sa 725 22 		Context - dahil_sa|RBP pagsasamantala|NNC *sa|CCT* katimugang|JJD_CCP bahagi|NNC 
+*CHECK* G:RBL P:CCT sa 81 21 		Context - kung_saan|CCR nahanap|VBTS *sa|CCT* Alenquer|NNP ,|PMC 
+*CHECK* G:RBL P:CCT sa 81 8 		Context - ay|LM ilan|PRQ *sa|CCT* ika-5|JJN na|CCP 
+*CHECK* G:RBL P:CCT sa 810 11 		Context - ay|LM ibinigay|VBTS_VBOF *sa|CCT* P.R.|NNPA Tsina|NNP 
+*CHECK* G:RBL P:CCT sa 843 9 		Context - dalawahan|CDB pagkamamamayan|NNC *sa|CCT* Brasil|NNP .|PMP 
+*CHECK* G:RBL P:CCT sa 947 8 		Context - para|CCT tumira|VBAF *sa|CCT* West|NNP Campus|NNP 
+*CHECK* G:RBL P:CCU sa_ilalim_ng 744 19 		Context - 1994|CDB ,|PMC *sa_ilalim_ng|CCU* pangalan|NNC ng|CCB 
+*CHECK* G:RBL P:CCU sa_pagitan_ng 891 22 		Context - ang|DTC Naniwa|NNP *sa_pagitan_ng|CCU* Yamato|NNP (|PMS 
+*CHECK* G:RBL P:NNC bingit 1171 11 		Context - Portugal|NNP ay|LM *bingit|NNC* sa|CCT karagatang|NNC_CCP 
+*CHECK* G:RBL P:NNC loob 1155 3 		Context - lupa|NNC sa|CCT *loob|NNC* ng|CCB bingit|NNC 
+*CHECK* G:RBL P:RBD naka-base_sa 796 13 		Context - ,|PMC na|CCP *naka-base_sa|RBD* Sydney|NNP .|PMP 
+*CHECK* G:RBL P:RBL_CCP papuntang 806 9 		Context - ,|PMC Massachusetts|NNP *papuntang|RBL_CCP* Moscow|NNP --|PMS 
+*CHECK* G:RBL P:RBL_CCP patungong 1045 26 		Context - ang_mga|DTCP ito|PRO *patungong|RBL_CCP* Caspian|NNP Sea|NNP 
+*CHECK* G:RBL P:RBL_CCP patungong 405 20 		Context - Riverfront|NNP ,|PMC *patungong|RBL_CCP* Grosse|NNP Pointe|NNP 
+G:RBL P:RBL_CCP sa_hilagang-kanluran 1608 3 		Context - gayon|PRC ,|PMC *sa_hilagang-kanluran|RBL_CCP* ,|PMC nakakakuha|RBD 
+*CHECK* G:RBL P:RBL_CCP sa_katimugang 1118 26 		Context - mga|DTCP karagatan|NNC *sa_katimugang|RBL_CCP* kalahati|JJD ng|CCB 
+G:RBL P:RBL_NNP sa_Finland 1059 37 		Context - na|CCP tadhana|NNC *sa_Finland|RBL_NNP* noong|RBW_CCP ikalawang|JJN_CCP 
+G:RBL P:RBL_NNP sa_Finland 1059 55 		Context - may|VBH kaugnayan|NNC *sa_Finland|RBL_NNP* mula_sa|RBL "|PMS 
+G:RBL P:RBL_NNP sa_Germany 34 12 		Context - mababang|JJD_CCP lipad|NNC *sa_Germany|RBL_NNP* ,|PMC siniksik|VBOF 
+G:RBL P:RBL_NNP sa_Hindenburg 1176 26 		Context - na|CCP namatay|VBTS *sa_Hindenburg|RBL_NNP* )|PMS kapag|CCR 
+G:RBL P:RBL_NNP sa_Timog 1036 25 		Context - Ilog|NNP Brahmaputa|NNP *sa_Timog|RBL_NNP* ,|PMC ang|DTC 
+G:RBL P:RBW Mula 94 0 		Context - *Mula|RBW* ang_mga|DTCP mas|JJCC 
+*CHECK* G:RBL P:RBW Sa_gabi 149 0 		Context - *Sa_gabi|RBW* ,|PMC maaaring|RBM 
+G:RBL P:RBW Sa_tabi 960 0 		Context - *Sa_tabi|RBW* ng|CCB ilog|NNC 
+G:RBL P:RBW hanggang 1311 14 		Context - maglaman|VBW ng|CCB *hanggang|RBW* 70,000|CDB metric|FW 
+G:RBL P:RBW hanggang 1617 17 		Context - maliit|JJD -|PMS *hanggang|RBW* sa|CCT 22|CDB 
+G:RBL P:RBW hanggang 183 18 		Context - 15|CDB )|PMS *hanggang|RBW* tatlumpung|JJN_CCP (|PMS 
+G:RBL P:RBW hanggang 358 25 		Context - Sao|NNP Paulo|NNP *hanggang|RBW* Guarulhos|NNP International|NNP 
+G:RBL P:RBW hanggang 648 11 		Context - (|PMS 13,000|CDB *hanggang|RBW* 16,000|CDB ft|NNCA 
+G:RBL P:RBW hanggang 708 8 		Context - 40|CDB timog|JJD *hanggang|RBW* sa|CCT Antarctic|NNP 
+G:RBL P:RBW hanggang_sa 333 47 		Context - home|FW plate|FW *hanggang_sa|RBW* mga|DTCP bakod|NNC 
+G:RBL P:RBW hanggang_sa 760 21 		Context - mula_sa|RBL tuka|NNC *hanggang_sa|RBW* dulo|NNC ng|CCB 
+G:RBL P:RBW mula 147 33 		Context - panitikan|NNC na|CCP *mula|RBW* pa|RBI man|RBI 
+G:RBL P:RBW mula 501 10 		Context - nangyari|VBTS at|CCA *mula|RBW* ito|PRO sa|CCT 
+*CHECK* G:RBL P:RBW mula 53 27 		Context - telebisyon|NNC ,|PMC *mula|RBW* 1966|CDB hanggang|RBW 
+G:RBL P:VBTR Nasa_punong-lungsod 403 0 		Context - *Nasa_punong-lungsod|VBTR* ang|DTC dalawang|JJN_CCP 
+G:RBL P:VBTS Naroroon 1271 0 		Context - *Naroroon|VBTS* kadamihan|PRI ng_mga|DTCP 
+G:RBL P:VBTS nandito 199 13 		Context - at|CCA siguro|RBM *nandito|VBTS* na|CCP ang|DTC 
+*CHECK* G:RBL P:VBW papunta 712 15 		Context - 8:00|CDB AM|NNPA *papunta|VBW* )|PMS sa|CCT 
+G:RBL_CCP P:NNC_CCP tungong 1036 9 		Context - mula_kanluran|RBL pa-silangan|JJD *tungong|NNC_CCP* Bay_of_Bengal|NNP -|PMS 
+G:RBL_CCP P:RBL patungong 35 5 		Context - na|CCP biyahe|NNC *patungong|RBL* hilaga|JJD ,|PMC 
+G:RBL_NNP P:RBL sa_Russia 191 7 		Context - ng|CCB Sweden|NNP *sa_Russia|RBL* ang_mga|DTCP islang|NNC_CCP 
+G:RBL_NNP P:RBL sa_Tillamook 821 26 		Context - -|PMS 33|CDB *sa_Tillamook|RBL* Oregon|NNP .|PMP 
+G:RBL_NNP P:VBTR Nasa_Estados 801 0 		Context - *Nasa_Estados|VBTR* Unidos|NNP CAMI|NNPA 
+G:RBL_NNP_NNP P:RBL_NNP sa_Monte_Carlo 187 24 		Context - ng|CCB Ballet_de_l'Opera|NNP *sa_Monte_Carlo|RBL_NNP* .|PMP 
+*CHECK* G:RBM P:RBW Habang 321 0 		Context - *Habang|RBW* nagkaroon|VBTS ang_mga|DTCP 
+*CHECK* G:RBM P:VBS Maaari 136 0 		Context - *Maaari|VBS* ring|RBI_CCP maging|VBW 
+*CHECK* G:RBM P:VBS Maaari 292 0 		Context - *Maaari|VBS* na|CCP ngayong|RBW_CCP 
+*CHECK* G:RBM P:VBS maaari 909 16 		Context - panggatong|NNC ,|PMC *maaari|VBS* o|CCT maaaring|RBM 
+*CHECK* G:RBM P:VBS maari 642 7 		Context - silindro|NNC ay|LM *maari|VBS* nang|RBW maayos|JJD 
+*CHECK* G:RBM P:VBS_CCP maaaring 1165 5 		Context - mga|DTCP pamilyang|NNC_CCP *maaaring|VBS_CCP* may|VBH nadagdagang|VBTR_CCP 
+G:RBM P:VBS_CCP maaaring 363 8 		Context - gene|FW na|CCP *maaaring|VBS_CCP* kasangkot|JJD sa|CCT 
+*CHECK* G:RBM_CCP P:JJD_CCP posibleng 1165 52 		Context - magpahiwatig|VBW ng|CCB *posibleng|JJD_CCP* suliranin|NNC ang_mga|DTCP 
+G:RBM_CCP P:NNC_CCP mistulang 295 15 		Context - paliwanag|NNC ang|DTC *mistulang|NNC_CCP* pagtaas|NNC ng|CCB 
+*CHECK* G:RBM_CCP P:RBM maaaring 909 18 		Context - maaari|VBS o|CCT *maaaring|RBM* hindi|RBF naglalabas|VBTR 
+*CHECK* G:RBN P:JJD halos 398 19 		Context - paghuli|NNC ng|CCB *halos|JJD* 500|CDB %|PMS 
+*CHECK* G:RBN P:JJD halos 938 22 		Context - Lomonosov|NNP ang|DTC *halos|JJD* parehong|JJC_CCP ideya|NNC 
+*CHECK* G:RBN P:JJD halos 973 6 		Context - nawasak|VBTS ang|DTC *halos|JJD* lahat|PRI ng|CCB 
+*CHECK* G:RBN P:JJD halos 991 15 		Context - na|CCP ang_mga|DTCP *halos|JJD* tugmang|JJD_CCP value|FW 
+*CHECK* G:RBN P:JJD halos 993 23 		Context - handog|NNC ng|CCB *halos|JJD* lahat|PRI ng|CCB 
+G:RBN P:RBL nang_limampung_metro 567 29 		Context - ng|CCB dagat|NNC *nang_limampung_metro|RBL* sa|CCT lahat|PRI 
+G:RBN P:RBL nasa_estima 402 21 		Context - si|DTP Rostovtzeff|NNP *nasa_estima|RBL* daw|RBI ng|CCB 
+G:RBN_CCP P:PRI_CCP isang 1106 11 		Context - ,|PMC ay|LM *isang|PRI_CCP* bansa|NNC sa|CCT 
+*CHECK* G:RBP P:CCR kaya 567 17 		Context - nasa_ibaba|RBL ,|PMC *kaya|CCR* naman|RBI nagdudulot|VBTR 
+*CHECK* G:RBQ P:PRQ alin 733 28 		Context - ,|PMC kung|CCR *alin|PRQ* magbabawas|VBTR ng|CCB 
+*CHECK* G:RBQ P:RBF hindi 848 22 		Context - ,|PMC kung|CCR *hindi|RBF* natatanging|JJD_CCP larangang|NNC_CCP 
+G:RBQ_CCP P:RBQ paanong 1083 26 		Context - pag-alam|NNC kung|RBK *paanong|RBQ* nakikita|VBTR ng|CCB 
+*CHECK* G:RBR P:CCT Kasabay_nito 1125 0 		Context - *Kasabay_nito|CCT* ,|PMC ang|DTC 
+G:RBR P:NNC base 1226 7 		Context - ang|DTC eksperimento|NNC *base|NNC* lamang|RBI sa|CCT 
+*CHECK* G:RBS P:JJD maaraw 732 19 		Context - lumalabas|VBTR_VBAF nang|RBD *maaraw|JJD* ,|PMC marahil|RBM 
+G:RBS P:NNP Bweno 650 12 		Context - ,|PMC '|PMS *Bweno|NNP* ,|PMC mayroon|VBH 
+G:RBS P:NNPA OK 1310 3 		Context - na|CCP sabihin|VBOF *OK|NNPA* ,|PMC naging|VBTS 
+*CHECK* G:RBT P:JJD tiyak 78 14 		Context - expresyon|NNC ng|CCB *tiyak|JJD* na|CCP gene|FW 
+G:RBT P:VBS pwede 1612 8 		Context - lesion|FW ,|PMC *pwede|VBS* nang|RBW ilapat|VBOL 
+G:RBT_CCP P:JJD_CCP eksaktong 123 12 		Context - ng|CCB bayan|NNC *eksaktong|JJD_CCP* hilaga|JJD ng|CCB 
+*CHECK* G:RBT_CCP P:JJD_CCP positibong 894 30 		Context - huwad|JJD na|CCP *positibong|JJD_CCP* singil|NNC .|PMP 
+*CHECK* G:RBT_CCP P:JJD_CCP tamang 879 16 		Context - ipinahayag|VBTS ang|DTC *tamang|JJD_CCP* mosyon|NNC ng_mga|DTCP 
+*CHECK* G:RBT_CCP P:RBM Maaring 174 0 		Context - *Maaring|RBM* gumamit|VBAF ng|CCB 
+*CHECK* G:RBT_CCP P:RBM Maaring 793 0 		Context - *Maaring|RBM* umabante|NNC ,|PMC 
+*CHECK* G:RBT_CCP P:RBM maaring 1077 10 		Context - sukdulang|JJCS_CCP ,|PMC *maaring|RBM* subukan|VBTF upang|CCB 
+G:RBT_CCP P:RBT posibleng 620 9 		Context - na|CCP may|VBH *posibleng|RBT* parating|VBW na|CCP 
+*CHECK* G:RBT_CCT P:RBT_CCP pwedeng 1305 15 		Context - kondisyon|NNC na|CCP *pwedeng|RBT_CCP* lumahok|VBAF ang|DTC 
+G:RBW P:CCB pagdating 210 7 		Context - nangangasiwang|VBTR_CCP organisasyon|NNC *pagdating|CCB* sa|CCT usaping|NNC_CCP 
+*CHECK* G:RBW P:CCU Mula 1040 0 		Context - *Mula|CCU* dito|PRL ,|PMC 
+*CHECK* G:RBW P:JJD bihira 384 8 		Context - similya|NNC (|PMS *bihira|JJD* sa|CCT mga|DTCP 
+G:RBW P:JJD dati 199 18 		Context - istatistika|NNC noong|RBW_CCP *dati|JJD* pa|RBI .|PMP 
+G:RBW P:JJD dati 234 7 		Context - na|CCP kilala|JJD *dati|JJD* bilang|CCT partidong|NNC_CCP 
+G:RBW P:JJD dati 938 15 		Context - ,|PMC bagama't|CCT *dati|JJD* nang|RBD ipinahayag|RBD 
+G:RBW P:JJD dati 971 28 		Context - iba|PRI na|CCP *dati|JJD* na|CCP nahaharap|VBTR 
+*CHECK* G:RBW P:JJD halos 880 13 		Context - Algeria|NNP na|CCP *halos|JJD* may|VBH 60|CDB 
+G:RBW P:JJD kalimitan 778 30 		Context - DNA|NNPA ,|PMC *kalimitan|JJD* sa_pamamagitan_ng|CCT paggambala|NNC 
+*CHECK* G:RBW P:JJD pangmatagalan 304 24 		Context - manirahan|VBW nang|RBD *pangmatagalan|JJD* sa_hilaga|RBL .|PMP 
+*CHECK* G:RBW P:JJD sinaunang-panahon 1155 15 		Context - nanatili|VBTS noong|RBW_CCP *sinaunang-panahon|JJD* pa|RBI lang|RBI 
+G:RBW P:NNC Umaga 552 0 		Context - *Umaga|NNC* ng|CCB Lunes|NNP 
+*CHECK* G:RBW P:NNC araw 241 14 		Context - sa_loob_ng|CCU dalawang|JJN_CCP *araw|NNC* .|PMP 
+*CHECK* G:RBW P:NNC habang-daan 44 22 		Context - ng|CCB Nile|NNP *habang-daan|NNC* sa|CCT Wadi|NNP 
+G:RBW P:NNC habangbuhay 1620 1 		Context - Isang|PRI_CCP *habangbuhay|NNC* na|CCP tagahanga|NNC 
+G:RBW P:NNC huli 1076 9 		Context - ,|PMC bandang|JJD_CCP *huli|NNC* na|CCP ng|CCB 
+*CHECK* G:RBW P:NNC kalagitnaan 655 9 		Context - bago|RBW ang|DTC *kalagitnaan|NNC* ng|CCB labing-walong|JJN_CCP 
+*CHECK* G:RBW P:NNC kapanahunan 381 14 		Context - masa|NNC nang|RBW *kapanahunan|NNC* bago|RBW ang|DTC 
+*CHECK* G:RBW P:NNC katapusan 475 40 		Context - ,|PMC hanggang|RBW *katapusan|NNC* ito|PRO sa|CCT 
+G:RBW P:NNC kinabukasan 1572 3 		Context - ang|DTC tour|FW *kinabukasan|NNC* at|CCA nasunod|VBTS 
+G:RBW P:NNC linggo-linggo 624 22 		Context - taong|NNC_CCP 2007|CDB *linggo-linggo|NNC* siyang|PRS_CCP nag-aambag|VBTR 
+G:RBW P:NNC pagdating 543 13 		Context - kapootang|NNC_CCP panlahi|JJD *pagdating|NNC* ng|CCB kalagitnaan|NNC 
+G:RBW P:NNC pagtatapos 532 1 		Context - Sa|CCT *pagtatapos|NNC* ng|CCB Ikalawang|JJN_CCP 
+G:RBW P:NNC pamula 1553 13 		Context - na|CCP pa-renta|JJD *pamula|NNC* 2006|CDB .|PMP 
+G:RBW P:NNC wakas 167 1 		Context - Sa|CCT *wakas|NNC* ,|PMC binuksan|VBOF 
+G:RBW P:RBD Nang 787 0 		Context - *Nang|RBD* mahanap|VBW ang|DTC 
+*CHECK* G:RBW P:RBD agad 1347 36 		Context - refiner|FW at|CCA *agad|RBD* namang|RBI_CCP tumalima|VBTS_VBAF 
+*CHECK* G:RBW P:RBD kaagad 1364 3 		Context - maikli|JJD ngunit|CCT *kaagad|RBD* na|CCP instalasyon|NNC 
+*CHECK* G:RBW P:RBD kaagad 1450 21 		Context - ngunit|CCT tinanggap|VBOF *kaagad|RBD* ang|DTC nominasyon|NNC 
+*CHECK* G:RBW P:RBD nang 1 5 		Context - maaring|RBM mabuhay|RBD *nang|RBD* wala|VBN ang|DTC 
+*CHECK* G:RBW P:RBD nang 1209 24 		Context - para_sa|RBB liwanag|NNC *nang|RBD* dumaan|VBAF sa|CCT 
+G:RBW P:RBD nang 1425 15 		Context - ng|CCB tao|NNC *nang|RBD* 9|CDB buwan|NNC 
+G:RBW P:RBD nang 1615 7 		Context - at|CCA matagal|RBD *nang|RBD* naitatag|VBTS na|CCP 
+G:RBW P:RBD nang 304 23 		Context - nagdesisyong|VBTS_CCP manirahan|VBW *nang|RBD* pangmatagalan|JJD sa_hilaga|RBL 
+G:RBW P:RBD nang 353 42 		Context - manggagawang|NNC_CCP Egyptians|NNP *nang|RBD* ginagawa|VBTR_VBOF ang|DTC 
+G:RBW P:RBD nang 375 16 		Context - manalo|VBW pa|RBI *nang|RBD* isang|PRI_CCP Trafalgar|NNP 
+G:RBW P:RBD nang 728 8 		Context - dahil|CCR matagal|RBD *nang|RBD* pinangarap|VBTR nito|PRO 
+G:RBW P:RBD nang 77 42 		Context - ,|PMC "|PMS *nang|RBD* tinapos|VBOF na|CCP 
+*CHECK* G:RBW P:RBD nang 878 6 		Context - ang_mga|DTCP ito|PRO *nang|RBD* higit|JJCC kahit|CCT 

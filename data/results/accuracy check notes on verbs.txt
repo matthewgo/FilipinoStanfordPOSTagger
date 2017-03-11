@@ -1,0 +1,46 @@
+I think that it is still possible to manually tag the focus of the verbs, but it can be tricky 
+
+sometimes for me. The easiest to identify would be the actor focus (the doer of the action), 
+
+Benefactive focus and Referential focus. I am not really a linguist but an active user of the 
+
+language in reading, writing and translation, so I think some issues come up as I go along. In 
+
+the process, I would try to deduce base on my understanding and not as an expert like Dr. 
+
+Raquel Sison-Buan who's field is in linguistics and translation. This would cause errors at my 
+
+end. 
+
+For Active Verbal Focus: Actor Focus, the prefix/suffix markers are -UM-, MAG-, MA-, MANG-
+For Non-Active Verbal Focus: Object Focus, the prefix/suffix markers are -IN, I-, AN, MA-
+For Locative Focus: -AN, -IN, PAG...AN
+For Beneficiary: I-, IPAG-
+For Instrumental: IPANG-
+For Referential: PINAG-
+
+It is easy to find Actor Focus in terms of -UM, and MAG-:
+Tuwing tumatawid siya sa tapat 
+Mabilisang kumain si Sheryl
+Siya ang magmamaneho 
+
+Other examples:
+Manghuli kayo ng isda. 
+Matulog na kayo. (For this one, I think sometimes it is tagged as VBW because of automatic detection of the prefix MA-)
+
+There's confusion in this example though: Tumutunog na ang alarm clock ng cell phone. The word 'tumutunog' is easily detected as Actor Focus but this one signifies an object. In this case, do we just tag this as: VBTR?
+
+This focus creates confusion with the VBOF for me.
+Examples for Locative: nilagyan, binilhan, pinilahan
+E.g.     Punasan mo ang mesa.
+            Balibagin mo ang mangga.
+            Pagsabihan mo si Belen. 
+
+These are easier to identify
+Examples for beneficiary: ipaglaban, ipagtabi, ipagsama, ipagtapat, ipaglaba, ipinagluluto
+Examples for Instrumental: Ipangkuhit, ipanglagay, ipangbayad, ipangtahi, ipinananahi
+Examples for Referential: pinagtaguan, pinagbigyan, pinaglagyan
+
+
+Regarding adverbs, yes, I think it is better to retain the separate tokens/tags for the words. 
+So for this example: inis na inis or galit na galit, we'll tag this as "RBD CCP JJD", is this correct? 

@@ -15,20 +15,29 @@ public class HPOSTandStanfordFormatConverter {
 				Constants.TEST_HPOST_TAGS_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS);
 	}
 
-	public static void HPOSTToStanford(String hpostWords, String hpostTags, String stanfordOutput)
+	public static void HPOSTToStanford(String hpostWords, String hpostTags, String stanfordOutput, boolean isTagged)
 			throws FileNotFoundException, IOException {
 		List<String> hpostWordList = FileManager.readFile(new File(hpostWords));
-		List<String> hpostTagList = FileManager.readFile(new File(hpostTags));
+		List<String> hpostTagList = null;
+
+		if (isTagged == true)
+			hpostTagList = FileManager.readFile(new File(hpostTags));
 
 		FileManager stanfordOutputFile = new FileManager(stanfordOutput);
 		stanfordOutputFile.createFile();
 		for (int i = 0; i < hpostWordList.size(); i++) {
 			String[] words = hpostWordList.get(i).trim().split(" ");
-			String[] tags = hpostTagList.get(i).trim().split(" ");
+			String[] tags = null;
+			if (isTagged == true)
+				tags = hpostTagList.get(i).trim().split(" ");
 			StringBuilder sb = new StringBuilder();
 
 			for (int j = 0; j < words.length; j++) {
-				sb.append(words[j] + "|" + tags[j]);
+				// System.out.println(words[j] + "|" + tags[j]);
+				if (isTagged == true)
+					sb.append(words[j] + "|" + tags[j]);
+				else
+					sb.append(words[j]);
 				if (j < words.length - 1)
 					sb.append(" ");
 			}

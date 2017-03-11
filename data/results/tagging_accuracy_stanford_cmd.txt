@@ -78,3 +78,11 @@ Results on 1632 sentences and 41798 words, of which 3875 were unknown.
 Total sentences right: 487 (29.840686%); wrong: 1145 (70.159314%).
 Total tags right: 39397 (94.255706%); wrong: 2401 (5.744294%).
 Unknown words right: 3024 (78.038710%); wrong: 851 (21.961290%).
+
+left3words - larger test data
+Tagged 81610 words at 98.91 words per second.
+Model ../tagger_models/filipino-left3words-cg.tagger has xSize=155959, ySize=195, and numFeatures=122085.
+Results on 3033 sentences and 81610 words, of which 9431 were unknown.
+Total sentences right: 723 (23.837784%); wrong: 2310 (76.162216%).
+Total tags right: 76120 (93.272883%); wrong: 5490 (6.727117%).
+Unknown words right: 7387 (78.326795%); wrong: 2044 (21.673205%).

@@ -15,7 +15,9 @@ public class JoeyCheckedDataReviser {
 	// Updates the data based on *CHECK* marks made by joey on
 	// tagging_errors.txt produced by ListTaggingErrors.java
 	public void reviseJoeyTestData(String orig, String revised) throws FileNotFoundException, IOException {
-		List<TaggingCorrection> corrections = getCorrectionsFromFile(Constants.CHECKED_TEST_DATA_TAGGING_ERRORS);
+		int offset = 0;
+		List<TaggingCorrection> corrections = getCorrectionsFromFile(Constants.CHECKED_TEST_DATA_TAGGING_ERRORS,
+				offset);
 		applyCorrections(corrections, orig, revised);
 	}
 
@@ -38,7 +40,7 @@ public class JoeyCheckedDataReviser {
 		revisedFile.close();
 	}
 
-	private List<TaggingCorrection> getCorrectionsFromFile(String CHECKED_TEST_DATA_TAGGING_ERRORS)
+	private List<TaggingCorrection> getCorrectionsFromFile(String CHECKED_TEST_DATA_TAGGING_ERRORS, int offset)
 			throws FileNotFoundException, IOException {
 		List<String> lines = FileManager.readFile(new File(CHECKED_TEST_DATA_TAGGING_ERRORS));
 		List<TaggingCorrection> corrections = new ArrayList<>();
@@ -51,7 +53,8 @@ public class JoeyCheckedDataReviser {
 				int sentenceNumber = Integer.parseInt(split[4]);
 				int wordNumber = Integer.parseInt(split[5]);
 				System.out.println(word + " " + goldTag + " " + predictedTag + " " + sentenceNumber + " " + wordNumber);
-				corrections.add(new TaggingCorrection(word, goldTag, predictedTag, sentenceNumber, wordNumber));
+				corrections
+						.add(new TaggingCorrection(word, goldTag, predictedTag, sentenceNumber + offset, wordNumber));
 			}
 		}
 		return corrections;

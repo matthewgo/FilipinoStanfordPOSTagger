@@ -1,14 +1,59 @@
+6K Train, 1.5k Test
 left3words
 Average Precision: 0.6173190441839586
 Average Recall: 0.6090576739766016
 Accuracy: 0.937174027465429(39172/41798)
 
-left3words - joey-checked
-Average Precision: 0.6601501434172139
-Average Recall: 0.6542037097746959
-Accuracy: 0.9421503421216326(39380/41798)
+left3words - joey-checked 
+Average Precision: 0.7222881289426848
+Average Recall: 0.7023521593223991
+Accuracy: 0.9554045648117134(39934/41798)
 
 left3words - joey-checked-revised-eng-nouns
-Average Precision: 0.6608699855163663
-Average Recall: 0.6544530531622352
-Accuracy: 0.945858653524092(39535/41798)
+Average Precision: 0.7228002254274057
+Average Recall: 0.7025342881341539
+Accuracy: 0.9579644959088952(40041/41798)
+
+left3words-revised-eng-nouns
+Average Precision: 0.6133148000371658
+Average Recall: 0.6026224940592982
+Accuracy: 0.9344944734197809(39060/41798)
+
+left3words-revised-eng-nouns - joey-checked
+Average Precision: 0.7147175163433251
+Average Recall: 0.6928217366528043
+Accuracy: 0.951026364897842(39751/41798)
+
+left3words-revised-eng-nouns - joey-checked-revised-eng-nouns 
+Average Precision: 0.7152217101045163
+Average Recall: 0.6930037082498783
+Accuracy: 0.9535862959950236(39858/41798)
+
+6k Train, 3k Test
+
+data/tagging_errors_left3words.txt
+Average Precision: 0.5824165832017945
+Average Recall: 0.552130158329482
+Accuracy: 0.9251807376546992(75504/81610)
+
+data/Eclipse tagging/tagging_errors_second_half_left3words.txt (second half only)
+Average Precision: 0.6805282107013095
+Average Recall: 0.6442263629305456
+Accuracy: 0.9182156133828996(36556/39812)
+
+data/tagging_errors_left3words_joey_checked.txt
+Average Precision: 0.6345280888010358
+Average Recall: 0.5998258405230964
+Accuracy: 0.9344075480945963(76257/81610)
+
+data/tagging_errors_left3words_joey_checked_revised_eng_nouns.txt
+Average Precision: 0.6344748969968461
+Average Recall: 0.5995860426221107
+Accuracy: 0.9328391128538169(76129/81610)
+
+TREN = training revised eng nouns
+data/tagging_errors_left3words_tren.txt
+Average Precision: 0.574120307002413
+Average Recall: 0.5436038457463749
+Accuracy: 0.9218233059674059(75230/81610)
+
