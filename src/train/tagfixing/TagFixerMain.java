@@ -13,6 +13,9 @@ public class TagFixerMain {
 		tagsOverwriter = new TagsOverwriter();
 		jcdReviser = new JoeyCheckedDataReviser();
 		// clean symbols
+
+		tagsOverwriter.reviseEnglishNNCasFW(Constants.TRAIN_STANFORD, Constants.TRAIN_STANFORD_REVISED_ENG_NOUNS);
+
 		tagsOverwriter.reviseEnglishNNCasFW(Constants.TEST_STANFORD_TAGGED,
 				Constants.TEST_STANFORD_TAGGED_REVISED_ENG_NOUNS);
 
@@ -22,6 +25,7 @@ public class TagFixerMain {
 
 		tagsOverwriter.reviseEnglishNNCasFW(Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED,
 				Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS);
+
 	}
 
 }
