@@ -86,3 +86,33 @@ Results on 3033 sentences and 81610 words, of which 9431 were unknown.
 Total sentences right: 723 (23.837784%); wrong: 2310 (76.162216%).
 Total tags right: 76120 (93.272883%); wrong: 5490 (6.727117%).
 Unknown words right: 7387 (78.326795%); wrong: 2044 (21.673205%).
+
+Tagged 41798 words at 180.49 words per second. - larger train data, small test data
+Model filipino-left3words-owlqn2.tagger has xSize=297619, ySize=214, and numFeatures=35857.
+Results on 1632 sentences and 41798 words, of which 3133 were unknown.
+Total sentences right: 604 (37.009804%); wrong: 1028 (62.990196%).
+Total tags right: 39898 (95.454328%); wrong: 1900 (4.545672%).
+Unknown words right: 2596 (82.859879%); wrong: 537 (17.140121%).
+
+Tagged 41798 words at 178.11 words per second.
+Model filipino-left5words-owlqn2.tagger has xSize=324622, ySize=214, and numFeatures=42855.
+Results on 1632 sentences and 41798 words, of which 3133 were unknown.
+Total sentences right: 628 (38.480392%); wrong: 1004 (61.519608%).
+Total tags right: 39918 (95.502177%); wrong: 1880 (4.497823%).
+Unknown words right: 2607 (83.210980%); wrong: 526 (16.789020%).
+
+Tagged 41798 words at 173.73 words per second.
+Model filipino-left3words-cg.tagger has xSize=297619, ySize=214, and numFeatures=195203.
+Results on 1632 sentences and 41798 words, of which 3133 were unknown.
+Total sentences right: 582 (35.661765%); wrong: 1050 (64.338235%).
+Total tags right: 39840 (95.315565%); wrong: 1958 (4.684435%).
+Unknown words right: 2577 (82.253431%); wrong: 556 (17.746569%).
+
+12k train 3k test
+left3words
+Tagged 81610 words at 143.68 words per second.
+Model ../tagger_models/filipino-left3words-cg.tagger has xSize=297619, ySize=214, and numFeatures=195203.
+Results on 3033 sentences and 81610 words, of which 6277 were unknown.
+Total sentences right: 923 (30.431916%); wrong: 2110 (69.568084%).
+Total tags right: 77164 (94.552138%); wrong: 4446 (5.447862%).
+Unknown words right: 5037 (80.245340%); wrong: 1240 (19.754660%).

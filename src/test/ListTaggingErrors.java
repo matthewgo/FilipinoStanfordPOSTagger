@@ -8,65 +8,64 @@ import java.util.List;
 
 import models.ConfusionMatrix;
 import models.TaggedSentence;
+import train.tagfixing.TagsOverwriter;
 import utils.Constants;
 import utils.FileManager;
 import utils.TaggedSentenceService;
 
 public class ListTaggingErrors {
 
+	static FileManager resultsSummaryFile;
+
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 
-		POSTagger left3WordsTagger = new POSTagger(Constants.LEFT3WORDS);
+		resultsSummaryFile = new FileManager("data/results/error_summary.csv");
+		resultsSummaryFile.createFile();
+		resultsSummaryFile.writeToFile(
+				"Training Data Size,Test Data Size,Test Tokens Size,Tagging Results Filename, Gold File, Correct Tags,Accuracy,Precision, Recall,Remarks");
 
-		writeToFiles(left3WordsTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED), Constants.TEST_STANFORD_TAGGED,
-				Constants.TAGGING_ERROR_LEFT3WORDS, Constants.TAGGING_RESULTS_LEFT3WORDS);
-		// writeToFiles(left3WordsTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
-		// Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED,
-		// Constants.TAGGING_ERROR_LEFT3WORDS_JOEY_CHECKED,
-		// Constants.TAGGING_RESULTS_LEFT3WORDS_JOEY_CHECKED);
-		// writeToFiles(left3WordsTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
-		// Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS,
-		// Constants.TAGGING_ERROR_LEFT3WORDS_JOEY_CHECKED_REVISED_ENG_NOUNS,
-		// Constants.TAGGING_RESULTS_LEFT3WORDS_JOEY_CHECKED_REVISED_ENG_NOUNS);
-		// writeToFiles(left3WordsTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED_SECOND_HALF),
-		// Constants.TEST_STANFORD_TAGGED_SECOND_HALF,
-		// Constants.TAGGING_ERROR_SECOND_HALF_LEFT3WORDS,
-		// Constants.TAGGING_RESULTS_SECOND_HALF_LEFT3WORDS);
+		TagsOverwriter tagsOverwriter = new TagsOverwriter();
+		// POSTagger left3WordsOWLQN2Pref6Inf2Tagger = new
+		// POSTagger(Constants.LEFT3WORDS_OWLQN2_PREF6_INF2);
+		// POSTagger left5WordsOWLQN2Pref6Inf2Tagger = new
+		// POSTagger(Constants.LEFT5WORDS_OWLQN2_PREF6_INF2);
+		//
+		// List<TaggedSentence> left3WordsOWLQN2Pref6Inf2TaggedSentences =
+		// left3WordsOWLQN2Pref6Inf2Tagger
+		// .tagFile(Constants.TEST_STANFORD_UNTAGGED);
+		// List<TaggedSentence> left5WordsOWLQN2Pref6Inf2TaggedSentences =
+		// left5WordsOWLQN2Pref6Inf2Tagger
+		// .tagFile(Constants.TEST_STANFORD_UNTAGGED);
+		// //
+		// POSTagger.saveTagsIntoFile(left3WordsOWLQN2Pref6Inf2TaggedSentences,
+		// Constants.TAGGING_RESULTS_LEFT3WORDS_OWLQN2_PREF6_INF2);
+		// POSTagger.saveTagsIntoFile(left5WordsOWLQN2Pref6Inf2TaggedSentences,
+		// Constants.TAGGING_RESULTS_LEFT5WORDS_OWLQN2_PREF6_INF2);
+		// or
 
-		POSTagger left3WordsTRENTagger = new POSTagger(Constants.LEFT3WORDS_REVISED_ENG_NOUNS);
-		// writeToFiles(left3WordsTRENTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
-		// Constants.TEST_STANFORD_TAGGED,
-		// Constants.TAGGING_ERROR_LEFT3WORDS_TREN,
-		// Constants.TAGGING_RESULTS_LEFT3WORDS_TREN);
-		// writeToFiles(left3WordsTRENTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
-		// Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED,
-		// Constants.TAGGING_ERROR_LEFT3WORDS_TREN_JOEY_CHECKED,
-		// Constants.TAGGING_RESULTS_LEFT3WORDS_TREN_JOEY_CHECKED);
-		// writeToFiles(left3WordsTRENTagger.tagFile(Constants.TEST_STANFORD_UNTAGGED),
-		// Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS,
-		// Constants.TAGGING_ERROR_LEFT3WORDS_TREN_JOEY_CHECKED_REVISED_ENG_NOUNS,
-		// Constants.TAGGING_RESULTS_LEFT3WORDS_TREN_JOEY_CHECKED_REVISED_ENG_NOUNS);
+		for (String taggingResultsFile : Constants.getTaggingResultsFiles()) {
+			for (String testFile : Constants.getTestFiles()) {
+				List<TaggedSentence> taggedSentences = TaggedSentenceService
+						.getTaggedSentencesFromFile(taggingResultsFile);
+				compareResults(taggedSentences, taggingResultsFile, testFile, false, null, "");
+				tagsOverwriter.reviseEnglishNNCasFW(taggedSentences);
+				compareResults(taggedSentences, taggingResultsFile, testFile, false, null, "overwrote EngNNCAsFW");
+			}
 
+		}
+
+		resultsSummaryFile.close();
 	}
 
-	private static void writeToFiles(List<TaggedSentence> predictedTaggedSentences, String goldFilename,
-			String errorOutputFilename, String predictedTagsFilename) throws IOException {
+	private static void compareResults(List<TaggedSentence> predictedTaggedSentences, String taggingResultsFilename,
+			String goldFilename, boolean writeToErrorFile, String errorOutputFilename, String remarks)
+					throws IOException {
 		List<TaggedSentence> gold = TaggedSentenceService.getTaggedSentencesFromFile(goldFilename);
 
-		FileManager errorOutputFile = new FileManager(errorOutputFilename);
-		errorOutputFile.createFile();
 		List<String> errorList = new ArrayList<>();
 		ConfusionMatrix cm = new ConfusionMatrix();
 
-		FileManager predictedTagsFile = null;
-		if (predictedTagsFilename != null) {
-			predictedTagsFile = new FileManager(predictedTagsFilename);
-			predictedTagsFile.createFile();
-		}
-
 		for (int x = 0; x < predictedTaggedSentences.size(); x++) {
-			if (predictedTagsFile != null)
-				predictedTagsFile.writeToFile(TaggedSentenceService.getString(predictedTaggedSentences.get(x)));
 			for (int i = 0; i < predictedTaggedSentences.get(x).getWords().size(); i++) {
 
 				cm.increaseValue(gold.get(x).getTags().get(i), predictedTaggedSentences.get(x).getTags().get(i));
@@ -80,27 +79,34 @@ public class ListTaggingErrors {
 				}
 			}
 		}
+		String removedTaggingResultsFilenamePrefix = taggingResultsFilename.split("_results_")[1];
+		String removedGoldFilenamePrefix = goldFilename.split("test-")[1];
 
-		errorOutputFile.writeToFile(cm.printDescendingClassDistributionandAccuracy());
-		errorOutputFile.writeToFile("Average Precision: " + Double.toString(cm.getAvgPrecision()));
-		errorOutputFile.writeToFile("Average Recall: " + Double.toString(cm.getAvgRecall()));
-		errorOutputFile
-				.writeToFile("Accuracy: " + cm.getAccuracy() + "(" + cm.getCorrect() + "/" + cm.getTotalSum() + ")");
-
-		System.out.println(errorOutputFilename);
+		System.out.println(removedTaggingResultsFilenamePrefix + " | " + removedGoldFilenamePrefix);
 		System.out.println("Average Precision: " + Double.toString(cm.getAvgPrecision()));
 		System.out.println("Average Recall: " + Double.toString(cm.getAvgRecall()));
 		System.out.println("Accuracy: " + cm.getAccuracy() + "(" + cm.getCorrect() + "/" + cm.getTotalSum() + ")");
 
-		errorOutputFile.writeToFile("GoldTag\tPredTag\tWord\tSent#\tWord#");
-		Collections.sort(errorList);
-		for (String e : errorList)
-			errorOutputFile.writeToFile(e);
+		resultsSummaryFile.writeToFile("12134," + predictedTaggedSentences.size() + "," + cm.getTotalSum() + ","
+				+ removedTaggingResultsFilenamePrefix + "," + removedGoldFilenamePrefix + "," + cm.getCorrect() + ","
+				+ cm.getAccuracy() + "," + cm.getAvgPrecision() + "," + cm.getAvgRecall() + "," + remarks);
 
-		errorOutputFile.writeToFile(cm.toString());
-		errorOutputFile.close();
-		if (predictedTagsFile != null)
-			predictedTagsFile.close();
+		if (writeToErrorFile) {
+			FileManager errorOutputFile = new FileManager(errorOutputFilename);
+			errorOutputFile.createFile();
+			errorOutputFile.writeToFile(cm.printDescendingClassDistributionandAccuracy());
+			errorOutputFile.writeToFile("Average Precision: " + Double.toString(cm.getAvgPrecision()));
+			errorOutputFile.writeToFile("Average Recall: " + Double.toString(cm.getAvgRecall()));
+			errorOutputFile.writeToFile(
+					"Accuracy: " + cm.getAccuracy() + "(" + cm.getCorrect() + "/" + cm.getTotalSum() + ")");
+			errorOutputFile.writeToFile("GoldTag\tPredTag\tWord\tSent#\tWord#");
+			Collections.sort(errorList);
+			for (String e : errorList)
+				errorOutputFile.writeToFile(e);
+
+			errorOutputFile.writeToFile(cm.toString());
+			errorOutputFile.close();
+		}
 	}
 
 	private static String getLeft2Right2(TaggedSentence tagged, int i) {

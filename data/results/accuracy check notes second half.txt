@@ -1,0 +1,37 @@
+LINE 253, typographical error: "nubenta" ---> "nobenta"
+LINE 605, the tag for "kasing" should be "JJC"
+LINE 611, the tag for "magkasing" should be "JJC"
+LINE 912, the spelling of "bateranong" should be "beterano"
+LINE 921, the spelling of "gitang" should be "gitnang"
+LINE 1056, the spelling of "galakies" should be "galaxies" and tagged as FW
+LINE 1057, the spelling of "grawnded" should be changed to "grounded" and tagged as FW
+LINE 1066, remove the s from "liders" ---> "lider", this would be tagged as NNC
+LINE 1106, the tag for "higit" should be "JJCC"
+LINE 1214, the tag for "habang" (haba+ng) should be NNC_CCP
+LINE 1296, put a dash for labing-isang then tag as "JJN_CCP"
+
+**LINES 1327-1330, do we tag "Ang" as "NNP" or "DTC" when it is part of a proper noun or title?
+**LINES 1331-1333, do we tag "Australian-wide" as "NNP" or "FW" 
+**LINES 1346-1416, do we tag the Capital letters as NNPA rather than NNP? 
+**LINES 1431-1442, do we tag these words as adjective or as proper nouns? 
+**LINE 1458, the tag for "!" should be "PME"
+
+LINE 1815, can change the spelling of "dun" to "doon"
+LINE 1817, can change the spelling of "to" to "ito"
+
+LINE 2116, the spelling of "kalian" should be "kailan" and tagged as "RBQ"
+LINE 2323, the tag can be "VBTF_VBOF" for "aatakehin"
+LINE 2338, the tag can be "VBTR_VBRF" for" "ipinagdiriwang"
+LINE 2429-2430, the tag for "gamit" is "VBW"
+
+LINE 2500-3385:
+
+LINE 2692, the tag for "gumaganang" is "VBTR_VBAF_CCP"
+LINE 2703, the word "delihis" is an adjective so the tag is "JJD"
+LINE 2727, the tag for "nakakaimpluwensiya" is "VBTR"
+for LINES 2739-2872, the words can be tagged as two-dimensional, "VBTS_VBOF" though I 
+
+placed *CHECK* on them. This may be applicable to other words detected as verbs too. 
+LINE 2884, the spelling for  "inahalintulad" is "inihalintulad" 
+LINE 3010, the tag for "malayuan" is "JJD"
+**for LINES 3320-3321, I'm not sure how to tag "sang-ayon" 

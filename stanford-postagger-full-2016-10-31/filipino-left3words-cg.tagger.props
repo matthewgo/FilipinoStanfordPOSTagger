@@ -1,4 +1,4 @@
-## tagger training invoked at Thu Feb 23 07:15:35 CST 2017 with arguments:
+## tagger training invoked at Mon Mar 13 07:07:40 CST 2017 with arguments:
                    model = filipino-left3words-cg.tagger
                     arch = left3words,naacl2003unknowns,wordshapes(-1,1)
             wordFunction = edu.stanford.nlp.process.AmericanizeFunction

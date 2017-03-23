@@ -57,3 +57,95 @@ Average Precision: 0.574120307002413
 Average Recall: 0.5436038457463749
 Accuracy: 0.9218233059674059(75230/81610)
 
+12k train 1.5k test
+
+12k train 3k test
+data/Eclipse tagging/tagging_errors_left3words_cg.txt
+Average Precision: 0.6346196162590024
+Average Recall: 0.6114906285806322
+Accuracy: 0.945521382183556(77164/81610)
+
+data/Eclipse tagging/tagging_errors_left3words_cg_joey_checked.txt
+Average Precision: 0.7387426049591741
+Average Recall: 0.7013723277734342
+Accuracy: 0.9568435240779316(78088/81610)
+
+data/Eclipse tagging/tagging_errors_left3words_cg_joey_checked_revised_eng_nouns.txt
+Average Precision: 0.6991210853967366
+Average Recall: 0.6653958902003724
+Accuracy: 0.9532655311849038(77796/81610)
+
+data/Eclipse tagging/tagging_errors_left3words_owlqn2.txt
+Average Precision: 0.6387005967807063
+Average Recall: 0.6099358698007492
+Accuracy: 0.9483396642568312(77394/81610)
+
+data/Eclipse tagging/tagging_errors_left3words_owlqn2_joey_checked.txt
+Average Precision: 0.7525352451946542
+Average Recall: 0.704915394045493
+Accuracy: 0.9585099865212596(78224/81610)
+
+data/Eclipse tagging/tagging_errors_left3words_owlqn2_joey_checked_revised_eng_nouns.txt
+Average Precision: 0.7086504147452517
+Average Recall: 0.6697632856864698
+Accuracy: 0.9555446636441612(77982/81610)
+
+data/Eclipse tagging/tagging_errors_left5words_owlqn2.txt
+Average Precision: 0.6383087710820348
+Average Recall: 0.6189601527467578
+Accuracy: 0.9485847322632031(77414/81610)
+
+data/Eclipse tagging/tagging_errors_left5words_owlqn2_joey_checked.txt
+Average Precision: 0.7510460044335013
+Average Recall: 0.7111988611958755
+Accuracy: 0.958706040926357(78240/81610)
+
+data/Eclipse tagging/tagging_errors_left5words_owlqn2_joey_checked_revised_eng_nouns.txt
+Average Precision: 0.7105201019160851
+Average Recall: 0.6798264213920162
+Accuracy: 0.955789731650533(78002/81610)
+
+data/Eclipse tagging/tagging_errors_left5words_owlqn2_pref6.txt
+Average Precision: 0.6344279668662318
+Average Recall: 0.6187099571272311
+Accuracy: 0.9490258546746723(77450/81610)
+
+data/Eclipse tagging/tagging_errors_left5words_owlqn2_pref6_joey_checked.txt
+Average Precision: 0.7469282814836484
+Average Recall: 0.7122022533456531
+Accuracy: 0.9589143487317731(78257/81610)
+
+data/Eclipse tagging/tagging_errors_left5words_owlqn2_pref6_joey_checked_revised_eng_nouns.txt
+Average Precision: 0.7056549102319406
+Average Recall: 0.6793072738442172
+Accuracy: 0.9560960666584978(78027/81610)
+
+data/Eclipse tagging/tagging_errors_left5words_owlqn2_distsim.txt
+Average Precision: 0.6345625549148511
+Average Recall: 0.6180077688288357
+Accuracy: 0.9489523342727607(77444/81610)
+
+data/Eclipse tagging/tagging_errors_left5words_owlqn2_distsim_joey_checked.txt
+Average Precision: 0.7447374480504751
+Average Recall: 0.7110020451373232
+Accuracy: 0.9589266021320917(78258/81610)
+
+data/Eclipse tagging/tagging_errors_left5words_owlqn2_distsim_joey_checked_revised_eng_nouns.txt
+Average Precision: 0.7055811415213183
+Average Recall: 0.6790011645856269
+Accuracy: 0.9562676142629579(78041/81610)
+
+data/Eclipse tagging/tagging_errors_left5words_owlqn2_distsim_pref6.txt
+Average Precision: 0.6345625549148511
+Average Recall: 0.6180077688288357
+Accuracy: 0.9489523342727607(77444/81610)
+
+data/Eclipse tagging/tagging_errors_left5words_owlqn2_distsim_pref6_joey_checked.txt
+Average Precision: 0.7447374480504751
+Average Recall: 0.7110020451373232
+Accuracy: 0.9589266021320917(78258/81610)
+
+data/Eclipse tagging/tagging_errors_left5words_owlqn2_distsim_pref6_joey_checked_revised_eng_nouns.txt
+Average Precision: 0.7055811415213183
+Average Recall: 0.6790011645856269
+Accuracy: 0.9562676142629579(78041/81610)

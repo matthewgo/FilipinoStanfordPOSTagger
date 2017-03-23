@@ -7,17 +7,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import models.TaggedSentence;
-import utils.Constants;
 import utils.FileManager;
 import utils.TaggedSentenceService;
 
 public class JoeyCheckedDataReviser {
 	// Updates the data based on *CHECK* marks made by joey on
 	// tagging_errors.txt produced by ListTaggingErrors.java
-	public void reviseJoeyTestData(String orig, String revised) throws FileNotFoundException, IOException {
-		int offset = 0;
-		List<TaggingCorrection> corrections = getCorrectionsFromFile(Constants.CHECKED_TEST_DATA_TAGGING_ERRORS,
-				offset);
+	public void reviseJoeyTestData(String orig, String revised, String joeyData, int offset)
+			throws FileNotFoundException, IOException {
+		List<TaggingCorrection> corrections = getCorrectionsFromFile(joeyData, offset);
 		applyCorrections(corrections, orig, revised);
 	}
 
@@ -48,11 +46,11 @@ public class JoeyCheckedDataReviser {
 			String[] split = line.split("\\s+");
 			if (split[0].contains("CHECK")) {
 				String goldTag = split[1].split(":")[1];
+				System.out.println(line);
 				String predictedTag = split[2].split(":")[1];
 				String word = split[3];
 				int sentenceNumber = Integer.parseInt(split[4]);
 				int wordNumber = Integer.parseInt(split[5]);
-				System.out.println(word + " " + goldTag + " " + predictedTag + " " + sentenceNumber + " " + wordNumber);
 				corrections
 						.add(new TaggingCorrection(word, goldTag, predictedTag, sentenceNumber + offset, wordNumber));
 			}

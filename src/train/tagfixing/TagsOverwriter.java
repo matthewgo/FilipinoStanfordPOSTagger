@@ -18,19 +18,26 @@ public class TagsOverwriter {
 
 	}
 
-	public void reviseEnglishNNCasFW(String origFilename, String revisedFilename)
-			throws FileNotFoundException, IOException {
-		List<TaggedSentence> orig = TaggedSentenceService
-				.getTaggedSentences(FileManager.readFile(new File(origFilename)));
-		FileManager revised = new FileManager(revisedFilename);
-		revised.createFile();
-		for (TaggedSentence o : orig) {
+	public List<TaggedSentence> reviseEnglishNNCasFW(List<TaggedSentence> taggedSentences) {
+		for (TaggedSentence o : taggedSentences) {
 			for (int i = 0; i < o.getTags().size(); i++) {
 				if (englishDictionary.isAnEnglishNoun(o.getWords().get(i)) && o.getTags().get(i).equals("NNC")) {
 					o.getTags().set(i, "FW");
 				}
 			}
-			revised.writeToFile(TaggedSentenceService.getString(o));
+		}
+		return taggedSentences;
+	}
+
+	public void reviseEnglishNNCasFWFromFile(String origFilename, String revisedFilename)
+			throws FileNotFoundException, IOException {
+		List<TaggedSentence> orig = TaggedSentenceService
+				.getTaggedSentences(FileManager.readFile(new File(origFilename)));
+		FileManager revised = new FileManager(revisedFilename);
+		revised.createFile();
+		List<TaggedSentence> rev = reviseEnglishNNCasFW(orig);
+		for (TaggedSentence r : rev) {
+			revised.writeToFile(TaggedSentenceService.getString(r));
 		}
 		revised.close();
 	}

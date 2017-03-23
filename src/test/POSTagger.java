@@ -30,6 +30,19 @@ public class POSTagger {
 		return tagged;
 	}
 
+	public static void saveTagsIntoFile(List<TaggedSentence> taggedSentences, String taggedFilename)
+			throws IOException {
+		FileManager tagsFile = null;
+		tagsFile = new FileManager(taggedFilename);
+		tagsFile.createFile();
+		for (int x = 0; x < taggedSentences.size(); x++) {
+			if (tagsFile != null)
+				tagsFile.writeToFile(TaggedSentenceService.getString(taggedSentences.get(x)));
+		}
+		if (tagsFile != null)
+			tagsFile.close();
+	}
+
 	public TaggedSentence tagSentence(String sentence) {
 		return TaggedSentenceService.getTaggedSentence(tagger.tagTokenizedString(sentence));
 	}
