@@ -25,22 +25,14 @@ public class ListTaggingErrors {
 				"Training Data Size,Test Data Size,Test Tokens Size,Tagging Results Filename, Gold File, Correct Tags,Accuracy,Precision, Recall,Remarks");
 
 		TagsOverwriter tagsOverwriter = new TagsOverwriter();
-		// POSTagger left3WordsOWLQN2Pref6Inf2Tagger = new
-		// POSTagger(Constants.LEFT3WORDS_OWLQN2_PREF6_INF2);
-		// POSTagger left5WordsOWLQN2Pref6Inf2Tagger = new
-		// POSTagger(Constants.LEFT5WORDS_OWLQN2_PREF6_INF2);
-		//
-		// List<TaggedSentence> left3WordsOWLQN2Pref6Inf2TaggedSentences =
-		// left3WordsOWLQN2Pref6Inf2Tagger
-		// .tagFile(Constants.TEST_STANFORD_UNTAGGED);
-		// List<TaggedSentence> left5WordsOWLQN2Pref6Inf2TaggedSentences =
-		// left5WordsOWLQN2Pref6Inf2Tagger
-		// .tagFile(Constants.TEST_STANFORD_UNTAGGED);
-		// //
-		// POSTagger.saveTagsIntoFile(left3WordsOWLQN2Pref6Inf2TaggedSentences,
-		// Constants.TAGGING_RESULTS_LEFT3WORDS_OWLQN2_PREF6_INF2);
-		// POSTagger.saveTagsIntoFile(left5WordsOWLQN2Pref6Inf2TaggedSentences,
-		// Constants.TAGGING_RESULTS_LEFT5WORDS_OWLQN2_PREF6_INF2);
+		POSTagger left5WordsOWLQN2DistsimPref6Inf2Tagger = new POSTagger(
+				Constants.LEFT5WORDS_OWLQN2_DISTSIM_PREF6_INF2);
+
+		List<TaggedSentence> left5WordsOWLQN2DistsimPref6Inf2TaggedSentences = left5WordsOWLQN2DistsimPref6Inf2Tagger
+				.tagFile(Constants.TEST_STANFORD_UNTAGGED);
+
+		POSTagger.saveTagsIntoFile(left5WordsOWLQN2DistsimPref6Inf2TaggedSentences,
+				Constants.TAGGING_RESULTS_LEFT5WORDS_OWLQN2_DISTSIM_PREF6_INF2);
 		// or
 
 		for (String taggingResultsFile : Constants.getTaggingResultsFiles()) {

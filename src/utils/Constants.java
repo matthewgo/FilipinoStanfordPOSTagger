@@ -14,6 +14,7 @@ public class Constants {
 	public static String LEFT3WORDS_OWLQN2 = "tagger_models/filipino-left3words-owlqn2.tagger";
 	public static String LEFT3WORDS_OWLQN2_DISTSIM = "tagger_models/filipino-left3words-owlqn2-distsim.tagger";
 	public static String LEFT3WORDS_OWLQN2_DISTSIM_PREF6 = "tagger_models/filipino-left3words-owlqn2-distsim-pref6.tagger";
+	public static String LEFT3WORDS_OWLQN2_DISTSIM_PREF6_INF2 = "tagger_models/filipino-left3words-owlqn2-distsim-pref6-inf2.tagger";
 	public static String LEFT3WORDS_OWLQN2_PREF6 = "tagger_models/filipino-left3words-owlqn2-pref6.tagger";
 	public static String LEFT3WORDS_OWLQN2_PREF6_INF2 = "tagger_models/filipino-left3words-owlqn2-pref6-inf2.tagger";
 	public static String LEFT5WORDS_OWLQN2 = "tagger_models/filipino-left5words-owlqn2.tagger";
@@ -22,6 +23,8 @@ public class Constants {
 	public static String LEFT5WORDS_OWLQN2_DISTSIM = "tagger_models/filipino-left5words-owlqn2-distsim.tagger";
 	public static String LEFT5WORDS_OWLQN2_DISTSIM_PREF6 = "tagger_models/filipino-left5words-owlqn2-distsim-pref6.tagger";
 	public static String LEFT5WORDS_OWLQN2_PREF6_INF2 = "tagger_models/filipino-left5words-owlqn2-pref6-inf2.tagger";
+	public static String LEFT5WORDS_OWLQN2_DISTSIM_PREF6_INF2 = "tagger_models/filipino-left5words-owlqn2-distsim-pref6-inf2.tagger";
+
 	// Dictionary Lookup for post-processing
 	public static String ENGLISH_NOUNS = "data/english_words/nounlist.txt";
 
@@ -47,8 +50,12 @@ public class Constants {
 	public static String TEST_STANFORD_TAGGED_JOEY_CHECKED_WITH_SECOND_HALF = "data/stanford/test-filipino-tagged-joey-checked-with-second-half";
 	public static String TEST_STANFORD_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/stanford/test-filipino-tagged-joey-checked-revised-eng-nouns";
 
-	public static String TEST_HPOST_WORDS_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/HPOST/testHPOST-joey-checked-revised-eng-nouns.words";
-	public static String TEST_HPOST_TAGS_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/HPOST/testHPOST-joey-checked-revised-eng-nouns.tags";
+	public static String TEST_HPOST_WORDS_TAGGED = "data/HPOST/testHPOST-converted.words";
+	public static String TEST_HPOST_TAGS_TAGGED = "data/HPOST/testHPOST-converted.tags";
+	public static String TEST_HPOST_WORDS_TAGGED_JOEY_CHECKED = "data/HPOST/testHPOST-converted-joey-checked.words";
+	public static String TEST_HPOST_TAGS_TAGGED_JOEY_CHECKED = "data/HPOST/testHPOST-converted-joey-checked.tags";
+	public static String TEST_HPOST_WORDS_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/HPOST/testHPOST-converted-joey-checked-revised-eng-nouns.words";
+	public static String TEST_HPOST_TAGS_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/HPOST/testHPOST-converted-joey-checked-revised-eng-nouns.tags";
 
 	/* Tagging Errors File */
 	public static String TAGGING_ERROR_LEFT3WORDS_CG = "data/Eclipse tagging/tagging_errors_left3words_cg.txt";
@@ -63,12 +70,22 @@ public class Constants {
 	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_DISTSIM_PREF6 = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_distsim_pref6.txt";
 	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_DISTSIM_PREF6_JOEY_CHECKED = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_distsim_pref6_joey_checked.txt";
 	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_DISTSIM_PREF6_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_distsim_pref6_joey_checked_revised_eng_nouns.txt";
+	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_DISTSIM_PREF6_INF2 = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_distsim_pref6_inf2.txt";
+	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_DISTSIM_PREF6_INF2_JOEY_CHECKED = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_distsim_pref6_inf2_joey_checked.txt";
+	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_DISTSIM_PREF6_INF2_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_distsim_pref6_inf2_joey_checked_revised_eng_nouns.txt";
+
 	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_PREF6 = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_pref6.txt";
 	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_PREF6_JOEY_CHECKED = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_pref6_joey_checked.txt";
 	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_PREF6_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_pref6_joey_checked_revised_eng_nouns.txt";
 	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_PREF6_INF2 = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_pref6_inf2.txt";
 	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_PREF6_INF2_JOEY_CHECKED = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_pref6_inf2_joey_checked.txt";
 	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_PREF6_INF2_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_pref6_inf2_joey_checked_revised_eng_nouns.txt";
+	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_PREF6_TREN = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_pref6_tren.txt";
+	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_PREF6_TREN_JOEY_CHECKED = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_pref6_tren_joey_checked.txt";
+	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_PREF6_TREN_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_pref6_tren_joey_checked_revised_eng_nouns.txt";
+	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_PREF6_INF2_TREN = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_pref6_inf2_tren.txt";
+	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_PREF6_INF2_TREN_JOEY_CHECKED = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_pref6_inf2_tren_joey_checked.txt";
+	public static String TAGGING_ERROR_LEFT3WORDS_OWLQN2_PREF6_INF2_TREN_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/Eclipse tagging/tagging_errors_left3words_owlqn2_pref6_inf2_tren_joey_checked_revised_eng_nouns.txt";
 
 	public static String TAGGING_ERROR_LEFT5WORDS_OWLQN2 = "data/Eclipse tagging/tagging_errors_left5words_owlqn2.txt";
 	public static String TAGGING_ERROR_LEFT5WORDS_OWLQN2_JOEY_CHECKED = "data/Eclipse tagging/tagging_errors_left5words_owlqn2_joey_checked.txt";
@@ -88,12 +105,19 @@ public class Constants {
 	public static String TAGGING_ERROR_LEFT5WORDS_OWLQN2_PREF6_INF2 = "data/Eclipse tagging/tagging_errors_left5words_owlqn2_pref6_inf2.txt";
 	public static String TAGGING_ERROR_LEFT5WORDS_OWLQN2_PREF6_INF2_JOEY_CHECKED = "data/Eclipse tagging/tagging_errors_left5words_owlqn2_pref6_inf2_joey_checked.txt";
 	public static String TAGGING_ERROR_LEFT5WORDS_OWLQN2_PREF6_INF2_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/Eclipse tagging/tagging_errors_left5words_owlqn2_pref6_inf2_joey_checked_revised_eng_nouns.txt";
+	public static String TAGGING_ERROR_LEFT5WORDS_OWLQN2_DISTSIM_PREF6_INF2 = "data/Eclipse tagging/tagging_errors_left5words_owlqn2_distsim_pref6_inf2.txt";
+	public static String TAGGING_ERROR_LEFT5WORDS_OWLQN2_DISTSIM_PREF6_INF2_JOEY_CHECKED = "data/Eclipse tagging/tagging_errors_left5words_owlqn2_distsim_pref6_inf2_joey_checked.txt";
+	public static String TAGGING_ERROR_LEFT5WORDS_OWLQN2_DISTSIM_PREF6_INF2_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/Eclipse tagging/tagging_errors_left5words_owlqn2_distsim_pref6_inf2_joey_checked_revised_eng_nouns.txt";
 
 	/* Tagging Results File */
 	public static String TAGGING_RESULTS_LEFT3WORDS_CG = "data/Eclipse tagging/tagging_results_left3words_cg.txt";
 	public static String TAGGING_RESULTS_LEFT3WORDS_OWLQN2 = "data/Eclipse tagging/tagging_results_left3words_owlqn2.txt";
 	public static String TAGGING_RESULTS_LEFT3WORDS_OWLQN2_PREF6 = "data/Eclipse tagging/tagging_results_left3words_owlqn2_pref6.txt";
 	public static String TAGGING_RESULTS_LEFT3WORDS_OWLQN2_PREF6_INF2 = "data/Eclipse tagging/tagging_results_left3words_owlqn2_pref6_inf2.txt";
+	public static String TAGGING_RESULTS_LEFT3WORDS_OWLQN2_DISTSIM_PREF6_INF2 = "data/Eclipse tagging/tagging_results_left3words_owlqn2_distsim_pref6_inf2.txt";
+
+	public static String TAGGING_RESULTS_LEFT3WORDS_OWLQN2_PREF6_TREN = "data/Eclipse tagging/tagging_results_left3words_owlqn2_pref6_tren.txt";
+	public static String TAGGING_RESULTS_LEFT3WORDS_OWLQN2_PREF6_INF2_TREN = "data/Eclipse tagging/tagging_results_left3words_owlqn2_pref6_inf2_tren.txt";
 
 	public static String TAGGING_RESULTS_LEFT3WORDS_OWLQN2_DISTSIM = "data/Eclipse tagging/tagging_results_left3words_owlqn2_distsim.txt";
 	public static String TAGGING_RESULTS_LEFT3WORDS_OWLQN2_DISTSIM_PREF6 = "data/Eclipse tagging/tagging_results_left3words_owlqn2_distsim_pref6.txt";
@@ -103,14 +127,16 @@ public class Constants {
 	public static String TAGGING_RESULTS_LEFT5WORDS_OWLQN2_DISTSIM_PREF6 = "data/Eclipse tagging/tagging_results_left5words_owlqn2_distsim_pref6.txt";
 	public static String TAGGING_RESULTS_LEFT5WORDS_OWLQN2_PREF6_TREN = "data/Eclipse tagging/tagging_results_left5words_owlqn2_pref6_tren.txt";
 	public static String TAGGING_RESULTS_LEFT5WORDS_OWLQN2_PREF6_INF2 = "data/Eclipse tagging/tagging_results_left5words_owlqn2_pref6_inf2.txt";
+	public static String TAGGING_RESULTS_LEFT5WORDS_OWLQN2_DISTSIM_PREF6_INF2 = "data/Eclipse tagging/tagging_results_left5words_owlqn2_distsim_pref6_inf2.txt";
 
 	public static List<String> getTaggingResultsFiles() {
 		return Arrays.asList(TAGGING_RESULTS_LEFT3WORDS_CG, TAGGING_RESULTS_LEFT3WORDS_OWLQN2,
 				TAGGING_RESULTS_LEFT3WORDS_OWLQN2_PREF6, TAGGING_RESULTS_LEFT3WORDS_OWLQN2_PREF6_INF2,
-				TAGGING_RESULTS_LEFT3WORDS_OWLQN2_DISTSIM, TAGGING_RESULTS_LEFT3WORDS_OWLQN2_DISTSIM_PREF6,
-				TAGGING_RESULTS_LEFT5WORDS_OWLQN2, TAGGING_RESULTS_LEFT5WORDS_OWLQN2_PREF6,
-				TAGGING_RESULTS_LEFT5WORDS_OWLQN2_DISTSIM, TAGGING_RESULTS_LEFT5WORDS_OWLQN2_DISTSIM_PREF6,
-				TAGGING_RESULTS_LEFT5WORDS_OWLQN2_PREF6_TREN, TAGGING_RESULTS_LEFT5WORDS_OWLQN2_PREF6_INF2);
+				TAGGING_RESULTS_LEFT3WORDS_OWLQN2_DISTSIM_PREF6_INF2, TAGGING_RESULTS_LEFT3WORDS_OWLQN2_DISTSIM,
+				TAGGING_RESULTS_LEFT3WORDS_OWLQN2_DISTSIM_PREF6, TAGGING_RESULTS_LEFT5WORDS_OWLQN2,
+				TAGGING_RESULTS_LEFT5WORDS_OWLQN2_PREF6, TAGGING_RESULTS_LEFT5WORDS_OWLQN2_DISTSIM,
+				TAGGING_RESULTS_LEFT5WORDS_OWLQN2_DISTSIM_PREF6, TAGGING_RESULTS_LEFT5WORDS_OWLQN2_PREF6_TREN,
+				TAGGING_RESULTS_LEFT5WORDS_OWLQN2_PREF6_INF2, TAGGING_RESULTS_LEFT5WORDS_OWLQN2_DISTSIM_PREF6_INF2);
 	}
 
 	/* Tagging Errors File - Second Half - for Joey */
@@ -122,7 +148,10 @@ public class Constants {
 	public static String CHECKED_TEST_DATA_TAGGING_ERRORS_SECOND_HALF = "data/results/left3words_tagging_errors_second_half_CHECKING_for_eclipse.txt";
 
 	public static List<String> getTestFiles() {
-		return Arrays.asList(TEST_STANFORD_TAGGED, TEST_STANFORD_TAGGED_JOEY_CHECKED,
-				TEST_STANFORD_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS);
+		return Arrays.asList(
+				/*
+				 * TEST_STANFORD_TAGGED, TEST_STANFORD_TAGGED_JOEY_CHECKED,
+				 * TEST_STANFORD_TAGGED_REVISED_ENG_NOUNS,
+				 */ TEST_STANFORD_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS);
 	}
 }

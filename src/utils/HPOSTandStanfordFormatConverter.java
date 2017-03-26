@@ -10,6 +10,10 @@ import models.TaggedSentence;
 public class HPOSTandStanfordFormatConverter {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
+		StanfordToHPOST(Constants.TEST_STANFORD_TAGGED, Constants.TEST_HPOST_WORDS_TAGGED,
+				Constants.TEST_HPOST_TAGS_TAGGED);
+		StanfordToHPOST(Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED, Constants.TEST_HPOST_WORDS_TAGGED_JOEY_CHECKED,
+				Constants.TEST_HPOST_TAGS_TAGGED_JOEY_CHECKED);
 		StanfordToHPOST(Constants.TEST_STANFORD_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS,
 				Constants.TEST_HPOST_WORDS_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS,
 				Constants.TEST_HPOST_TAGS_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS);
