@@ -1,4 +1,4 @@
-## tagger training invoked at Wed Mar 22 11:28:17 CST 2017 with arguments:
+## tagger training invoked at Wed Mar 29 21:31:41 CST 2017 with arguments:
                    model = filipino-left3words-owlqn2-distsim-pref6.tagger
                     arch = left3words,naacl2003unknowns,wordshapes(-1,1),distsim(../data/distsim/distsim-Stanford-Tagalog-Moses.txt,-1,1),distsimconjunction(../data/distsim/distsim-Stanford-Tagalog-Moses.txt,-1,1)
             wordFunction = edu.stanford.nlp.process.AmericanizeFunction

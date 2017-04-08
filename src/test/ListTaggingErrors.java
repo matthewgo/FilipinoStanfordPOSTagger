@@ -25,23 +25,23 @@ public class ListTaggingErrors {
 				"Training Data Size,Test Data Size,Test Tokens Size,Tagging Results Filename, Gold File, Correct Tags,Accuracy,Precision, Recall,Remarks");
 
 		TagsOverwriter tagsOverwriter = new TagsOverwriter();
-		POSTagger left5WordsOWLQN2DistsimPref6Inf2Tagger = new POSTagger(
-				Constants.LEFT5WORDS_OWLQN2_DISTSIM_PREF6_INF2);
+		POSTagger left3WordsOWLQN2DistsimTagger = new POSTagger(Constants.LEFT3WORDS_OWLQN2_DISTSIM);
 
-		List<TaggedSentence> left5WordsOWLQN2DistsimPref6Inf2TaggedSentences = left5WordsOWLQN2DistsimPref6Inf2Tagger
-				.tagFile(Constants.TEST_STANFORD_UNTAGGED);
-
-		POSTagger.saveTagsIntoFile(left5WordsOWLQN2DistsimPref6Inf2TaggedSentences,
-				Constants.TAGGING_RESULTS_LEFT5WORDS_OWLQN2_DISTSIM_PREF6_INF2);
+		// List<TaggedSentence> left3WordsOWLQN2DistsimTaggedSentences =
+		// left3WordsOWLQN2DistsimTagger
+		// .tagFile(Constants.TEST_STANFORD_UNTAGGED);
+		//
+		// POSTagger.saveTagsIntoFile(left3WordsOWLQN2DistsimTaggedSentences,
+		// Constants.TAGGING_RESULTS_LEFT3WORDS_OWLQN2_DISTSIM);
 		// or
 
 		for (String taggingResultsFile : Constants.getTaggingResultsFiles()) {
 			for (String testFile : Constants.getTestFiles()) {
 				List<TaggedSentence> taggedSentences = TaggedSentenceService
 						.getTaggedSentencesFromFile(taggingResultsFile);
-				compareResults(taggedSentences, taggingResultsFile, testFile, false, null, "");
+				compareResults(taggedSentences, taggingResultsFile, testFile, true, "");
 				tagsOverwriter.reviseEnglishNNCasFW(taggedSentences);
-				compareResults(taggedSentences, taggingResultsFile, testFile, false, null, "overwrote EngNNCAsFW");
+				compareResults(taggedSentences, taggingResultsFile, testFile, true, "overwrote_EngNNCAsFW");
 			}
 
 		}
@@ -50,8 +50,7 @@ public class ListTaggingErrors {
 	}
 
 	private static void compareResults(List<TaggedSentence> predictedTaggedSentences, String taggingResultsFilename,
-			String goldFilename, boolean writeToErrorFile, String errorOutputFilename, String remarks)
-					throws IOException {
+			String goldFilename, boolean writeToErrorFile, String remarks) throws IOException {
 		List<TaggedSentence> gold = TaggedSentenceService.getTaggedSentencesFromFile(goldFilename);
 
 		List<String> errorList = new ArrayList<>();
@@ -84,6 +83,8 @@ public class ListTaggingErrors {
 				+ cm.getAccuracy() + "," + cm.getAvgPrecision() + "," + cm.getAvgRecall() + "," + remarks);
 
 		if (writeToErrorFile) {
+			String errorOutputFilename = Constants.DATA_ECLIPSE_TAGGING_FOLDER + "errors_" + remarks + "_"
+					+ removedTaggingResultsFilenamePrefix;
 			FileManager errorOutputFile = new FileManager(errorOutputFilename);
 			errorOutputFile.createFile();
 			errorOutputFile.writeToFile(cm.printDescendingClassDistributionandAccuracy());

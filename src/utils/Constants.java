@@ -57,6 +57,7 @@ public class Constants {
 	public static String TEST_HPOST_WORDS_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/HPOST/testHPOST-converted-joey-checked-revised-eng-nouns.words";
 	public static String TEST_HPOST_TAGS_TAGGED_JOEY_CHECKED_REVISED_ENG_NOUNS = "data/HPOST/testHPOST-converted-joey-checked-revised-eng-nouns.tags";
 
+	public static String DATA_ECLIPSE_TAGGING_FOLDER = "data/Eclipse tagging/";
 	/* Tagging Errors File */
 	public static String TAGGING_ERROR_LEFT3WORDS_CG = "data/Eclipse tagging/tagging_errors_left3words_cg.txt";
 	public static String TAGGING_ERROR_LEFT3WORDS_CG_JOEY_CHECKED = "data/Eclipse tagging/tagging_errors_left3words_cg_joey_checked.txt";

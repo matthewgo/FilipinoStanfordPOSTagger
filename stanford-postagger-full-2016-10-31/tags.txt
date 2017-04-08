@@ -16,9 +16,9 @@ java -cp stanford-postagger.jar -mx4g -Xmx4g edu.stanford.nlp.tagger.maxent.Maxe
 
 java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-bidir5words-qn.tagger -testFile models/test/test-filipino-tagged
 
-java -cp stanford-postagger.jar -mx4g edu.stanford.nlp.tagger.maxent.MaxentTagger -props filipino-left5words-owlqn2-distsim-pref6-inf2.tagger.props
+java -cp stanford-postagger.jar -mx4g edu.stanford.nlp.tagger.maxent.MaxentTagger -props filipino-left3words-owlqn2-distsim-pref6.tagger.props
 
-
+	
 Test Tagging Training Data:
 java -cp stanford-postagger.jar -mx3g edu.stanford.nlp.tagger.maxent.MaxentTagger -model filipino-left3words.tagger -testFile models/train/train-filipino
 
