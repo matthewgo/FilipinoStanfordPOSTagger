@@ -1,4 +1,5 @@
 Using the Stanford part-of-speech tagger, we developed a Filipino tagger model for tagging Filipino sentences.
+https://paclic31.national-u.edu.ph/wp-content/uploads/2017/11/PACLIC_31_paper_5.pdf
 
 The Stanford POS Tagger can be accessed in this website: https://nlp.stanford.edu/software/tagger.shtml
 
